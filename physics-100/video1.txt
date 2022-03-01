@@ -1,0 +1,34 @@
+reflection:
+The light ray changes direction depending on the two media's refractive index in which it is transmitted through.
+If they are different media, the probability of having the same refractive index is very minimal. 
+light's direction must change as it enters a different media from the one it was initially transmitted through.
+how is that going to be happened?
+imagin there is a light ray is going through the medium from lower refractive index medium.
+
+these are the light particles, they travel on the same speed before they enter the
+higher refractive index.
+Once the first particle`ve entered the higher refractive index,
+it gets slower, while the rest of the particles are still at the 
+same speed as they were. Because light travels slower when it is in higher
+refractive medium.
+It bends the light, because these
+particles are divide into two parts, the part in lower refractive
+index travel fast while the part in higher refractive index travel
+slow. That is how light direction changes when going through two 
+different media.
+
+
+Huygens's principle:
+
+Huygens's principle was a useful technique that helped determine where and how waves and light rays propagate in detail. 
+imagin there is a light hits this point right here.
+There are many hyguns sources on the reflecting surface, they will
+be actived after the incident light hits them.
+once them get activated and they start giving out secondary waves.
+The time for which the secondary wave the reflected wave was traveling,
+at the same time it took this wavefront right here to go from here.
+and the reflected wave has the same speed as the incident wave.
+so the radius of the reflected wave should equals to the distance
+travelled by the incident wave.
+the reflective ray must be tengent to the reflected wave front.
+That is how Huygen`s principle determind where and how waves and light rays propagate.
