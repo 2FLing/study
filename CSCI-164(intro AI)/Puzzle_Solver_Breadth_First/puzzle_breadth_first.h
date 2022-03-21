@@ -1,6 +1,7 @@
 #ifndef _PUZZLE
 #define _PUZZLE
 #include "Node.h"
+#include "Queue.h"
 #include <vector>
 #include <string>
 #include <map>
@@ -11,7 +12,7 @@ using namespace std;
 bool is_moveable(Node *, char);
 string move_on(string, char); // move the space(number 0) by the direction, and return the vector after moving as the result.
 bool is_goal(string, string); // check if the current state is the goal state.
-void extend_state(Node *);    // extend the current state by adding its all of the available states to it.
+void extend_state(Node *,Queue&,map<string,int>);    // extend the current state by adding its all of the available states to it.
 void print_string(string);
 pair<string, int> solve_puzzle(string, string); // it takes an initial state for the puzzle and the goal state of the puzzle than return the solution as a result.
 string get_path(Node *);                        // get the solving path of the solution
@@ -88,25 +89,24 @@ bool is_goal(string goal, string state)
 {
     return (goal == state);
 }
-void extend_state(Node *current_state)
+void extend_state(Node *current_state,Queue& frontier,map<string,int>reached_nodes)
 {
-    Node *last_node = current_state;
     string directions = "udrl";
-    while (last_node->get_next_node())
-    {
-        last_node = last_node->get_next_node();
-    }
+    
     for (auto direction : directions)
     {
         if (is_moveable(current_state, direction))
         {
             string new_state = move_on(current_state->get_val(), direction);
             Node *temp = new Node(new_state);
-            temp->set_parent(current_state);
-            last_node->set_next(temp);
-            last_node = last_node->get_next_node();
+            if(!frontier.exist(temp) && reached_nodes[new_state]==0)
+            {
+                temp->set_parent(current_state);
+                frontier.insert(temp);
+            }
         }
     }
+    reached_nodes[current_state->get_val()]++;
 }
 void print_string(string state)
 {
@@ -127,29 +127,28 @@ pair<string, int> solve_puzzle(string puzzle, string goal)
     pair<string, int> res = pair("", 0);
     string init_state = puzzle;
     current_state = new Node(init_state);
-    while (!is_goal(goal, current_state->get_val()))
+    Queue frontier(current_state);
+    while (!frontier.is_empty())
     {
-        expanded_nodes[current_state->get_val()]++;
-        extend_state(current_state);
-        current_state = current_state->get_next_node();
-        while (current_state && expanded_nodes[current_state->get_val()] != 0)
-        {
-            current_state = current_state->get_next_node();
-        }
-        if (!current_state)
-        {
-            cout << "Unable to solve the puzzle." << endl;
-            break;
-        }
-        print_string(current_state->get_val());
+        current_state = frontier.pop();
         if (is_goal(goal, current_state->get_val()))
         {
             res.first = get_path(current_state);
-            res.second = expanded_nodes.size();
+            res.second = expanded_nodes.size()-1;
             print_process(current_state);
+            return res;
+        }
+        else
+        {
+            expanded_nodes[current_state->get_val()]++;
+            extend_state(current_state,frontier,expanded_nodes);
         }
     }
-
+    if (frontier.is_empty())
+    {
+        cout << "Not able to solve this puzzle :(";
+        exit(1);
+    }
     return res;
 }
 

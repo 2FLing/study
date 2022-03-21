@@ -95,6 +95,7 @@ void extend_states(vector<Node *> open_list, vector<string> &closed_list, int &t
     bool all_visited = true;
     Node* current_state=open_list[open_list.size()-1];
     times++;
+    closed_list.push_back(current_state->get_val());
     while (all_visited)
     {
         for (auto direction : directions)
