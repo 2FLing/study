@@ -24,14 +24,14 @@ int main()
 // goal1: 123456780
 // goal2: 123456789ABCDEF0
 
-/*  "160273485"
-    "462301587"
-    "821574360"
-    "840156372"
-    "530478126"
-    "068314257"
-    "453207186"
-    "128307645"
+/*  "160273485" --output:  ddluurdlldrruuldrd and it expanded 17649
+    "462301587" --output: rdlurulldrdluruldrrulddr and it expanded 144794
+    "821574360" --output:  luurdllurdldrulurrdluldrurdd and it expanded 179951
+    "840156372" --output: dllurdldrurdlulurdrulddr and it expanded 129862
+    "530478126" --output: dldlurdruulddrullurdldrr and it expanded 128902
+    "068314257" --output: drrullddruldrruuldldrr and it expanded 84632
+    "453207186" --output: rdluulddruuldrdr and it expanded 12853 number of nodes
+    "128307645" --output: lurdrullddruldrruldr and it expanded 60545 number of nodes
     "035684712"
     "684317025"
     "028514637"
@@ -47,7 +47,7 @@ int main()
 
 
     EASY:
-    "16235A749C08DEBF"
+    "16235A749C08DEBF" -- output:
     "0634217859ABDEFC"
     "012456379BC8DAEF"
     "51246A38097BDEFC"

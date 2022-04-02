@@ -19,11 +19,6 @@ int main()
         int start_point = i * step;
         trds.push_back(thread(accumulate_range, ref(partial_sums[i]), start_point, start_point+step));
     }
-    for (thread& t : trds)
-    {
-        if (t.joinable())
-            t.join();
-    }
     print_vector(partial_sums);
     cout << "finally!" << endl;
     sum = sum_vector(partial_sums);

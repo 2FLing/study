@@ -85,10 +85,6 @@ int hash_array::probes()
 }
 int *hash_array::get_costs()
 {
-    for (int i = 0; i < HASHSIZE; i++)
-    {
-        cost[i + 1] += cost[i];
-    }
     return cost;
 }
 int *hash_array::get_updates()

@@ -1,3 +1,17 @@
+// I executed my program on cygwin terminal
+// Before execution, you have to convert the cpp file
+// to exe by using g++ CSci114_P3.cpp -o anyname
+// then you will see a anyname.exe in the same folder
+// when you run the exe program you will need the
+// size of those two matrixs. For example, if 
+// size of matrix A is 4 * 5, and matrix B is 5 * 6
+// for running the exe file, you have to put
+// ./anyname 4 5 6 (4 5 is the size of matrix A and 5 6 is the size of matrix B)
+// Then you should see the production of those two matrixs.
+
+
+// If the size you entered is larger than the size of matrix in the txt file,
+// it will not do the calculation and it will prompt the size you entered is too large instead.
 #include<iostream>
 #include<stdio.h>
 #include<vector>
@@ -40,6 +54,11 @@ int main(int argc, char** argv)
     print_matrix(matrix_C);
     return 0;
 }
+//@para matrix that is the vector that for storing the result matrix
+//@para row that represents the row of matrix A
+//@para column that represents the column of matrix B
+//@para r represent the current rth row that in the production.
+//#para c represnets the current  cth column that in the produciton
 void product_rc(vector<vector<int>>&matrix,vector<int>row, vector<int>column,int r,int c)
 {
     int sum = 0;
@@ -49,11 +68,18 @@ void product_rc(vector<vector<int>>&matrix,vector<int>row, vector<int>column,int
     }
     matrix[r][c]=sum;
 }
+//it reads a matrix that written in a txt file and put it into a vector.
+//@para file_name the name of the txt file that contains the matrix
+//@para column the column of the matrix that stored in the txt file
+//@para row the row of the matix that sotred in the txt file
 vector<vector<int>> create_matrix(string file_name,int column,int row)
 {
     vector<int>nums_in_matrix=read_nums_from_file(file_name,column,row);
     return make_matrix(nums_in_matrix, column, row);
 }
+//@para nums_in_matrix it is a vecotor of vectors used for store the matrix
+//@para columns will be the number of columns of the matrix
+//@para rows will be the number of rows of the matrix
 vector<vector<int>> make_matrix(vector<int>nums_in_matrix, int columns, int rows)
 {
     vector<vector<int>>matrix;
@@ -72,6 +98,10 @@ vector<vector<int>> make_matrix(vector<int>nums_in_matrix, int columns, int rows
     }
     return matrix;
 }
+//read a matrix from a txt file
+//@para file_name the name of the file
+//@para columns the number of column of the matrix
+//@para rows the number of the rows of the matrix
 vector<int> read_nums_from_file(string file_name, int columns, int rows)
 {
     ifstream matrix_file;
@@ -101,9 +131,12 @@ vector<int> read_nums_from_file(string file_name, int columns, int rows)
         exit(1);
     }
 }
+//transfer a string in integer
+//@para nums vector that used for storing the nums
+//@para str is the string that waiting for be transferred
 void string_to_int(vector<int>& nums, string str)
 {
-    int digit = 0, num = 0, start = 0, end = str.size() - 1;
+    int start = 0, end = str.size() - 1;
     string tmp="";
     while (str[start] == ' ' || str[start] == '\n')
     {
@@ -122,18 +155,13 @@ void string_to_int(vector<int>& nums, string str)
         }
         else
         {
-            for (int j = tmp.size() - 1; j >= 0; j--)
-            {
-                num += (tmp[j]-'0') * pow(10, digit);
-                digit++;
-            }
-            nums.push_back(num);
-            digit = 0;
-            num = 0;
+            nums.push_back(stoi(tmp));
             tmp = "";
         }
     }
 }
+//prints the matrix in the format of the matrix
+//@para matrix is the vector that stores the matrix
 void print_matrix(vector<vector<int>>matrix)
 {
     for (int i = 0; i < matrix.size(); i++)
@@ -145,6 +173,7 @@ void print_matrix(vector<vector<int>>matrix)
         cout << endl;
     }
 }
+//reads the parameters that passed to the main function
 void read_arguments(char** argv, int arg,int& M,int& N,int& K)
 {
     string nums = "";

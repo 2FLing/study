@@ -1,0 +1,85 @@
+lock should following three properties
+bounded waiting
+mutual exclution
+progress
+
+hardware must support
+
+memory protection
+pribiledged instructions
+timer interrupts
+
+states of threads
+ready waiting running finished
+
+four conditions of deadlock
+bounded resources
+no preemption
+wait while holding
+circular waiting
+
+readshould wait
+activeWriters>0 || waitingWriters>0
+
+writeShouldWait()
+writeGo.Wait(&lock)
+waitingWriters--;
+activeReaders--;
+if(activeReaders == 0 and waitingWriters > 0)
+
+while(front == tail)
+empty.wait(&lock)
+item = buf[front%MAX]
+lock.release()
+
+lock properties m p b
+
+mutual exclusion
+progress
+bounded waiting
+
+broadcast signal wait
+
+NTHREADS
+thread_exit
+NTHREADS
+thread_create(threads[i],&go,i
+NTHREADS
+thread_join threads[i]
+
+lock mpb
+
+mutual exclution
+progress
+bounded waiting
+
+deadlock
+bnwc
+
+thread tcb
+thread stack
+copy of processor registers
+per_thread metadata
+
+deadlock
+
+bounded resouces
+no preemption
+wait whild holding
+circular waiting
+necessary
+
+activeWriters > 0 || watingWriters > 0
+
+writeShouldWait()
+writeGo.wait(&lock)
+waitingWriters--;
+activeReaders--;
+if(activeReaders == 0 && watingWriters > 0)
+
+front == tail
+empty.wait (&lock)
+
+mutual exclution
+progress
+bounded waiting

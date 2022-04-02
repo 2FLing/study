@@ -25,14 +25,15 @@ int main()
                 ha.update(word);
         }
         file.close();
-        cout << ha.size() << endl;
         cost = ha.get_costs();
         update = ha.get_updates();
+        cout << "There are " << ha.size() << " unique words in the input file." << endl;
         for (int i = 0; i < ha.size(); i++)
         {
             string comma = i == ha.size() - 1 ? "" : ", ";
             cout << cost[i] / update[i] << comma;
         }
+        
     }
     return 0;
 }
