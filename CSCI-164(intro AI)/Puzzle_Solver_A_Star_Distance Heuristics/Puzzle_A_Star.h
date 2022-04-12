@@ -136,7 +136,6 @@ pair<string, int> solve_puzzle(string puzzle, string goal)
             cout << "Unable to solve this puzzle :(" << endl;
             exit(1);
         }
-        print_string(current_state->get_val());
         if (is_goal(goal, current_state->get_val()))
         {
             res.first = get_path(current_state);

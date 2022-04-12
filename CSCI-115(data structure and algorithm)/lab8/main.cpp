@@ -19,11 +19,7 @@ int main()
         cout << "Largest element in the list is: " << bst->Largest(bst->getRoot()) << endl;
         cout << "Insert a number for look up: ";
         cin >> num_for_look_up;
-        if (bst->FindNode(bst->getRoot(), num_for_look_up))
-        {
-            cout << num_for_look_up << endl;
-        }
-        else
+        if (!bst->FindNode(bst->getRoot(), num_for_look_up))
         {
             cout << num_for_look_up << " not found!" << endl;
         }

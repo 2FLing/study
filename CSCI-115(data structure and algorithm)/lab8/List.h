@@ -60,7 +60,7 @@ bool BST::FindNode(Node* root, int data)
 		return false;
 	else if (root->data == data)
 	{
-		cout << data;
+		cout << data<<endl;
 	}
 	else
 	{
