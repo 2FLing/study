@@ -19,7 +19,7 @@ char get_direction(string, string);             // get the direction from one st
 void reverse(string &);
 void print_process(Node *);         // print out the solving process
 bool exist(vector<string>, string); // it check if the argument node is exist in the vector.
-
+string test_solution(string init_state,string directions);
 int find_element(string v, char element)
 {
     int index = -1;
@@ -260,5 +260,18 @@ bool exist(vector<vector<char>> v, vector<char> state)
             return true;
     }
     return false;
+}
+string test_solution(string init_state,string directions)
+{
+    for(int i=0;i<directions.size();i++)
+    {
+        Node* temp = new Node(init_state);
+        char direction = directions[i];
+        if(is_moveable(temp,direction));
+        {
+            init_state = move_on(init_state,direction);
+        }
+    }
+    return init_state;
 }
 #endif // !PUZZLE

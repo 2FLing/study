@@ -33,7 +33,7 @@ int main()
     "453207186" --output: rdluulddruuldrdr and it expanded 12853 number of nodes
     "128307645" --output: lurdrullddruldrruldr and it expanded 60545 number of nodes
     "035684712" --output: rddluruldrdlurrdllurruldrd and it expanded 167432 number of nodes
-    "684317025"
+    "684317025" --output: drrdlurulldrdlurrdluurdd and it expanded 131020 number of nodes
     "028514637"
     "618273540"
     "042385671"

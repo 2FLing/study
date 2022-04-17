@@ -38,11 +38,6 @@ Node::Node(string num, Node* node)
     parent = NULL;
 }
 
-Node::Node(string num)
-{
-    nums = num;
-}
-
 Node::~Node()
 {
     delete[] next_node;

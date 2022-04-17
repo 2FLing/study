@@ -7,6 +7,7 @@ using namespace std;
 class Node
 {
 public:
+    Node(string);
     Node(string, int);
     Node(string v, Node *node, int);
     ~Node();
@@ -25,6 +26,14 @@ private:
     Node *parent;
     int priority;
 };
+
+Node::Node(string str)
+{
+    state = str;
+    priority = 0;
+    next_node = NULL;
+    parent = NULL;
+}
 
 Node::Node(string str, int prty)
 {

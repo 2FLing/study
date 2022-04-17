@@ -7,6 +7,7 @@ using namespace std;
 class Node
 {
 public:
+    Node(string);
     Node(string, int prt);
     Node(string num, Node *node, int prt);
     Node(string num, int, int prt);
@@ -29,6 +30,13 @@ private:
     int priority;
     int depth = 0;
 };
+Node::Node(string str)
+{
+    nums = str;
+    priority = 0;
+    next_node = NULL;
+    parent = NULL;
+}
 
 Node::Node(string num, int prty)
 {

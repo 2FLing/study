@@ -10,16 +10,16 @@
 #include <math.h>
 using namespace std;
 bool is_moveable(Node *, char);
-string move_on(string, char); // move the space(number 0) by the direction, and return the vector after moving as the result.
-bool is_goal(string, string); // check if the current state is the goal state.
-void extend_state(Node *,Queue&,map<string,int>);    // extend the current state by adding its all of the available states to it.
+string move_on(string, char);                         // move the space(number 0) by the direction, and return the vector after moving as the result.
+bool is_goal(string, string);                         // check if the current state is the goal state.
+void extend_state(Node *, Queue &, map<string, int>); // extend the current state by adding its all of the available states to it.
 void print_string(string);
 pair<string, int> solve_puzzle(string, string); // it takes an initial state for the puzzle and the goal state of the puzzle than return the solution as a result.
 string get_path(Node *);                        // get the solving path of the solution
 char get_direction(string, string);             // get the direction from one step to another step
 void reverse(string &);
 void print_process(Node *); // print out the solving process
-
+string test_solution(string init_state, string directions);
 bool is_moveable(Node *state, char direction)
 {
     string str = state->get_val();
@@ -89,17 +89,17 @@ bool is_goal(string goal, string state)
 {
     return (goal == state);
 }
-void extend_state(Node *current_state,Queue& frontier,map<string,int>reached_nodes)
+void extend_state(Node *current_state, Queue &frontier, map<string, int> reached_nodes)
 {
     string directions = "udrl";
-    
+
     for (auto direction : directions)
     {
         if (is_moveable(current_state, direction))
         {
             string new_state = move_on(current_state->get_val(), direction);
             Node *temp = new Node(new_state);
-            if(!frontier.exist(temp) && reached_nodes[new_state]==0)
+            if (!frontier.exist(temp) && reached_nodes[new_state] == 0)
             {
                 temp->set_parent(current_state);
                 frontier.insert(temp);
@@ -134,14 +134,14 @@ pair<string, int> solve_puzzle(string puzzle, string goal)
         if (is_goal(goal, current_state->get_val()))
         {
             res.first = get_path(current_state);
-            res.second = expanded_nodes.size()-1;
+            res.second = expanded_nodes.size() - 1;
             print_process(current_state);
             return res;
         }
         else
         {
             expanded_nodes[current_state->get_val()]++;
-            extend_state(current_state,frontier,expanded_nodes);
+            extend_state(current_state, frontier, expanded_nodes);
         }
     }
     if (frontier.is_empty())
@@ -200,5 +200,18 @@ void print_process(Node *solution)
     {
         print_string(process[i]);
     }
+}
+string test_solution(string init_state,string directions)
+{
+    for(int i=0;i<directions.size();i++)
+    {
+        Node* temp = new Node(init_state);
+        char direction = directions[i];
+        if(is_moveable(temp,direction));
+        {
+            init_state = move_on(init_state,direction);
+        }
+    }
+    return init_state;
 }
 #endif // !PUZZLE

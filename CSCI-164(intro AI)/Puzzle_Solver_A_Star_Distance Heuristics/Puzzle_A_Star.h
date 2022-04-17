@@ -20,7 +20,7 @@ string get_path(Node*);                        // get the solving path of the so
 char get_direction(string, string); // get the direction from one step to another step
 void reverse(string&);
 void print_process(Node*);               // print out the solving process
-
+string test_solution(string,string);
 bool is_moveable(Node* state, char direction)
 {
     string v = state->get_val();
@@ -235,5 +235,18 @@ bool exist(vector<string> v, Node* n)
             return true;
     }
     return false;
+}
+string test_solution(string init_state,string directions)
+{
+    for(int i=0;i<directions.size();i++)
+    {
+        Node* temp = new Node(init_state);
+        char direction = directions[i];
+        if(is_moveable(temp,direction));
+        {
+            init_state = move_on(init_state,direction);
+        }
+    }
+    return init_state;
 }
 #endif // !PUZZLE

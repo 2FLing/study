@@ -20,7 +20,7 @@ string get_path(Node*);                        // get the solving path of the so
 char get_direction(string, string); // get the direction from one step to another step
 void reverse(string&);
 void print_process(Node*);               // print out the solving process
-
+string test_solution(string init_state,string directions);
 bool is_moveable(Node* state, char direction)
 {
     string v = state->get_val();
@@ -138,7 +138,6 @@ pair<string, int> solve_puzzle(string puzzle, string goal)
             cout << "Unable to solve this puzzle :(" << endl;
             exit(1);
         }
-        print_string(current_state->get_val());
         if (is_goal(goal, current_state->get_val()))
         {
             res.first = get_path(current_state);
@@ -252,5 +251,18 @@ bool exist(vector<string> v, Node* n)
             return true;
     }
     return false;
+}
+string test_solution(string init_state,string directions)
+{
+    for(int i=0;i<directions.size();i++)
+    {
+        Node* temp = new Node(init_state);
+        char direction = directions[i];
+        if(is_moveable(temp,direction));
+        {
+            init_state = move_on(init_state,direction);
+        }
+    }
+    return init_state;
 }
 #endif // !PUZZLE
