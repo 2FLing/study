@@ -16,7 +16,8 @@ int main()
         cout << "Enter your goal:";
         getline(cin, goal);
         res = solve_puzzle(puzzle, goal);
-        cout << "For solving this puzzle the movement will be " << res.first << " and it expanded " << res.second << " number of nodes while solving this puzzle." << endl;
+        if (test_solution(puzzle, res.first) == goal)
+            cout << "For solving this puzzle the movement will be " << res.first << " and it expanded " << res.second << " number of nodes while solving this puzzle." << endl;
         cout << "-------------------------------------------------------------------" << endl;
     }
     return 0;

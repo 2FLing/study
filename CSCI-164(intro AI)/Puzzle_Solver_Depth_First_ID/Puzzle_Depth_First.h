@@ -6,20 +6,21 @@
 #include <stdio.h>
 #include <math.h>
 #include <limits.h>
-#include <map>
+#include <unordered_map>
 using namespace std;
 bool is_moveable(Node *, char);
-string move_on(string, char);                                                                                                    // move the space(number 0) by the direction, and return the vector after moving as the result.                                                                                 // find the index of the target, return -1 if not found.                                                                                 // reads a series of numbers in string format and convert them to an array.
-bool is_goal(string goal, string state);                                                                                         // check if the current state is the goal state.
-void extend_states(vector<Node *> &open_list, map<string, int> &close_list, int &depth_limit, map<string, int> &extended_nodes); // extend the current state by adding its all of the available states.                                                 // calculate the G and H of the current_state
+string move_on(string, char);                  // move the space(number 0) by the direction, and return the vector after moving as the result.                                                                                 // find the index of the target, return -1 if not found.                                                                                 // reads a series of numbers in string format and convert them to an array.
+bool is_goal(string goal, string state);       // check if the current state is the goal state.
+void extend_states(vector<Node *> &open_list); // extend the current state by adding its all of the available states.                                                 // calculate the G and H of the current_state
 void print_string(string);
 pair<string, int> solve_puzzle(string, string); // it takes an initial state for the puzzle and the goal state of the puzzle than return the solution as a result.
 string get_path(Node *);                        // get the solving path of the solution
 char get_direction(string, string);             // get the direction from one step to another step
 void reverse(string &);
 void print_process(Node *);         // print out the solving process
-bool exist(vector<string>, string); // it check if the argument node is exist in the vector.
-string test_solution(string init_state,string directions);
+bool exist(vector<Node *>, string); // it check if the argument node is exist in the vector.
+string test_solution(string init_state, string directions);
+int cal_closed_node(unordered_map<string, int>);
 int find_element(string v, char element)
 {
     int index = -1;
@@ -103,49 +104,22 @@ bool is_goal(string goal, string state)
 {
     return (goal == state);
 }
-void extend_states(vector<Node *> &open_list, map<string, int> &close_list, int &depth_limit, map<string, int> &extended_nodes)
+void extend_states(vector<Node *> &open_list)
 {
     string directions = "udrl";
-    Node *current_state = open_list[open_list.size() - 1];
-    bool all_visited = true;
-    while (all_visited)
+    Node *current_state = open_list.back();
+    open_list.pop_back();
+    for (auto direction : directions)
     {
-        for (auto direction : directions)
+        if (is_moveable(current_state, direction))
         {
-            if (is_moveable(current_state, direction))
+            string new_state = move_on(current_state->get_val(), direction);
+            if (!exist(open_list, new_state))
             {
-                string new_state = move_on(current_state->get_val(), direction);
-                if (close_list[new_state] == 0)
-                {
-                    extended_nodes[current_state->get_val()]++;
-                    all_visited = false;
-                    Node *temp = new Node(new_state);
-                    temp->set_parent(current_state);
-                    temp->set_depth(current_state->get_depth() + 1);
-                    open_list.push_back(temp);
-                    break;
-                }
-            }
-        }
-        if (all_visited)
-        {
-            open_list.pop_back();
-            if (open_list.size() == 0)
-            {
-                all_visited = false;
-                depth_limit++;
-                close_list.clear();
-                extended_nodes.clear();
-                while (current_state->get_parent())
-                {
-                    current_state = current_state->get_parent();
-                }
-                open_list.push_back(current_state);
-            }
-            else
-            {
-                close_list[current_state->get_val()]++;
-                current_state = open_list[open_list.size() - 1];
+                Node *temp = new Node(new_state);
+                temp->set_parent(current_state);
+                temp->set_depth(current_state->get_depth() + 1);
+                open_list.push_back(temp);
             }
         }
     }
@@ -163,36 +137,63 @@ void print_string(string state)
 }
 pair<string, int> solve_puzzle(string puzzle, string goal)
 {
+    int limit = 0;
     string init_state, goal_state;
-    map<string, int> extended_nodes, close_list;
+    unordered_map<string, int> close_list;
     vector<Node *> open_list;
     string path = "";
     Node *current_state;
-    int depth_limit = 1;
     pair<string, int> res;
     init_state = puzzle;
     goal_state = goal;
-    current_state = new Node(init_state, 0);
+    current_state = new Node(init_state);
     open_list.push_back(current_state);
     while (true)
     {
-        current_state = open_list[open_list.size() - 1];
+        current_state = open_list.back();
         if (is_goal(goal_state, current_state->get_val()))
         {
             res.first = get_path(current_state);
-            res.second = extended_nodes.size();
+            res.second = cal_closed_node(close_list);
             print_process(current_state);
             break;
         }
-        if (current_state->get_depth() == depth_limit)
-        {
-            open_list.pop_back();
-            close_list[current_state->get_val()]++;
-            extend_states(open_list, close_list, depth_limit, extended_nodes);
-        }
         else
         {
-            extend_states(open_list, close_list, depth_limit, extended_nodes);
+            if (current_state->get_depth() == limit)
+            {
+                open_list.pop_back();
+                if (open_list.empty())
+                {
+                    Node *node = new Node(init_state);
+                    current_state = node;
+                    open_list.push_back(current_state);
+                    limit++;
+                    close_list.clear();
+                }
+            }
+            while (current_state && close_list[current_state->get_val()] != 0)
+            {
+                if (!open_list.empty())
+                {
+                    open_list.pop_back();
+                    if (open_list.empty())
+                    {
+
+                        Node *node = new Node(init_state);
+                        current_state = node;
+                        open_list.push_back(current_state);
+                        limit++;
+                        close_list.clear();
+                    }
+                    current_state = open_list.back();
+                }
+            }
+            if (current_state->get_depth() < limit)
+            {
+                close_list[current_state->get_val()]++;
+                extend_states(open_list);
+            }
         }
     }
 
@@ -252,26 +253,37 @@ void print_process(Node *solution)
     }
 }
 
-bool exist(vector<vector<char>> v, vector<char> state)
+bool exist(vector<Node *> v, string state)
 {
     for (auto ele : v)
     {
-        if (ele == state)
+        if (ele->get_val() == state)
             return true;
     }
     return false;
 }
-string test_solution(string init_state,string directions)
+string test_solution(string init_state, string directions)
 {
-    for(int i=0;i<directions.size();i++)
+    for (int i = 0; i < directions.size(); i++)
     {
-        Node* temp = new Node(init_state);
+        Node *temp = new Node(init_state);
         char direction = directions[i];
-        if(is_moveable(temp,direction));
+        if (is_moveable(temp, direction))
+            ;
         {
-            init_state = move_on(init_state,direction);
+            init_state = move_on(init_state, direction);
         }
     }
     return init_state;
+}
+int cal_closed_node(unordered_map<string, int> nodes)
+{
+    int count = 0;
+    for (auto ele : nodes)
+    {
+        if (ele.second == 1)
+            count++;
+    }
+    return count;
 }
 #endif // !PUZZLE

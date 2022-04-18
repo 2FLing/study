@@ -16,7 +16,8 @@ int main()
         cout << "Enter your goal:";
         getline(cin, goal);
         res = solve_puzzle(puzzle, goal);
-        cout << "For solving this puzzle the movement will be " << res.first << " and it expanded " << res.second << " number of nodes while solving this puzzle." << endl;
+        if (test_solution(puzzle, res.first) == goal)
+            cout << "For solving this puzzle the movement will be " << res.first << " and it expanded " << res.second << " number of nodes while solving this puzzle." << endl;
         cout << "-------------------------------------------------------------------" << endl;
     }
     return 0;
@@ -34,24 +35,24 @@ int main()
     "128307645" --output: lurdrullddruldrruldr and it expanded 60545 number of nodes
     "035684712" --output: rddluruldrdlurrdllurruldrd and it expanded 167432 number of nodes
     "684317025" --output: drrdlurulldrdlurrdluurdd and it expanded 131020 number of nodes
-    "028514637"
+    "028514637" --output: drrdlurulldrdlurrdluurdd and it expanded 131021 number of nodes
     "618273540"
-    "042385671"
-    "420385716"
-    "054672813"
-    "314572680"
-    "637218045"
-    "430621875"
-    "158274036"
-    "130458726"
+    "042385671" --output: ddrurdlulurdruldlurdrulddr and it expanded 158674 number of nodes while solving this puzzle.
+    "420385716" --output: dllurddlurrullddrurd and it expanded 45784 number of nodes while solving this puzzle.
+    "054672813" --output: drdlururddluuldrurdldr and it expanded 83190 number of nodes
+    "314572680" --output: luldruuldrurdluldrurdldr and it expanded 137030 number of nodes
+    "637218045" --output: rruuldrdlulurdldrruldr and it expanded 93367 number of nodes
+    "430621875" --output: dlurdlldrulurrddlurd and it expanded 42584 number of nodes
+    "158274036" --output: urdruulddruldlurdruuldrd and it expanded 126684 number of nodes while solving this puzzle
+    "130458726" --output: dldruulddruldr and it expanded 3442 number of nodes while solving this puzzle
 
 
     EASY:
-    "16235A749C08DEBF" -- output:
-    "0634217859ABDEFC"
-    "012456379BC8DAEF"
-    "51246A38097BDEFC"
-    "12345678D9CFEBA0"
+    "16235A749C08DEBF" --output: luurrddldr and it expanded 5213 number of nodes
+    "0634217859ABDEFC" --output: drulddrrrd and it expanded 2307 number of nodes
+    "012456379BC8DAEF" --output: rrdrdlldrr and it expanded 3554 number of nodes 
+    "51246A38097BDEFC" --output: rulurrddrd and it expanded 4002 number of nodes
+    "12345678D9CFEBA0" --output: uldllurrdr and it expanded 2564 number of nodes
 
     DIFFICULT:
     "71A92CE03DB4658F"

@@ -4,15 +4,15 @@
 #include "Queue.h"
 #include <vector>
 #include <string>
-#include <map>
+#include <unordered_map>
 #include <iostream>
 #include <stdio.h>
 #include <math.h>
 using namespace std;
 bool is_moveable(Node *, char);
-string move_on(string, char);                         // move the space(number 0) by the direction, and return the vector after moving as the result.
-bool is_goal(string, string);                         // check if the current state is the goal state.
-void extend_state(Node *, Queue &, map<string, int>); // extend the current state by adding its all of the available states to it.
+string move_on(string, char);       // move the space(number 0) by the direction, and return the vector after moving as the result.
+bool is_goal(string, string);       // check if the current state is the goal state.
+void extend_state(Node *, Queue &); // extend the current state by adding its all of the available states to it.
 void print_string(string);
 pair<string, int> solve_puzzle(string, string); // it takes an initial state for the puzzle and the goal state of the puzzle than return the solution as a result.
 string get_path(Node *);                        // get the solving path of the solution
@@ -20,6 +20,7 @@ char get_direction(string, string);             // get the direction from one st
 void reverse(string &);
 void print_process(Node *); // print out the solving process
 string test_solution(string init_state, string directions);
+int cal_closed_node(unordered_map<string, int> nodes);
 bool is_moveable(Node *state, char direction)
 {
     string str = state->get_val();
@@ -89,24 +90,22 @@ bool is_goal(string goal, string state)
 {
     return (goal == state);
 }
-void extend_state(Node *current_state, Queue &frontier, map<string, int> reached_nodes)
+void extend_state(Node *current_state, Queue &open_list)
 {
     string directions = "udrl";
-
     for (auto direction : directions)
     {
         if (is_moveable(current_state, direction))
         {
             string new_state = move_on(current_state->get_val(), direction);
             Node *temp = new Node(new_state);
-            if (!frontier.exist(temp) && reached_nodes[new_state] == 0)
+            if (!open_list.exist(temp))
             {
                 temp->set_parent(current_state);
-                frontier.insert(temp);
+                open_list.insert(temp);
             }
         }
     }
-    reached_nodes[current_state->get_val()]++;
 }
 void print_string(string state)
 {
@@ -123,31 +122,34 @@ pair<string, int> solve_puzzle(string puzzle, string goal)
 {
     string path = "";
     Node *current_state;
-    map<string, int> expanded_nodes;
-    pair<string, int> res = pair("", 0);
+    unordered_map<string, int> closed_list;
+    pair<string, int> res;
     string init_state = puzzle;
     current_state = new Node(init_state);
-    Queue frontier(current_state);
-    while (!frontier.is_empty())
+    Queue open_list(current_state);
+    while (!open_list.is_empty())
     {
-        current_state = frontier.pop();
+        current_state = open_list.pop();
         if (is_goal(goal, current_state->get_val()))
         {
             res.first = get_path(current_state);
-            res.second = expanded_nodes.size() - 1;
-            print_process(current_state);
+            res.second = cal_closed_node(closed_list);
             return res;
         }
         else
         {
-            expanded_nodes[current_state->get_val()]++;
-            extend_state(current_state, frontier, expanded_nodes);
+            while (current_state && closed_list[current_state->get_val()] != 0)
+            {
+                current_state = open_list.pop();
+                if (!current_state)
+                {
+                    cout << "Not able to solve this puzzle :(";
+                    exit(1);
+                }
+            }
+            closed_list[current_state->get_val()]++;
+            extend_state(current_state, open_list);
         }
-    }
-    if (frontier.is_empty())
-    {
-        cout << "Not able to solve this puzzle :(";
-        exit(1);
     }
     return res;
 }
@@ -201,17 +203,26 @@ void print_process(Node *solution)
         print_string(process[i]);
     }
 }
-string test_solution(string init_state,string directions)
+string test_solution(string init_state, string directions)
 {
-    for(int i=0;i<directions.size();i++)
+    for (int i = 0; i < directions.size(); i++)
     {
-        Node* temp = new Node(init_state);
+        Node *temp = new Node(init_state);
         char direction = directions[i];
-        if(is_moveable(temp,direction));
-        {
-            init_state = move_on(init_state,direction);
-        }
+        if (is_moveable(temp, direction))
+            init_state = move_on(init_state, direction);
     }
     return init_state;
 }
+int cal_closed_node(unordered_map<string, int> nodes)
+{
+    int count = 0;
+    for (auto ele : nodes)
+    {
+        if (ele.second == 1)
+            count++;
+    }
+    return count;
+}
+
 #endif // !PUZZLE

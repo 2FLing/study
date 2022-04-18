@@ -6,22 +6,23 @@
 #include <stdio.h>
 #include <math.h>
 #include <limits.h>
-#include<map>
+#include <unordered_map>
 #include "Pqueue.h"
 using namespace std;
-bool is_moveable(Node*, char);
-string move_on(string, char);  // move the space(number 0) by the direction, and return the vector after moving as the result.                                                                                                         // find the index of the target, return -1 if not found.                                                                                                           // reads a series of numbers in string format and convert them to an array.
-bool is_goal(string, string);  // check if the current state is the goal state.
-void extend_states(Node* last_state, Pqueue* open_list, int& times, string init_state, string goal); // extend the current state by adding its all of the available states.
-int G_H(string current_state, string init_state, string goal);                                                                 // calculate the G and H of the current_state
+bool is_moveable(Node *, char);
+string move_on(string, char);                                                            // move the space(number 0) by the direction, and return the vector after moving as the result.                                                                                                         // find the index of the target, return -1 if not found.                                                                                                           // reads a series of numbers in string format and convert them to an array.
+bool is_goal(string, string);                                                            // check if the current state is the goal state.
+void extend_states(Node *last_state, Pqueue *open_list, string init_state, string goal); // extend the current state by adding its all of the available states.
+int G_H(string current_state, string init_state, string goal);                           // calculate the G and H of the current_state
 void print_string(string);
 pair<string, int> solve_puzzle(string, string); // it takes an initial state for the puzzle and the goal state of the puzzle than return the solution as a result.
-string get_path(Node*);                        // get the solving path of the solution
-char get_direction(string, string); // get the direction from one step to another step
-void reverse(string&);
-void print_process(Node*);               // print out the solving process
-string test_solution(string,string);
-bool is_moveable(Node* state, char direction)
+string get_path(Node *);                        // get the solving path of the solution
+char get_direction(string, string);             // get the direction from one step to another step
+void reverse(string &);
+void print_process(Node *); // print out the solving process
+string test_solution(string, string);
+int cal_closed_node(unordered_map<string,int>);
+bool is_moveable(Node *state, char direction)
 {
     string v = state->get_val();
 
@@ -89,18 +90,17 @@ bool is_goal(string goal, string state)
 {
     return (goal == state);
 }
-void extend_states(Node* current_state, Pqueue* open_list, int& times, string init_state, string goal)
+void extend_states(Node *current_state, Pqueue *open_list, string init_state, string goal)
 {
 
     string directions = "udrl";
-    times++;
     for (auto direction : directions)
     {
         if (is_moveable(current_state, direction))
         {
             string new_state = move_on(current_state->get_val(), direction);
             int gh = G_H(new_state, init_state, goal);
-            Node* temp = new Node(new_state, gh);
+            Node *temp = new Node(new_state, gh);
             temp->set_parent(current_state);
             open_list->insert(temp);
         }
@@ -119,11 +119,10 @@ void print_string(string v)
 }
 pair<string, int> solve_puzzle(string puzzle, string goal)
 {
-    map<string, int> close_list;
-    Pqueue* open_list;
+    unordered_map<string, int> close_list;
+    Pqueue *open_list;
     string path = "";
-    Node* current_state;
-    int times = 0;
+    Node *current_state;
     pair<string, int> res;
     string init_state = puzzle;
     current_state = new Node(init_state, 0);
@@ -139,32 +138,32 @@ pair<string, int> solve_puzzle(string puzzle, string goal)
         if (is_goal(goal, current_state->get_val()))
         {
             res.first = get_path(current_state);
-            res.second = times;
+            res.second = cal_closed_node(close_list);
             print_process(current_state);
             break;
         }
         while (current_state && close_list[current_state->get_val()] != 0)
         {
             current_state = open_list->pop();
-        }
-        if (!current_state)
-        {
-            cout << "Unable to solve this puzzle :(" << endl;
-            exit(1);
+            if (!current_state)
+            {
+                cout << "Unable to solve this puzzle :(" << endl;
+                exit(1);
+            }
         }
         close_list[current_state->get_val()]++;
-        extend_states(current_state, open_list, times, init_state, goal);
+        extend_states(current_state, open_list, init_state, goal);
     }
 
     return res;
 }
 
-string get_path(Node* solution)
+string get_path(Node *solution)
 {
     string path;
     while (solution->get_parent())
     {
-        Node* parent = solution->get_parent();
+        Node *parent = solution->get_parent();
         char direction = get_direction(parent->get_val(), solution->get_val());
         path.push_back(direction);
         solution = parent;
@@ -188,7 +187,7 @@ char get_direction(string step, string next_step)
     else
         return 'u';
 }
-void reverse(string& str)
+void reverse(string &str)
 {
     string temp;
     for (int i = str.size() - 1; i >= 0; i--)
@@ -197,7 +196,7 @@ void reverse(string& str)
     }
     str = temp;
 }
-void print_process(Node* solution)
+void print_process(Node *solution)
 {
     vector<string> process;
     while (solution->get_parent())
@@ -227,26 +226,29 @@ int G_H(string current_state, string init_state, string goal)
     return G + H;
 }
 
-bool exist(vector<string> v, Node* n)
+string test_solution(string init_state, string directions)
 {
-    for (auto ele : v)
+    for (int i = 0; i < directions.size(); i++)
     {
-        if (ele == n->get_val())
-            return true;
-    }
-    return false;
-}
-string test_solution(string init_state,string directions)
-{
-    for(int i=0;i<directions.size();i++)
-    {
-        Node* temp = new Node(init_state);
+        Node *temp = new Node(init_state);
         char direction = directions[i];
-        if(is_moveable(temp,direction));
+        if (is_moveable(temp, direction))
+            ;
         {
-            init_state = move_on(init_state,direction);
+            init_state = move_on(init_state, direction);
         }
     }
     return init_state;
 }
+int cal_closed_node(unordered_map<string,int>nodes)
+{
+    int count=0;
+    for(auto ele:nodes)
+    {
+        if(ele.second==1)
+            count++;
+    }
+    return count;
+}
+
 #endif // !PUZZLE
