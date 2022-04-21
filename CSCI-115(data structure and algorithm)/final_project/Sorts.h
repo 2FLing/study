@@ -95,11 +95,10 @@ struct Sorts
     }
     void quick_sort(vector<int> &v, int low, int high)
     {
-        int q;
         if (low < high)
         {
-            q = partition(v, low, high);
-            quick_sort(v, low, q - 1);
+            int q = partition(v, low, high);
+            quick_sort(v, low, q);
             quick_sort(v, q + 1, high);
         }
     }
@@ -164,18 +163,22 @@ struct Sorts
     }
     int partition(vector<int> &v, int low, int high)
     {
-        int pivot = v[low];
-        int i = high + 1;
-        for (int j = high; j > low; j--)
+        int pivot = v[(low + high) / 2];
+        int i = low - 1;
+        int j = high + 1;
+        while (true)
         {
-            if (v[j] >= pivot)
+            while (v[++i] < pivot)
+                ;
+            while (v[--j] > pivot)
+                ;
+            if (i < j)
             {
-                i--;
                 swap(v[i], v[j]);
             }
+            else
+                return j;
         }
-        swap(v[i - 1], v[low]);
-        return i - 1;
     }
     int find_max(vector<int> v)
     {
