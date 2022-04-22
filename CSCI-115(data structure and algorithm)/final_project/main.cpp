@@ -82,7 +82,7 @@ void radix_reversed_large_size();
 void radix_random_large_size();
 int main()
 {
-    
+    quick_reversed_large_size();
     return 0;
 }
 
@@ -140,7 +140,7 @@ void insertion_ordered_small_size()
     sort.insertion(v);
     end = clock();
     if (is_sorted(v))
-        cout << "It takes insertion sort " << (end - start) / CLOCKS_PER_SEC << " to solve an ordered vector with size of " << size << "." << endl;
+        cout << "It takes insertion sort " << (end - start) / CLOCKS_PER_SEC << "s to solve an ordered vector with size of " << size << "." << endl;
 }
 void insertion_reversed_small_size()
 {
@@ -153,7 +153,7 @@ void insertion_reversed_small_size()
     sort.insertion(v);
     end = clock();
     if (is_sorted(v))
-        cout << "It takes insertion sort " << (end - start) / CLOCKS_PER_SEC << " to solve a reversed vector with size of " << size << "." << endl;
+        cout << "It takes insertion sort " << (end - start) / CLOCKS_PER_SEC << "s to solve a reversed vector with size of " << size << "." << endl;
 }
 void insertion_random_small_size()
 {
@@ -166,7 +166,7 @@ void insertion_random_small_size()
     sort.insertion(v);
     end = clock();
     if (is_sorted(v))
-        cout << "It takes insertion sort " << (end - start) / CLOCKS_PER_SEC << " to solve a random vector with size of " << size << "." << endl;
+        cout << "It takes insertion sort " << (end - start) / CLOCKS_PER_SEC << "s to solve a random vector with size of " << size << "." << endl;
 }
 void insertion_ordered_median_size()
 {
@@ -179,7 +179,7 @@ void insertion_ordered_median_size()
     sort.insertion(v);
     end = clock();
     if (is_sorted(v))
-        cout << "It takes insertion sort " << (end - start) / CLOCKS_PER_SEC << " to solve an ordered vector with size of " << size << "." << endl;
+        cout << "It takes insertion sort " << (end - start) / CLOCKS_PER_SEC << "s to solve an ordered vector with size of " << size << "." << endl;
 }
 void insertion_reversed_median_size()
 {
@@ -192,7 +192,7 @@ void insertion_reversed_median_size()
     sort.insertion(v);
     end = clock();
     if (is_sorted(v))
-        cout << "It takes insertion sort " << (end - start) / CLOCKS_PER_SEC << " to solve a reversed vector with size of " << size << "." << endl;
+        cout << "It takes insertion sort " << (end - start) / CLOCKS_PER_SEC << "s to solve a reversed vector with size of " << size << "." << endl;
 }
 void insertion_random_median_size()
 {
@@ -205,7 +205,7 @@ void insertion_random_median_size()
     sort.insertion(v);
     end = clock();
     if (is_sorted(v))
-        cout << "It takes insertion sort " << (end - start) / CLOCKS_PER_SEC << " to solve a random vector with size of " << size << "." << endl;
+        cout << "It takes insertion sort " << (end - start) / CLOCKS_PER_SEC << "s to solve a random vector with size of " << size << "." << endl;
 }
 void insertion_ordered_large_size()
 {
@@ -218,7 +218,7 @@ void insertion_ordered_large_size()
     sort.insertion(v);
     end = clock();
     if (is_sorted(v))
-        cout << "It takes insertion sort " << (end - start) / CLOCKS_PER_SEC << " to solve an ordered vector with size of " << size << "." << endl;
+        cout << "It takes insertion sort " << (end - start) / CLOCKS_PER_SEC << "s to solve an ordered vector with size of " << size << "." << endl;
 }
 void insertion_reversed_large_size()
 {
@@ -231,7 +231,7 @@ void insertion_reversed_large_size()
     sort.insertion(v);
     end = clock();
     if (is_sorted(v))
-        cout << "It takes insertion sort " << (end - start) / CLOCKS_PER_SEC << " to solve a reversed vector with size of " << size << "." << endl;
+        cout << "It takes insertion sort " << (end - start) / CLOCKS_PER_SEC << "s to solve a reversed vector with size of " << size << "." << endl;
 }
 void insertion_random_large_size()
 {
@@ -244,7 +244,7 @@ void insertion_random_large_size()
     sort.insertion(v);
     end = clock();
     if (is_sorted(v))
-        cout << "It takes insertion sort " << (end - start) / CLOCKS_PER_SEC << " to solve a random vector with size of " << size << "." << endl;
+        cout << "It takes insertion sort " << (end - start) / CLOCKS_PER_SEC << "s to solve a random vector with size of " << size << "." << endl;
 }
 void selection_ordered_small_size()
 {
@@ -257,7 +257,7 @@ void selection_ordered_small_size()
     sort.selection_sort(v);
     end = clock();
     if (is_sorted(v))
-        cout << "It takes selection sort " << (end - start) / CLOCKS_PER_SEC << " to solve an order vector with size of " << size << "." << endl;
+        cout << "It takes selection sort " << (end - start) / CLOCKS_PER_SEC << "s to solve an order vector with size of " << size << "." << endl;
 }
 void selection_reversed_small_size()
 {
@@ -270,7 +270,7 @@ void selection_reversed_small_size()
     sort.selection_sort(v);
     end = clock();
     if (is_sorted(v))
-        cout << "It takes selection sort " << (end - start) / CLOCKS_PER_SEC << " to solve a reversed vector with size of " << size << "." << endl;
+        cout << "It takes selection sort " << (end - start) / CLOCKS_PER_SEC << "s to solve a reversed vector with size of " << size << "." << endl;
 }
 void selection_random_small_size()
 {
@@ -283,7 +283,7 @@ void selection_random_small_size()
     sort.selection_sort(v);
     end = clock();
     if (is_sorted(v))
-        cout << "It takes selection sort " << (end - start) / CLOCKS_PER_SEC << " to solve a random vector with size of " << size << "." << endl;
+        cout << "It takes selection sort " << (end - start) / CLOCKS_PER_SEC << "s to solve a random vector with size of " << size << "." << endl;
 }
 void selection_ordered_median_size()
 {
@@ -296,7 +296,7 @@ void selection_ordered_median_size()
     sort.selection_sort(v);
     end = clock();
     if (is_sorted(v))
-        cout << "It takes selection sort " << (end - start) / CLOCKS_PER_SEC << " to solve an order vector with size of " << size << "." << endl;
+        cout << "It takes selection sort " << (end - start) / CLOCKS_PER_SEC << "s to solve an order vector with size of " << size << "." << endl;
 }
 void selection_reversed_median_size()
 {
@@ -309,7 +309,7 @@ void selection_reversed_median_size()
     sort.selection_sort(v);
     end = clock();
     if (is_sorted(v))
-        cout << "It takes selection sort " << (end - start) / CLOCKS_PER_SEC << " to solve a reversed vector with size of " << size << "." << endl;
+        cout << "It takes selection sort " << (end - start) / CLOCKS_PER_SEC << "s to solve a reversed vector with size of " << size << "." << endl;
 }
 void selection_random_median_size()
 {
@@ -322,7 +322,7 @@ void selection_random_median_size()
     sort.selection_sort(v);
     end = clock();
     if (is_sorted(v))
-        cout << "It takes selection sort " << (end - start) / CLOCKS_PER_SEC << " to solve a random vector with size of " << size << "." << endl;
+        cout << "It takes selection sort " << (end - start) / CLOCKS_PER_SEC << "s to solve a random vector with size of " << size << "." << endl;
 }
 void selection_ordered_large_size()
 {
@@ -335,7 +335,7 @@ void selection_ordered_large_size()
     sort.selection_sort(v);
     end = clock();
     if (is_sorted(v))
-        cout << "It takes selection sort " << (end - start) / CLOCKS_PER_SEC << " to solve an order vector with size of " << size << "." << endl;
+        cout << "It takes selection sort " << (end - start) / CLOCKS_PER_SEC << "s to solve an order vector with size of " << size << "." << endl;
 }
 void selection_reversed_large_size()
 {
@@ -348,7 +348,7 @@ void selection_reversed_large_size()
     sort.selection_sort(v);
     end = clock();
     if (is_sorted(v))
-        cout << "It takes selection sort " << (end - start) / CLOCKS_PER_SEC << " to solve a reversed vector with size of " << size << "." << endl;
+        cout << "It takes selection sort " << (end - start) / CLOCKS_PER_SEC << "s to solve a reversed vector with size of " << size << "." << endl;
 }
 void selection_random_large_size()
 {
@@ -361,7 +361,7 @@ void selection_random_large_size()
     sort.selection_sort(v);
     end = clock();
     if (is_sorted(v))
-        cout << "It takes selection sort " << (end - start) / CLOCKS_PER_SEC << " to solve a random vector with size of " << size << "." << endl;
+        cout << "It takes selection sort " << (end - start) / CLOCKS_PER_SEC << "s to solve a random vector with size of " << size << "." << endl;
 }
 void bubble_ordered_small_size()
 {
@@ -374,7 +374,7 @@ void bubble_ordered_small_size()
     sort.bubble_sort(v);
     end = clock();
     if (is_sorted(v))
-        cout << "It takes bubble sort " << (end - start) / CLOCKS_PER_SEC << " to solve an ordered vector with size of " << size << "." << endl;
+        cout << "It takes bubble sort " << (end - start) / CLOCKS_PER_SEC << "s to solve an ordered vector with size of " << size << "." << endl;
 }
 void bubble_reversed_small_size()
 {
@@ -387,7 +387,7 @@ void bubble_reversed_small_size()
     sort.bubble_sort(v);
     end = clock();
     if (is_sorted(v))
-        cout << "It takes bubble sort " << (end - start) / CLOCKS_PER_SEC << " to solve a reversed vector with size of " << size << "." << endl;
+        cout << "It takes bubble sort " << (end - start) / CLOCKS_PER_SEC << "s to solve a reversed vector with size of " << size << "." << endl;
 }
 void bubble_random_small_size()
 {
@@ -400,7 +400,7 @@ void bubble_random_small_size()
     sort.bubble_sort(v);
     end = clock();
     if (is_sorted(v))
-        cout << "It takes bubble sort " << (end - start) / CLOCKS_PER_SEC << " to solve a random vector with size of " << size << "." << endl;
+        cout << "It takes bubble sort " << (end - start) / CLOCKS_PER_SEC << "s to solve a random vector with size of " << size << "." << endl;
 }
 void bubble_ordered_median_size()
 {
@@ -413,7 +413,7 @@ void bubble_ordered_median_size()
     sort.bubble_sort(v);
     end = clock();
     if (is_sorted(v))
-        cout << "It takes bubble sort " << (end - start) / CLOCKS_PER_SEC << " to solve an ordered vector with size of " << size << "." << endl;
+        cout << "It takes bubble sort " << (end - start) / CLOCKS_PER_SEC << "s to solve an ordered vector with size of " << size << "." << endl;
 }
 void bubble_reversed_median_size()
 {
@@ -426,7 +426,7 @@ void bubble_reversed_median_size()
     sort.bubble_sort(v);
     end = clock();
     if (is_sorted(v))
-        cout << "It takes bubble sort " << (end - start) / CLOCKS_PER_SEC << " to solve a reversed vector with size of " << size << "." << endl;
+        cout << "It takes bubble sort " << (end - start) / CLOCKS_PER_SEC << "s to solve a reversed vector with size of " << size << "." << endl;
 }
 void bubble_random_median_size()
 {
@@ -439,7 +439,7 @@ void bubble_random_median_size()
     sort.bubble_sort(v);
     end = clock();
     if (is_sorted(v))
-        cout << "It takes bubble sort " << (end - start) / CLOCKS_PER_SEC << " to solve a random vector with size of " << size << "." << endl;
+        cout << "It takes bubble sort " << (end - start) / CLOCKS_PER_SEC << "s to solve a random vector with size of " << size << "." << endl;
 }
 void bubble_ordered_large_size()
 {
@@ -452,7 +452,7 @@ void bubble_ordered_large_size()
     sort.bubble_sort(v);
     end = clock();
     if (is_sorted(v))
-        cout << "It takes bubble sort " << (end - start) / CLOCKS_PER_SEC << " to solve an ordered vector with size of " << size << "." << endl;
+        cout << "It takes bubble sort " << (end - start) / CLOCKS_PER_SEC << "s to solve an ordered vector with size of " << size << "." << endl;
 }
 void bubble_reversed_large_size()
 {
@@ -465,7 +465,7 @@ void bubble_reversed_large_size()
     sort.bubble_sort(v);
     end = clock();
     if (is_sorted(v))
-        cout << "It takes bubble sort " << (end - start) / CLOCKS_PER_SEC << " to solve a reversed vector with size of " << size << "." << endl;
+        cout << "It takes bubble sort " << (end - start) / CLOCKS_PER_SEC << "s to solve a reversed vector with size of " << size << "." << endl;
 }
 void bubble_random_large_size()
 {
@@ -478,7 +478,7 @@ void bubble_random_large_size()
     sort.bubble_sort(v);
     end = clock();
     if (is_sorted(v))
-        cout << "It takes bubble sort " << (end - start) / CLOCKS_PER_SEC << " to solve a random vector with size of " << size << "." << endl;
+        cout << "It takes bubble sort " << (end - start) / CLOCKS_PER_SEC << "s to solve a random vector with size of " << size << "." << endl;
 }
 void merge_ordered_small_size()
 {
@@ -491,7 +491,7 @@ void merge_ordered_small_size()
     sort.merge_sort(v, 0, v.size());
     end = clock();
     if (is_sorted(v))
-        cout << "It takes merge sort " << (end - start) / CLOCKS_PER_SEC << " to solve an ordered vector with size of " << size << "." << endl;
+        cout << "It takes merge sort " << (end - start) / CLOCKS_PER_SEC << "s to solve an ordered vector with size of " << size << "." << endl;
 }
 void merge_reversed_small_size()
 {
@@ -504,7 +504,7 @@ void merge_reversed_small_size()
     sort.merge_sort(v, 0, v.size());
     end = clock();
     if (is_sorted(v))
-        cout << "It takes merge sort " << (end - start) / CLOCKS_PER_SEC << " to solve a reversed vector with size of " << size << "." << endl;
+        cout << "It takes merge sort " << (end - start) / CLOCKS_PER_SEC << "s to solve a reversed vector with size of " << size << "." << endl;
 }
 void merge_random_small_size()
 {
@@ -517,7 +517,7 @@ void merge_random_small_size()
     sort.merge_sort(v, 0, v.size());
     end = clock();
     if (is_sorted(v))
-        cout << "It takes merge sort " << (end - start) / CLOCKS_PER_SEC << " to solve a random vector with size of " << size << "." << endl;
+        cout << "It takes merge sort " << (end - start) / CLOCKS_PER_SEC << "s to solve a random vector with size of " << size << "." << endl;
 }
 void merge_ordered_median_size()
 {
@@ -530,7 +530,7 @@ void merge_ordered_median_size()
     sort.merge_sort(v, 0, v.size());
     end = clock();
     if (is_sorted(v))
-        cout << "It takes merge sort " << (end - start) / CLOCKS_PER_SEC << " to solve an ordered vector with size of " << size << "." << endl;
+        cout << "It takes merge sort " << (end - start) / CLOCKS_PER_SEC << "s to solve an ordered vector with size of " << size << "." << endl;
 }
 void merge_reversed_median_size()
 {
@@ -543,7 +543,7 @@ void merge_reversed_median_size()
     sort.merge_sort(v, 0, v.size());
     end = clock();
     if (is_sorted(v))
-        cout << "It takes merge sort " << (end - start) / CLOCKS_PER_SEC << " to solve a reversed vector with size of " << size << "." << endl;
+        cout << "It takes merge sort " << (end - start) / CLOCKS_PER_SEC << "s to solve a reversed vector with size of " << size << "." << endl;
 }
 void merge_random_median_size()
 {
@@ -556,7 +556,7 @@ void merge_random_median_size()
     sort.merge_sort(v, 0, v.size());
     end = clock();
     if (is_sorted(v))
-        cout << "It takes merge sort " << (end - start) / CLOCKS_PER_SEC << " to solve a random vector with size of " << size << "." << endl;
+        cout << "It takes merge sort " << (end - start) / CLOCKS_PER_SEC << "s to solve a random vector with size of " << size << "." << endl;
 }
 void merge_ordered_large_size()
 {
@@ -569,7 +569,7 @@ void merge_ordered_large_size()
     sort.merge_sort(v, 0, v.size());
     end = clock();
     if (is_sorted(v))
-        cout << "It takes merge sort " << (end - start) / CLOCKS_PER_SEC << " to solve an ordered vector with size of " << size << "." << endl;
+        cout << "It takes merge sort " << (end - start) / CLOCKS_PER_SEC << "s to solve an ordered vector with size of " << size << "." << endl;
 }
 void merge_reversed_large_size()
 {
@@ -582,7 +582,7 @@ void merge_reversed_large_size()
     sort.merge_sort(v, 0, v.size());
     end = clock();
     if (is_sorted(v))
-        cout << "It takes merge sort " << (end - start) / CLOCKS_PER_SEC << " to solve a reversed vector with size of " << size << "." << endl;
+        cout << "It takes merge sort " << (end - start) / CLOCKS_PER_SEC << "s to solve a reversed vector with size of " << size << "." << endl;
 }
 void merge_random_large_size()
 {
@@ -595,7 +595,7 @@ void merge_random_large_size()
     sort.merge_sort(v, 0, v.size());
     end = clock();
     if (is_sorted(v))
-        cout << "It takes merge sort " << (end - start) / CLOCKS_PER_SEC << " to solve a random vector with size of " << size << "." << endl;
+        cout << "It takes merge sort " << (end - start) / CLOCKS_PER_SEC << "s to solve a random vector with size of " << size << "." << endl;
 }
 void quick_ordered_small_size()
 {
@@ -608,7 +608,7 @@ void quick_ordered_small_size()
     sort.quick_sort(v, 0, v.size() - 1);
     end = clock();
     if (is_sorted(v))
-        cout << "It takes quick sort " << (end - start) / CLOCKS_PER_SEC << " to solve an ordered vector with size of " << size << "." << endl;
+        cout << "It takes quick sort " << (end - start) / CLOCKS_PER_SEC << "s to solve an ordered vector with size of " << size << "." << endl;
 }
 void quick_reversed_small_size()
 {
@@ -621,7 +621,7 @@ void quick_reversed_small_size()
     sort.quick_sort(v, 0, v.size() - 1);
     end = clock();
     if (is_sorted(v))
-        cout << "It takes quick sort " << (end - start) / CLOCKS_PER_SEC << " to solve a reversed vector with size of " << size << "." << endl;
+        cout << "It takes quick sort " << (end - start) / CLOCKS_PER_SEC << "s to solve a reversed vector with size of " << size << "." << endl;
 }
 void quick_random_small_size()
 {
@@ -634,7 +634,7 @@ void quick_random_small_size()
     sort.quick_sort(v, 0, v.size() - 1);
     end = clock();
     if (is_sorted(v))
-        cout << "It takes quick sort " << (end - start) / CLOCKS_PER_SEC << " to solve a random vector with size of " << size << "." << endl;
+        cout << "It takes quick sort " << (end - start) / CLOCKS_PER_SEC << "s to solve a random vector with size of " << size << "." << endl;
 }
 void quick_ordered_median_size()
 {
@@ -647,7 +647,7 @@ void quick_ordered_median_size()
     sort.quick_sort(v, 0, v.size() - 1);
     end = clock();
     if (is_sorted(v))
-        cout << "It takes quick sort " << (end - start) / CLOCKS_PER_SEC << " to solve an ordered vector with size of " << size << "." << endl;
+        cout << "It takes quick sort " << (end - start) / CLOCKS_PER_SEC << "s to solve an ordered vector with size of " << size << "." << endl;
 }
 void quick_reversed_median_size()
 {
@@ -660,7 +660,7 @@ void quick_reversed_median_size()
     sort.quick_sort(v, 0, v.size() - 1);
     end = clock();
     if (is_sorted(v))
-        cout << "It takes quick sort " << (end - start) / CLOCKS_PER_SEC << " to solve a reversed vector with size of " << size << "." << endl;
+        cout << "It takes quick sort " << (end - start) / CLOCKS_PER_SEC << "s to solve a reversed vector with size of " << size << "." << endl;
 }
 void quick_random_median_size()
 {
@@ -673,7 +673,7 @@ void quick_random_median_size()
     sort.quick_sort(v, 0, v.size() - 1);
     end = clock();
     if (is_sorted(v))
-        cout << "It takes quick sort " << (end - start) / CLOCKS_PER_SEC << " to solve a random vector with size of " << size << "." << endl;
+        cout << "It takes quick sort " << (end - start) / CLOCKS_PER_SEC << "s to solve a random vector with size of " << size << "." << endl;
 }
 void quick_ordered_large_size()
 {
@@ -686,7 +686,7 @@ void quick_ordered_large_size()
     sort.quick_sort(v, 0, v.size() - 1);
     end = clock();
     if (is_sorted(v))
-        cout << "It takes quick sort " << (end - start) / CLOCKS_PER_SEC << " to solve an ordered vector with size of " << size << "." << endl;
+        cout << "It takes quick sort " << (end - start) / CLOCKS_PER_SEC << "s to solve an ordered vector with size of " << size << "." << endl;
 }
 void quick_reversed_large_size()
 {
@@ -699,7 +699,7 @@ void quick_reversed_large_size()
     sort.quick_sort(v, 0, v.size() - 1);
     end = clock();
     if (is_sorted(v))
-        cout << "It takes quick sort " << (end - start) / CLOCKS_PER_SEC << " to solve a reversed vector with size of " << size << "." << endl;
+        cout << "It takes quick sort " << (end - start) / CLOCKS_PER_SEC << "s to solve a reversed vector with size of " << size << "." << endl;
 }
 void quick_random_large_size()
 {
@@ -712,7 +712,7 @@ void quick_random_large_size()
     sort.quick_sort(v, 0, v.size() - 1);
     end = clock();
     if (is_sorted(v))
-        cout << "It takes quick sort " << (end - start) / CLOCKS_PER_SEC << " to solve a random vector with size of " << size << "." << endl;
+        cout << "It takes quick sort " << (end - start) / CLOCKS_PER_SEC << "s to solve a random vector with size of " << size << "." << endl;
 }
 void heap_ordered_small_size()
 {
@@ -725,7 +725,7 @@ void heap_ordered_small_size()
     hp.ascendingHeapSort(v, v.size());
     end = clock();
     if (is_sorted(v))
-        cout << "It takes heap sort " << (end - start) / CLOCKS_PER_SEC << " to solve an ordered vector with size of " << size << "." << endl;
+        cout << "It takes heap sort " << (end - start) / CLOCKS_PER_SEC << "s to solve an ordered vector with size of " << size << "." << endl;
 }
 void heap_reversed_small_size()
 {
@@ -738,7 +738,7 @@ void heap_reversed_small_size()
     hp.ascendingHeapSort(v, v.size());
     end = clock();
     if (is_sorted(v))
-        cout << "It takes heap sort " << (end - start) / CLOCKS_PER_SEC << " to solve a reversed vector with size of " << size << "." << endl;
+        cout << "It takes heap sort " << (end - start) / CLOCKS_PER_SEC << "s to solve a reversed vector with size of " << size << "." << endl;
 }
 void heap_random_small_size()
 {
@@ -751,7 +751,7 @@ void heap_random_small_size()
     hp.ascendingHeapSort(v, v.size());
     end = clock();
     if (is_sorted(v))
-        cout << "It takes heap sort " << (end - start) / CLOCKS_PER_SEC << " to solve a random vector with size of " << size << "." << endl;
+        cout << "It takes heap sort " << (end - start) / CLOCKS_PER_SEC << "s to solve a random vector with size of " << size << "." << endl;
 }
 void heap_ordered_median_size()
 {
@@ -764,7 +764,7 @@ void heap_ordered_median_size()
     hp.ascendingHeapSort(v, v.size());
     end = clock();
     if (is_sorted(v))
-        cout << "It takes heap sort " << (end - start) / CLOCKS_PER_SEC << " to solve an ordered vector with size of " << size << "." << endl;
+        cout << "It takes heap sort " << (end - start) / CLOCKS_PER_SEC << "s to solve an ordered vector with size of " << size << "." << endl;
 }
 void heap_reversed_median_size()
 {
@@ -777,7 +777,7 @@ void heap_reversed_median_size()
     hp.ascendingHeapSort(v, v.size());
     end = clock();
     if (is_sorted(v))
-        cout << "It takes heap sort " << (end - start) / CLOCKS_PER_SEC << " to solve a reversed vector with size of " << size << "." << endl;
+        cout << "It takes heap sort " << (end - start) / CLOCKS_PER_SEC << "s to solve a reversed vector with size of " << size << "." << endl;
 }
 void heap_random_median_size()
 {
@@ -790,7 +790,7 @@ void heap_random_median_size()
     hp.ascendingHeapSort(v, v.size());
     end = clock();
     if (is_sorted(v))
-        cout << "It takes heap sort " << (end - start) / CLOCKS_PER_SEC << " to solve a random vector with size of " << size << "." << endl;
+        cout << "It takes heap sort " << (end - start) / CLOCKS_PER_SEC << "s to solve a random vector with size of " << size << "." << endl;
 }
 void heap_ordered_large_size()
 {
@@ -803,7 +803,7 @@ void heap_ordered_large_size()
     hp.ascendingHeapSort(v, v.size());
     end = clock();
     if (is_sorted(v))
-        cout << "It takes heap sort " << (end - start) / CLOCKS_PER_SEC << " to solve an ordered vector with size of " << size << "." << endl;
+        cout << "It takes heap sort " << (end - start) / CLOCKS_PER_SEC << "s to solve an ordered vector with size of " << size << "." << endl;
 }
 void heap_reversed_large_size()
 {
@@ -816,7 +816,7 @@ void heap_reversed_large_size()
     hp.ascendingHeapSort(v, v.size());
     end = clock();
     if (is_sorted(v))
-        cout << "It takes heap sort " << (end - start) / CLOCKS_PER_SEC << " to solve a reversed vector with size of " << size << "." << endl;
+        cout << "It takes heap sort " << (end - start) / CLOCKS_PER_SEC << "s to solve a reversed vector with size of " << size << "." << endl;
 }
 void heap_random_large_size()
 {
@@ -829,7 +829,7 @@ void heap_random_large_size()
     hp.ascendingHeapSort(v, v.size());
     end = clock();
     if (is_sorted(v))
-        cout << "It takes heap sort " << (end - start) / CLOCKS_PER_SEC << " to solve a random vector with size of " << size << "." << endl;
+        cout << "It takes heap sort " << (end - start) / CLOCKS_PER_SEC << "s to solve a random vector with size of " << size << "." << endl;
 }
 void counting_ordered_small_size()
 {
@@ -842,7 +842,7 @@ void counting_ordered_small_size()
     sort.counting_sort(v);
     end = clock();
     if (is_sorted(v))
-        cout << "It takes counting sort " << (end - start) / CLOCKS_PER_SEC << " to solve an ordered vector with size of " << size << "." << endl;
+        cout << "It takes counting sort " << (end - start) / CLOCKS_PER_SEC << "s to solve an ordered vector with size of " << size << "." << endl;
 }
 void counting_reversed_small_size()
 {
@@ -855,7 +855,7 @@ void counting_reversed_small_size()
     sort.counting_sort(v);
     end = clock();
     if (is_sorted(v))
-        cout << "It takes counting sort " << (end - start) / CLOCKS_PER_SEC << " to solve a reversed vector with size of " << size << "." << endl;
+        cout << "It takes counting sort " << (end - start) / CLOCKS_PER_SEC << "s to solve a reversed vector with size of " << size << "." << endl;
 }
 void counting_random_small_size()
 {
@@ -868,7 +868,7 @@ void counting_random_small_size()
     sort.counting_sort(v);
     end = clock();
     if (is_sorted(v))
-        cout << "It takes counting sort " << (end - start) / CLOCKS_PER_SEC << " to solve a random vector with size of " << size << "." << endl;
+        cout << "It takes counting sort " << (end - start) / CLOCKS_PER_SEC << "s to solve a random vector with size of " << size << "." << endl;
 }
 void counting_ordered_median_size()
 {
@@ -881,7 +881,7 @@ void counting_ordered_median_size()
     sort.counting_sort(v);
     end = clock();
     if (is_sorted(v))
-        cout << "It takes counting sort " << (end - start) / CLOCKS_PER_SEC << " to solve an ordered vector with size of " << size << "." << endl;
+        cout << "It takes counting sort " << (end - start) / CLOCKS_PER_SEC << "s to solve an ordered vector with size of " << size << "." << endl;
 }
 void counting_reversed_median_size()
 {
@@ -894,7 +894,7 @@ void counting_reversed_median_size()
     sort.counting_sort(v);
     end = clock();
     if (is_sorted(v))
-        cout << "It takes counting sort " << (end - start) / CLOCKS_PER_SEC << " to solve a reversed vector with size of " << size << "." << endl;
+        cout << "It takes counting sort " << (end - start) / CLOCKS_PER_SEC << "s to solve a reversed vector with size of " << size << "." << endl;
 }
 void counting_random_median_size()
 {
@@ -907,7 +907,7 @@ void counting_random_median_size()
     sort.counting_sort(v);
     end = clock();
     if (is_sorted(v))
-        cout << "It takes counting sort " << (end - start) / CLOCKS_PER_SEC << " to solve a random vector with size of " << size << "." << endl;
+        cout << "It takes counting sort " << (end - start) / CLOCKS_PER_SEC << "s to solve a random vector with size of " << size << "." << endl;
 }
 void counting_ordered_large_size()
 {
@@ -920,7 +920,7 @@ void counting_ordered_large_size()
     sort.counting_sort(v);
     end = clock();
     if (is_sorted(v))
-        cout << "It takes counting sort " << (end - start) / CLOCKS_PER_SEC << " to solve an ordered vector with size of " << size << "." << endl;
+        cout << "It takes counting sort " << (end - start) / CLOCKS_PER_SEC << "s to solve an ordered vector with size of " << size << "." << endl;
 }
 void counting_reversed_large_size()
 {
@@ -933,7 +933,7 @@ void counting_reversed_large_size()
     sort.counting_sort(v);
     end = clock();
     if (is_sorted(v))
-        cout << "It takes counting sort " << (end - start) / CLOCKS_PER_SEC << " to solve a reversed vector with size of " << size << "." << endl;
+        cout << "It takes counting sort " << (end - start) / CLOCKS_PER_SEC << "s to solve a reversed vector with size of " << size << "." << endl;
 }
 void counting_random_large_size()
 {
@@ -946,7 +946,7 @@ void counting_random_large_size()
     sort.counting_sort(v);
     end = clock();
     if (is_sorted(v))
-        cout << "It takes counting sort " << (end - start) / CLOCKS_PER_SEC << " to solve a random vector with size of " << size << "." << endl;
+        cout << "It takes counting sort " << (end - start) / CLOCKS_PER_SEC << "s to solve a random vector with size of " << size << "." << endl;
 }
 void radix_ordered_small_size()
 {
@@ -959,7 +959,7 @@ void radix_ordered_small_size()
     sort.radix_sort(v);
     end = clock();
     if (is_sorted(v))
-        cout << "It takes radix sort " << (end - start) / CLOCKS_PER_SEC << " to solve an ordered vector with size of " << size << "." << endl;
+        cout << "It takes radix sort " << (end - start) / CLOCKS_PER_SEC << "s to solve an ordered vector with size of " << size << "." << endl;
 }
 void radix_reversed_small_size()
 {
@@ -972,7 +972,7 @@ void radix_reversed_small_size()
     sort.radix_sort(v);
     end = clock();
     if (is_sorted(v))
-        cout << "It takes radix sort " << (end - start) / CLOCKS_PER_SEC << " to solve a reversed vector with size of " << size << "." << endl;
+        cout << "It takes radix sort " << (end - start) / CLOCKS_PER_SEC << "s to solve a reversed vector with size of " << size << "." << endl;
 }
 void radix_random_small_size()
 {
@@ -985,7 +985,7 @@ void radix_random_small_size()
     sort.radix_sort(v);
     end = clock();
     if (is_sorted(v))
-        cout << "It takes radix sort " << (end - start) / CLOCKS_PER_SEC << " to solve a random vector with size of " << size << "." << endl;
+        cout << "It takes radix sort " << (end - start) / CLOCKS_PER_SEC << "s to solve a random vector with size of " << size << "." << endl;
 }
 void radix_ordered_median_size()
 {
@@ -998,7 +998,7 @@ void radix_ordered_median_size()
     sort.radix_sort(v);
     end = clock();
     if (is_sorted(v))
-        cout << "It takes radix sort " << (end - start) / CLOCKS_PER_SEC << " to solve an ordered vector with size of " << size << "." << endl;
+        cout << "It takes radix sort " << (end - start) / CLOCKS_PER_SEC << "s to solve an ordered vector with size of " << size << "." << endl;
 }
 void radix_reversed_median_size()
 {
@@ -1011,7 +1011,7 @@ void radix_reversed_median_size()
     sort.radix_sort(v);
     end = clock();
     if (is_sorted(v))
-        cout << "It takes radix sort " << (end - start) / CLOCKS_PER_SEC << " to solve a reversed vector with size of " << size << "." << endl;
+        cout << "It takes radix sort " << (end - start) / CLOCKS_PER_SEC << "s to solve a reversed vector with size of " << size << "." << endl;
 }
 void radix_random_median_size()
 {
@@ -1024,7 +1024,7 @@ void radix_random_median_size()
     sort.radix_sort(v);
     end = clock();
     if (is_sorted(v))
-        cout << "It takes radix sort " << (end - start) / CLOCKS_PER_SEC << " to solve a random vector with size of " << size << "." << endl;
+        cout << "It takes radix sort " << (end - start) / CLOCKS_PER_SEC << "s to solve a random vector with size of " << size << "." << endl;
 }
 void radix_ordered_large_size()
 {
@@ -1037,7 +1037,7 @@ void radix_ordered_large_size()
     sort.radix_sort(v);
     end = clock();
     if (is_sorted(v))
-        cout << "It takes radix sort " << (end - start) / CLOCKS_PER_SEC << " to solve an ordered vector with size of " << size << "." << endl;
+        cout << "It takes radix sort " << (end - start) / CLOCKS_PER_SEC << "s to solve an ordered vector with size of " << size << "." << endl;
 }
 void radix_reversed_large_size()
 {
@@ -1050,7 +1050,7 @@ void radix_reversed_large_size()
     sort.radix_sort(v);
     end = clock();
     if (is_sorted(v))
-        cout << "It takes radix sort " << (end - start) / CLOCKS_PER_SEC << " to solve a reversed vector with size of " << size << "." << endl;
+        cout << "It takes radix sort " << (end - start) / CLOCKS_PER_SEC << "s to solve a reversed vector with size of " << size << "." << endl;
 }
 void radix_random_large_size()
 {
@@ -1063,5 +1063,5 @@ void radix_random_large_size()
     sort.radix_sort(v);
     end = clock();
     if (is_sorted(v))
-        cout << "It takes radix sort " << (end - start) / CLOCKS_PER_SEC << " to solve a random vector with size of " << size << "." << endl;
+        cout << "It takes radix sort " << (end - start) / CLOCKS_PER_SEC << "s to solve a random vector with size of " << size << "." << endl;
 }
