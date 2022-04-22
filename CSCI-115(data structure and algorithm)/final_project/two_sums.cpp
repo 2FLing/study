@@ -32,7 +32,7 @@ bool two_sum_evolve(vector<int> v, int sum)
         if (v[i] > size)
             size = v[i];
     }
-    vector<int> temp(size);
+    vector<int> temp(size+1);
     for (int i = 0; i < v.size(); i++)
     {
         if (temp[sum - v[i]] != 0)
