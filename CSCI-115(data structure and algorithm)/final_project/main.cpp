@@ -125,7 +125,10 @@ bool is_sorted(vector<int> v)
     for (int i = 0; i < v.size() - 1; i++)
     {
         if (v[i + 1] < v[i])
-        sorted = false;
+        {
+            sorted = false;
+            break;
+        }
     }
     return sorted;
 }
