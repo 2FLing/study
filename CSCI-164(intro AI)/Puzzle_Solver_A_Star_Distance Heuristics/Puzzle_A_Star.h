@@ -139,7 +139,6 @@ pair<string, int> solve_puzzle(string puzzle, string goal)
         {
             res.first = get_path(current_state);
             res.second = cal_closed_node(close_list);
-            print_process(current_state);
             break;
         }
         while (current_state && close_list[current_state->get_val()] != 0)

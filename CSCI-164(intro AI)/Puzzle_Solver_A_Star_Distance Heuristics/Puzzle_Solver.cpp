@@ -2,11 +2,13 @@
 #include "Pqueue.h"
 #include <stdio.h>
 #include <iostream>
+#include <time.h>
 using namespace std;
 int main()
 {
     string puzzle, goal;
     pair<string, int> res;
+    float start, end;
     while (true)
     {
         cout << "Enter your puzzle(enter \'q\' to quit.) : ";
@@ -15,13 +17,17 @@ int main()
             break;
         cout << "Enter your goal:";
         getline(cin, goal);
+        start = clock();
         res = solve_puzzle(puzzle, goal);
+        end = clock();
         if (test_solution(puzzle, res.first) == goal)
             cout << "For solving this puzzle the movement will be " << res.first << " and it expanded " << res.second << " number of nodes while solving this puzzle." << endl;
+        cout << "It takes " << (end - start) / CLOCKS_PER_SEC << "s to solve the puzzle." << endl;
         cout << "-------------------------------------------------------------------" << endl;
     }
     return 0;
 }
+
 // goal1: 123456780
 // goal2: 123456789ABCDEF0
 
@@ -46,7 +52,14 @@ int main()
     "158274036" --output: urrdllurdlurulddrrullurrddllururdlldrruldruulddruldlurruldruldldrrulurddluruldrulldrdluurdruldldrruuldruldrdluurdd and it expanded 477 number of nodes
     "130458726" --output: ldrdluurddlurulddr and it expanded 42 number of nodes
 
+    
+    3x3 Easy: 236548107
 
+    3x3 Hard: 850361724
+
+    4x4 Easy: 1304528B96A7DEFC
+
+    4x4 Hard: 53627140D9ACEB8F
     EASY:
     "16235A749C08DEBF" --output: luurrddldr and it expanded 10 number of nodes
     "0634217859ABDEFC"  --output: drulddrrrd and it expanded 10 number of nodes
@@ -55,7 +68,7 @@ int main()
     "12345678D9CFEBA0" --output: uldllurrdr and it expanded 13 number of nodes
 
     DIFFICULT:
-    "71A92CE03DB4658F" 
+    "71A92CE03DB4658F"
     --output:
     dlullddruldrulurrdrullldrdlurdluuurdlddruldrulurrrdlulldrrrullurdru
     llldrrurddlldlurrruuldllddrulurrurddldllurdruruuldllurrrddldlluurrd
@@ -552,12 +565,12 @@ int main()
     drdluruldrdluuurrdllddruldrulurruldldrdlurdluurrulldddruldruluurdld
     rdlurdluurrulldddruluurrdldldrrululdrdluurrrdllldrurrullurdluldrrrd
     llulurdrulldrddlurrdlluuurrdluldddrruullurrdluldddrulurdlurdrdluuld
-    rulurdrulldrdlurddrulurddluluurrdlurdlurdlldrdruuuldldrrdlulurddrr 
-    and it expanded 161202 
+    rulurdrulldrdlurddrulurddluluurrdlurdlurdlldrdruuuldldrrdlulurddrr
+    and it expanded 161202
 
     "02348697DF5A1EBC" --output : dddrurdlluuurddldruuulddrdluuurdldruuldddrrullurdrdllurulddrruldluurrdlurdluldrruldlurrdllurdruldrrulllddrururdlldluurrrdlurdlullddrurruldldluurdrrullldrrurdlllurdrrulllddrruurdldlluurdrrulllddrurdlluurrrdllulddrurdlluurdrdlurrulllddrrullurrrdldluuldrdlurdrulldrulurddluruldrrdluldrrullurdrdllurdrurulllddrurdlluurrrdlluldrrrd and it expanded 17360 number of nodes
     "39A1D0EC7BF86452"
-    -- output: 
+    -- output:
     ddrurdllurdrdluuldrdluurddluuurdddruululddrurdluld
 rruldluurddlurulddrulurddldruulddrulurrdldluurdlur
 drullddruurdldluurdrullddruuldrdluurddlurulddruuld
