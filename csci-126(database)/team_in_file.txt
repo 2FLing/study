@@ -1,0 +1,60 @@
+Phoenix Suns
+Golden State Warriors
+Memphis Grizzlies
+Miami Heat
+Chicago Bulls
+Milwaukee Bucks
+Cleveland Cavaliers
+Philadelphia 76ers
+Utah Jazz
+Dallas Mavericks
+Toronto Raptors
+Brooklyn Nets
+Denver Nuggets
+Boston Celtics
+Minnesota Timberwolves
+Charlotte Hornets
+LA Clippers
+Los Angeles Lakers
+Atlanta Hawks
+Washington Wizards
+New York Knicks
+New Orleans Pelicans
+Portland Trail Blazers
+San Antonio Spurs
+Sacramento Kings
+Indiana Pacers
+Oklahoma City Thunder
+Houston Rockets
+Detroit Pistons
+Orlando Magic
+Milwaukee Bucks
+Toronto Raptors
+Los Angeles Lakers
+LA Clippers
+Boston Celtics
+Denver Nuggets
+Indiana Pacers
+Houston Rockets
+Oklahoma City Thunder
+Utah Jazz
+Miami Heat
+Philadelphia 76ers
+Dallas Mavericks
+Brooklyn Nets
+Portland Trail Blazers
+Memphis Grizzlies
+Phoenix Suns
+Orlando Magic
+San Antonio Spurs
+Sacramento Kings
+New Orleans Pelicans
+Charlotte Hornets
+Washington Wizards
+Chicago Bulls
+New York Knicks
+Detroit Pistons
+Atlanta Hawks
+Minnesota Timberwolves
+Cleveland Cavaliers
+Golden State Warriors
