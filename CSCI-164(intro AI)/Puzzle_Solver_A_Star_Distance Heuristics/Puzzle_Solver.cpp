@@ -59,7 +59,7 @@ int main()
 
     4x4 Easy: 1304528B96A7DEFC
 
-    4x4 Hard: 53627140D9ACEB8F
+    4x4 Hard: cd
     EASY:
     "16235A749C08DEBF" --output: luurrddldr and it expanded 10 number of nodes
     "0634217859ABDEFC"  --output: drulddrrrd and it expanded 10 number of nodes
