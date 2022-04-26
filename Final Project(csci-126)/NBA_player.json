@@ -1,0 +1,3806 @@
+[
+ {
+  "id": 3790,
+  "name": "Fred VanVleet",
+  "college": "Wichita State",
+  "country": "USA"
+ },
+ {
+  "id": 3797,
+  "name": "Furkan Korkmaz",
+  "college": null,
+  "country": "Turkey"
+ },
+ {
+  "id": 3800,
+  "name": "Gabe Vincent",
+  "college": "California-Santa Barbara",
+  "country": "USA"
+ },
+ {
+  "id": 3806,
+  "name": "Garrett Temple",
+  "college": "Louisiana State",
+  "country": "USA"
+ },
+ {
+  "id": 3810,
+  "name": "Garrison Mathews",
+  "college": "Lipscomb",
+  "country": "USA"
+ },
+ {
+  "id": 3813,
+  "name": "Gary Clark",
+  "college": "Cincinnati",
+  "country": "USA"
+ },
+ {
+  "id": 3816,
+  "name": "Gary Harris",
+  "college": "Michigan State",
+  "country": "USA"
+ },
+ {
+  "id": 3819,
+  "name": "Gary Payton II",
+  "college": "Oregon State",
+  "country": "USA"
+ },
+ {
+  "id": 3823,
+  "name": "Gary Trent Jr.",
+  "college": "Duke",
+  "country": "USA"
+ },
+ {
+  "id": 3826,
+  "name": "George Hill",
+  "college": "Indiana-Purdue Indianapolis",
+  "country": "USA"
+ },
+ {
+  "id": 3829,
+  "name": "Georges Niang",
+  "college": "Iowa State",
+  "country": "USA"
+ },
+ {
+  "id": 3832,
+  "name": "Giannis Antetokounmpo",
+  "college": null,
+  "country": "Greece"
+ },
+ {
+  "id": 3836,
+  "name": "Glenn Robinson III",
+  "college": "Michigan",
+  "country": "USA"
+ },
+ {
+  "id": 3839,
+  "name": "Goga Bitadze",
+  "college": null,
+  "country": "Georgia"
+ },
+ {
+  "id": 3842,
+  "name": "Goran Dragic",
+  "college": null,
+  "country": "Slovenia"
+ },
+ {
+  "id": 3846,
+  "name": "Gordon Hayward",
+  "college": "Butler",
+  "country": "USA"
+ },
+ {
+  "id": 3849,
+  "name": "Gorgui Dieng",
+  "college": "Louisville",
+  "country": "Senegal"
+ },
+ {
+  "id": 3855,
+  "name": "Grant Williams",
+  "college": "Tennessee",
+  "country": "USA"
+ },
+ {
+  "id": 3859,
+  "name": "Grayson Allen",
+  "college": "Duke",
+  "country": "USA"
+ },
+ {
+  "id": 3865,
+  "name": "Hamidou Diallo",
+  "college": "Kentucky",
+  "country": "USA"
+ },
+ {
+  "id": 3868,
+  "name": "Harrison Barnes",
+  "college": "North Carolina",
+  "country": "USA"
+ },
+ {
+  "id": 3872,
+  "name": "Harry Giles III",
+  "college": "Duke",
+  "country": "USA"
+ },
+ {
+  "id": 3875,
+  "name": "Hassan Whiteside",
+  "college": "Marshall",
+  "country": "USA"
+ },
+ {
+  "id": 3878,
+  "name": "Henry Ellenson",
+  "college": "Marquette",
+  "country": "USA"
+ },
+ {
+  "id": 3881,
+  "name": "Ian Mahinmi",
+  "college": null,
+  "country": "France"
+ },
+ {
+  "id": 3885,
+  "name": "Ignas Brazdeikis",
+  "college": "Michigan",
+  "country": "Canada"
+ },
+ {
+  "id": 3888,
+  "name": "Iman Shumpert",
+  "college": "Georgia Tech",
+  "country": "USA"
+ },
+ {
+  "id": 3895,
+  "name": "Isaac Bonga",
+  "college": null,
+  "country": "Germany"
+ },
+ {
+  "id": 3901,
+  "name": "Isaiah Hartenstein",
+  "college": null,
+  "country": "Germany"
+ },
+ {
+  "id": 3787,
+  "name": "Frank Ntilikina",
+  "college": null,
+  "country": "France"
+ },
+ {
+  "id": 3908,
+  "name": "Isaiah Roby",
+  "college": "Nebraska-Lincoln",
+  "country": "USA"
+ },
+ {
+  "id": 3784,
+  "name": "Frank Mason",
+  "college": "Kansas",
+  "country": "USA"
+ },
+ {
+  "id": 3777,
+  "name": "Frank Jackson",
+  "college": "Duke",
+  "country": "USA"
+ },
+ {
+  "id": 3669,
+  "name": "Domantas Sabonis",
+  "college": "Gonzaga",
+  "country": "Lithuania"
+ },
+ {
+  "id": 3672,
+  "name": "Donovan Mitchell",
+  "college": "Louisville",
+  "country": "USA"
+ },
+ {
+  "id": 3676,
+  "name": "Donta Hall",
+  "college": "Alabama",
+  "country": "USA"
+ },
+ {
+  "id": 3679,
+  "name": "Donte DiVincenzo",
+  "college": "Villanova",
+  "country": "USA"
+ },
+ {
+  "id": 3682,
+  "name": "Dorian Finney-Smith",
+  "college": "Florida",
+  "country": "USA"
+ },
+ {
+  "id": 3686,
+  "name": "Doug McDermott",
+  "college": "Creighton",
+  "country": "USA"
+ },
+ {
+  "id": 3689,
+  "name": "Dragan Bender",
+  "college": null,
+  "country": "Croatia"
+ },
+ {
+  "id": 3692,
+  "name": "Draymond Green",
+  "college": "Michigan State",
+  "country": "USA"
+ },
+ {
+  "id": 3695,
+  "name": "Drew Eubanks",
+  "college": "Oregon State",
+  "country": "USA"
+ },
+ {
+  "id": 3699,
+  "name": "Duncan Robinson",
+  "college": "Michigan",
+  "country": "USA"
+ },
+ {
+  "id": 3702,
+  "name": "Dusty Hannahs",
+  "college": "Arkansas",
+  "country": "USA"
+ },
+ {
+  "id": 3705,
+  "name": "Dwayne Bacon",
+  "college": "Florida State",
+  "country": "USA"
+ },
+ {
+  "id": 3708,
+  "name": "Dwight Howard",
+  "college": null,
+  "country": "USA"
+ },
+ {
+  "id": 3712,
+  "name": "Dwight Powell",
+  "college": "Stanford",
+  "country": "Canada"
+ },
+ {
+  "id": 3718,
+  "name": "Dzanan Musa",
+  "college": null,
+  "country": "Bosnia and Herzegovina"
+ },
+ {
+  "id": 3721,
+  "name": "E'Twaun Moore",
+  "college": "Purdue",
+  "country": "USA"
+ },
+ {
+  "id": 3725,
+  "name": "Ed Davis",
+  "college": "North Carolina",
+  "country": "USA"
+ },
+ {
+  "id": 3728,
+  "name": "Edmond Sumner",
+  "college": "Xavier",
+  "country": "USA"
+ },
+ {
+  "id": 3731,
+  "name": "Elfrid Payton",
+  "college": "Louisana-Lafayette",
+  "country": "USA"
+ },
+ {
+  "id": 3735,
+  "name": "Elie Okobo",
+  "college": null,
+  "country": "France"
+ },
+ {
+  "id": 3744,
+  "name": "Emmanuel Mudiay",
+  "college": null,
+  "country": "DRC"
+ },
+ {
+  "id": 3748,
+  "name": "Enes Kanter",
+  "college": null,
+  "country": "Turkey"
+ },
+ {
+  "id": 3751,
+  "name": "Eric Bledsoe",
+  "college": "Kentucky",
+  "country": "USA"
+ },
+ {
+  "id": 3754,
+  "name": "Eric Gordon",
+  "college": "Indiana",
+  "country": "USA"
+ },
+ {
+  "id": 3757,
+  "name": "Eric Mika",
+  "college": "Brigham Young",
+  "country": "USA"
+ },
+ {
+  "id": 3761,
+  "name": "Eric Paschall",
+  "college": "Villanova",
+  "country": "USA"
+ },
+ {
+  "id": 3764,
+  "name": "Ersan Ilyasova",
+  "college": null,
+  "country": "Turkey"
+ },
+ {
+  "id": 3767,
+  "name": "Evan Fournier",
+  "college": null,
+  "country": "France"
+ },
+ {
+  "id": 3770,
+  "name": "Evan Turner",
+  "college": "Ohio State",
+  "country": "USA"
+ },
+ {
+  "id": 3780,
+  "name": "Frank Kaminsky",
+  "college": "Wisconsin",
+  "country": "USA"
+ },
+ {
+  "id": 3666,
+  "name": "Dion Waiters",
+  "college": "Syracuse",
+  "country": "USA"
+ },
+ {
+  "id": 3914,
+  "name": "Isaiah Thomas",
+  "college": "Washington",
+  "country": "USA"
+ },
+ {
+  "id": 3921,
+  "name": "Ivica Zubac",
+  "college": null,
+  "country": "Croatia"
+ },
+ {
+  "id": 4061,
+  "name": "Jaylen Hoard",
+  "college": "Wake Forest",
+  "country": "France"
+ },
+ {
+  "id": 4064,
+  "name": "Jaylen Nowell",
+  "college": "Washington",
+  "country": "USA"
+ },
+ {
+  "id": 4068,
+  "name": "Jayson Tatum",
+  "college": "Duke",
+  "country": "USA"
+ },
+ {
+  "id": 4071,
+  "name": "Jeff Green",
+  "college": "Georgetown",
+  "country": "USA"
+ },
+ {
+  "id": 4074,
+  "name": "Jeff Teague",
+  "college": "Wake Forest",
+  "country": "USA"
+ },
+ {
+  "id": 4077,
+  "name": "Jerami Grant",
+  "college": "Syracuse",
+  "country": "USA"
+ },
+ {
+  "id": 4081,
+  "name": "Jeremiah Martin",
+  "college": "Memphis",
+  "country": "USA"
+ },
+ {
+  "id": 4084,
+  "name": "Jeremy Lamb",
+  "college": "Connecticut",
+  "country": "USA"
+ },
+ {
+  "id": 4087,
+  "name": "Jeremy Pargo",
+  "college": "Gonzaga",
+  "country": "USA"
+ },
+ {
+  "id": 4090,
+  "name": "Jerian Grant",
+  "college": "Notre Dame",
+  "country": "USA"
+ },
+ {
+  "id": 4094,
+  "name": "Jerome Robinson",
+  "college": "Boston College",
+  "country": "USA"
+ },
+ {
+  "id": 4097,
+  "name": "Jevon Carter",
+  "college": "West Virginia",
+  "country": "USA"
+ },
+ {
+  "id": 4100,
+  "name": "Jimmy Butler",
+  "college": "Marquette",
+  "country": "USA"
+ },
+ {
+  "id": 4104,
+  "name": "Joakim Noah",
+  "college": "Florida",
+  "country": "USA"
+ },
+ {
+  "id": 4107,
+  "name": "Joe Chealey",
+  "college": "College of Charleston",
+  "country": "USA"
+ },
+ {
+  "id": 4110,
+  "name": "Joe Harris",
+  "college": "Virginia",
+  "country": "USA"
+ },
+ {
+  "id": 4113,
+  "name": "Joe Ingles",
+  "college": null,
+  "country": "Australia"
+ },
+ {
+  "id": 4117,
+  "name": "Joel Embiid",
+  "college": "Kansas",
+  "country": "Cameroon"
+ },
+ {
+  "id": 4120,
+  "name": "John Collins",
+  "college": "Wake Forest",
+  "country": "USA"
+ },
+ {
+  "id": 4123,
+  "name": "John Henson",
+  "college": "North Carolina",
+  "country": "USA"
+ },
+ {
+  "id": 4126,
+  "name": "John Konchar",
+  "college": "Indiana-Purdue Fort Wayne",
+  "country": "USA"
+ },
+ {
+  "id": 4133,
+  "name": "Johnathan Motley",
+  "college": "Baylor",
+  "country": "USA"
+ },
+ {
+  "id": 4136,
+  "name": "Johnathan Williams",
+  "college": "Gonzaga",
+  "country": "USA"
+ },
+ {
+  "id": 4139,
+  "name": "Jonah Bolden",
+  "college": "UCLA",
+  "country": "Australia"
+ },
+ {
+  "id": 4143,
+  "name": "Jonas Valanciunas",
+  "college": null,
+  "country": "Lithuania"
+ },
+ {
+  "id": 4146,
+  "name": "Jonathan Isaac",
+  "college": "Florida State",
+  "country": "USA"
+ },
+ {
+  "id": 4153,
+  "name": "Jordan Bell",
+  "college": "Oregon",
+  "country": "USA"
+ },
+ {
+  "id": 4156,
+  "name": "Jordan Bone",
+  "college": "Tennessee",
+  "country": "USA"
+ },
+ {
+  "id": 4159,
+  "name": "Jordan Clarkson",
+  "college": "Missouri",
+  "country": "USA"
+ },
+ {
+  "id": 4058,
+  "name": "Jaylen Brown",
+  "college": "California",
+  "country": "USA"
+ },
+ {
+  "id": 3917,
+  "name": "Ish Smith",
+  "college": "Wake Forest",
+  "country": "USA"
+ },
+ {
+  "id": 4048,
+  "name": "Jaxson Hayes",
+  "college": "Texas-Austin",
+  "country": "USA"
+ },
+ {
+  "id": 4041,
+  "name": "Jarrod Uthoff",
+  "college": "Iowa",
+  "country": "USA"
+ },
+ {
+  "id": 3924,
+  "name": "J.J. Barea",
+  "college": "Northeastern",
+  "country": "Puerto Rico"
+ },
+ {
+  "id": 3927,
+  "name": "J.P. Macura",
+  "college": "Xavier",
+  "country": "USA"
+ },
+ {
+  "id": 3930,
+  "name": "JJ Redick",
+  "college": "Duke",
+  "country": "USA"
+ },
+ {
+  "id": 3934,
+  "name": "JR Smith",
+  "college": "No College",
+  "country": "USA"
+ },
+ {
+  "id": 3937,
+  "name": "Ja Morant",
+  "college": "Murray State",
+  "country": "USA"
+ },
+ {
+  "id": 3940,
+  "name": "JaKarr Sampson",
+  "college": "St. John's",
+  "country": "USA"
+ },
+ {
+  "id": 3944,
+  "name": "JaMychal Green",
+  "college": "Alabama",
+  "country": "USA"
+ },
+ {
+  "id": 3947,
+  "name": "JaVale McGee",
+  "college": "Nevada-Reno",
+  "country": "USA"
+ },
+ {
+  "id": 3950,
+  "name": "Jabari Parker",
+  "college": "Duke",
+  "country": "USA"
+ },
+ {
+  "id": 3953,
+  "name": "Jacob Evans",
+  "college": "Cincinnati",
+  "country": "USA"
+ },
+ {
+  "id": 3960,
+  "name": "Jae Crowder",
+  "college": "Marquette",
+  "country": "USA"
+ },
+ {
+  "id": 3966,
+  "name": "Jahlil Okafor",
+  "college": "Duke",
+  "country": "USA"
+ },
+ {
+  "id": 3973,
+  "name": "Jake Layman",
+  "college": "Maryland",
+  "country": "USA"
+ },
+ {
+  "id": 3976,
+  "name": "Jakob Poeltl",
+  "college": "Utah",
+  "country": "Austria"
+ },
+ {
+  "id": 3979,
+  "name": "Jalen Brunson",
+  "college": "Villanova",
+  "country": "USA"
+ },
+ {
+  "id": 3986,
+  "name": "Jalen Lecque",
+  "college": null,
+  "country": "USA"
+ },
+ {
+  "id": 3989,
+  "name": "Jalen McDaniels",
+  "college": "San Diego State",
+  "country": "USA"
+ },
+ {
+  "id": 3996,
+  "name": "Jamal Crawford",
+  "college": "Michigan",
+  "country": "USA"
+ },
+ {
+  "id": 3999,
+  "name": "Jamal Murray",
+  "college": "Kentucky",
+  "country": "Canada"
+ },
+ {
+  "id": 4002,
+  "name": "James Ennis III",
+  "college": "California State-Long Beach",
+  "country": "USA"
+ },
+ {
+  "id": 4006,
+  "name": "James Harden",
+  "college": "Arizona State",
+  "country": "USA"
+ },
+ {
+  "id": 4009,
+  "name": "James Johnson",
+  "college": "Wake Forest",
+  "country": "USA"
+ },
+ {
+  "id": 4019,
+  "name": "Jared Dudley",
+  "college": "Boston College",
+  "country": "USA"
+ },
+ {
+  "id": 4022,
+  "name": "Jared Harper",
+  "college": "Auburn",
+  "country": "USA"
+ },
+ {
+  "id": 4025,
+  "name": "Jaren Jackson Jr.",
+  "college": "Michigan State",
+  "country": "USA"
+ },
+ {
+  "id": 4028,
+  "name": "Jarred Vanderbilt",
+  "college": "Kentucky",
+  "country": "USA"
+ },
+ {
+  "id": 4032,
+  "name": "Jarrell Brantley",
+  "college": "College of Charleston",
+  "country": "USA"
+ },
+ {
+  "id": 4035,
+  "name": "Jarrett Allen",
+  "college": "Texas-Austin",
+  "country": "USA"
+ },
+ {
+  "id": 4038,
+  "name": "Jarrett Culver",
+  "college": "Texas Tech",
+  "country": "USA"
+ },
+ {
+  "id": 4045,
+  "name": "Javonte Green",
+  "college": "Radford",
+  "country": "USA"
+ },
+ {
+  "id": 3663,
+  "name": "Dillon Brooks",
+  "college": "Oregon",
+  "country": "Canada"
+ },
+ {
+  "id": 3656,
+  "name": "Dewayne Dedmon",
+  "college": "Southern California",
+  "country": "USA"
+ },
+ {
+  "id": 3653,
+  "name": "Dewan Hernandez",
+  "college": "Miami",
+  "country": "USA"
+ },
+ {
+  "id": 3281,
+  "name": "Bismack Biyombo",
+  "college": null,
+  "country": "DRC"
+ },
+ {
+  "id": 3284,
+  "name": "Blake Griffin",
+  "college": "Oklahoma",
+  "country": "USA"
+ },
+ {
+  "id": 3287,
+  "name": "Boban Marjanovic",
+  "college": null,
+  "country": "Serbia"
+ },
+ {
+  "id": 3290,
+  "name": "Bobby Portis",
+  "college": "Arkansas",
+  "country": "USA"
+ },
+ {
+  "id": 3294,
+  "name": "Bogdan Bogdanovic",
+  "college": null,
+  "country": "Serbia"
+ },
+ {
+  "id": 3297,
+  "name": "Bojan Bogdanovic",
+  "college": null,
+  "country": "Croatia"
+ },
+ {
+  "id": 3300,
+  "name": "Bol Bol",
+  "college": "Oregon",
+  "country": "Sudan"
+ },
+ {
+  "id": 3303,
+  "name": "Brad Wanamaker",
+  "college": "Pittsburgh",
+  "country": "USA"
+ },
+ {
+  "id": 3307,
+  "name": "Bradley Beal",
+  "college": "Florida",
+  "country": "USA"
+ },
+ {
+  "id": 3310,
+  "name": "Brandon Clarke",
+  "college": "Gonzaga",
+  "country": "Canada"
+ },
+ {
+  "id": 3313,
+  "name": "Brandon Goodwin",
+  "college": "Florida Gulf Coast",
+  "country": "USA"
+ },
+ {
+  "id": 3317,
+  "name": "Brandon Ingram",
+  "college": "Duke",
+  "country": "USA"
+ },
+ {
+  "id": 3320,
+  "name": "Brandon Knight",
+  "college": "Kentucky",
+  "country": "USA"
+ },
+ {
+  "id": 3323,
+  "name": "Brian Bowen II",
+  "college": null,
+  "country": "USA"
+ },
+ {
+  "id": 3330,
+  "name": "Brook Lopez",
+  "college": "Stanford",
+  "country": "USA"
+ },
+ {
+  "id": 3333,
+  "name": "Bruce Brown",
+  "college": "Miami",
+  "country": "USA"
+ },
+ {
+  "id": 3336,
+  "name": "Bruno Caboclo",
+  "college": null,
+  "country": "Brazil"
+ },
+ {
+  "id": 3339,
+  "name": "Bruno Fernando",
+  "college": "Maryland",
+  "country": "Angola"
+ },
+ {
+  "id": 3343,
+  "name": "Bryn Forbes",
+  "college": "Michigan State",
+  "country": "USA"
+ },
+ {
+  "id": 3346,
+  "name": "Buddy Hield",
+  "college": "Oklahoma",
+  "country": "Bahamas"
+ },
+ {
+  "id": 3352,
+  "name": "CJ McCollum",
+  "college": "Lehigh",
+  "country": "USA"
+ },
+ {
+  "id": 3356,
+  "name": "CJ Miles",
+  "college": null,
+  "country": "USA"
+ },
+ {
+  "id": 3359,
+  "name": "Caleb Martin",
+  "college": "Nevada-Reno",
+  "country": "USA"
+ },
+ {
+  "id": 3362,
+  "name": "Caleb Swanigan",
+  "college": "Purdue",
+  "country": "USA"
+ },
+ {
+  "id": 3366,
+  "name": "Cam Reddish",
+  "college": "Duke",
+  "country": "USA"
+ },
+ {
+  "id": 3369,
+  "name": "Cameron Johnson",
+  "college": "North Carolina",
+  "country": "USA"
+ },
+ {
+  "id": 3375,
+  "name": "Cameron Payne",
+  "college": "Murray State",
+  "country": "USA"
+ },
+ {
+  "id": 3382,
+  "name": "Caris LeVert",
+  "college": "Michigan",
+  "country": "USA"
+ },
+ {
+  "id": 3385,
+  "name": "Carmelo Anthony",
+  "college": "Syracuse",
+  "country": "USA"
+ },
+ {
+  "id": 3277,
+  "name": "Ben Simmons",
+  "college": "Louisiana State",
+  "country": "Australia"
+ },
+ {
+  "id": 3388,
+  "name": "Carsen Edwards",
+  "college": "Purdue",
+  "country": "USA"
+ },
+ {
+  "id": 3274,
+  "name": "Ben McLemore",
+  "college": "Kansas",
+  "country": "USA"
+ },
+ {
+  "id": 3268,
+  "name": "BJ Johnson",
+  "college": "La Salle",
+  "country": "USA"
+ },
+ {
+  "id": 3140,
+  "name": "Aaron Holiday",
+  "college": "UCLA",
+  "country": "USA"
+ },
+ {
+  "id": 3147,
+  "name": "Abdel Nader",
+  "college": "Iowa State",
+  "country": "Egypt"
+ },
+ {
+  "id": 3150,
+  "name": "Adam Mokoka",
+  "college": null,
+  "country": "France"
+ },
+ {
+  "id": 3153,
+  "name": "Admiral Schofield",
+  "college": "Tennessee",
+  "country": "United Kingdom"
+ },
+ {
+  "id": 3157,
+  "name": "Al Horford",
+  "college": "Florida",
+  "country": "Dominican Republic"
+ },
+ {
+  "id": 3160,
+  "name": "Al-Farouq Aminu",
+  "college": "Wake Forest",
+  "country": "USA"
+ },
+ {
+  "id": 3163,
+  "name": "Alec Burks",
+  "college": "Colorado",
+  "country": "USA"
+ },
+ {
+  "id": 3170,
+  "name": "Alen Smailagic",
+  "college": null,
+  "country": "Serbia"
+ },
+ {
+  "id": 3173,
+  "name": "Alex Caruso",
+  "college": "Texas A&M",
+  "country": "USA"
+ },
+ {
+  "id": 3176,
+  "name": "Alex Len",
+  "college": "Maryland",
+  "country": "Ukraine"
+ },
+ {
+  "id": 3179,
+  "name": "Alfonzo McKinnie",
+  "college": "Wisconsin-Green Bay",
+  "country": "USA"
+ },
+ {
+  "id": 3183,
+  "name": "Alize Johnson",
+  "college": "Missouri State",
+  "country": "USA"
+ },
+ {
+  "id": 3186,
+  "name": "Allen Crabbe",
+  "college": "California",
+  "country": "USA"
+ },
+ {
+  "id": 3189,
+  "name": "Allonzo Trier",
+  "college": "Arizona",
+  "country": "USA"
+ },
+ {
+  "id": 3196,
+  "name": "Amile Jefferson",
+  "college": "Duke",
+  "country": "USA"
+ },
+ {
+  "id": 3199,
+  "name": "Amir Coffey",
+  "college": "Minnesota",
+  "country": "USA"
+ },
+ {
+  "id": 3206,
+  "name": "Andre Drummond",
+  "college": "Connecticut",
+  "country": "USA"
+ },
+ {
+  "id": 3209,
+  "name": "Andre Iguodala",
+  "college": "Arizona",
+  "country": "USA"
+ },
+ {
+  "id": 3212,
+  "name": "Andre Roberson",
+  "college": "Colorado",
+  "country": "USA"
+ },
+ {
+  "id": 3215,
+  "name": "Andrew Wiggins",
+  "college": "Kansas",
+  "country": "Canada"
+ },
+ {
+  "id": 3219,
+  "name": "Anfernee Simons",
+  "college": null,
+  "country": "USA"
+ },
+ {
+  "id": 3222,
+  "name": "Ante Zizic",
+  "college": null,
+  "country": "Croatia"
+ },
+ {
+  "id": 3225,
+  "name": "Anthony Davis",
+  "college": "Kentucky",
+  "country": "USA"
+ },
+ {
+  "id": 3238,
+  "name": "Anthony Tolliver",
+  "college": "Creighton",
+  "country": "USA"
+ },
+ {
+  "id": 3241,
+  "name": "Antonius Cleveland",
+  "college": "S.E. Missouri",
+  "country": "USA"
+ },
+ {
+  "id": 3245,
+  "name": "Anzejs Pasecniks",
+  "college": null,
+  "country": "Latvia"
+ },
+ {
+  "id": 3251,
+  "name": "Aron Baynes",
+  "college": "Washington State",
+  "country": "Australia"
+ },
+ {
+  "id": 3258,
+  "name": "Austin Rivers",
+  "college": "Duke",
+  "country": "USA"
+ },
+ {
+  "id": 3261,
+  "name": "Avery Bradley",
+  "college": "Texas-Austin",
+  "country": "USA"
+ },
+ {
+  "id": 3271,
+  "name": "Bam Adebayo",
+  "college": "Kentucky",
+  "country": "USA"
+ },
+ {
+  "id": 3398,
+  "name": "Cedi Osman",
+  "college": null,
+  "country": "Turkey"
+ },
+ {
+  "id": 3401,
+  "name": "Chandler Hutchison",
+  "college": "Boise State",
+  "country": "USA"
+ },
+ {
+  "id": 3405,
+  "name": "Chandler Parsons",
+  "college": "Florida",
+  "country": "USA"
+ },
+ {
+  "id": 3532,
+  "name": "Darius Bazley",
+  "college": null,
+  "country": "USA"
+ },
+ {
+  "id": 3535,
+  "name": "Darius Garland",
+  "college": "Vanderbilt",
+  "country": "USA"
+ },
+ {
+  "id": 3542,
+  "name": "Daryl Macon",
+  "college": "Arkansas",
+  "country": "USA"
+ },
+ {
+  "id": 3545,
+  "name": "David Nwaba",
+  "college": "Cal Poly",
+  "country": "USA"
+ },
+ {
+  "id": 3548,
+  "name": "Davis Bertans",
+  "college": null,
+  "country": "Latvia"
+ },
+ {
+  "id": 3552,
+  "name": "De'Aaron Fox",
+  "college": "Kentucky",
+  "country": "USA"
+ },
+ {
+  "id": 3555,
+  "name": "De'Andre Hunter",
+  "college": "Virginia",
+  "country": "USA"
+ },
+ {
+  "id": 3558,
+  "name": "De'Anthony Melton",
+  "college": "Southern California",
+  "country": "USA"
+ },
+ {
+  "id": 3561,
+  "name": "DeAndre Jordan",
+  "college": "Texas A&M",
+  "country": "USA"
+ },
+ {
+  "id": 3565,
+  "name": "DeAndre' Bembry",
+  "college": "St. Joseph's (PA)",
+  "country": "USA"
+ },
+ {
+  "id": 3568,
+  "name": "DeMar DeRozan",
+  "college": "Southern California",
+  "country": "USA"
+ },
+ {
+  "id": 3575,
+  "name": "DeMarre Carroll",
+  "college": "Missouri",
+  "country": "USA"
+ },
+ {
+  "id": 3578,
+  "name": "Dean Wade",
+  "college": "Kansas State",
+  "country": "USA"
+ },
+ {
+  "id": 3581,
+  "name": "Deandre Ayton",
+  "college": "Arizona",
+  "country": "Bahamas"
+ },
+ {
+  "id": 3588,
+  "name": "Dejounte Murray",
+  "college": "Washington",
+  "country": "USA"
+ },
+ {
+  "id": 3591,
+  "name": "Delon Wright",
+  "college": "Utah",
+  "country": "USA"
+ },
+ {
+  "id": 3597,
+  "name": "Dennis Schroder",
+  "college": null,
+  "country": "Germany"
+ },
+ {
+  "id": 3601,
+  "name": "Dennis Smith Jr.",
+  "college": "North Carolina State",
+  "country": "USA"
+ },
+ {
+  "id": 3604,
+  "name": "Denzel Valentine",
+  "college": "Michigan State",
+  "country": "USA"
+ },
+ {
+  "id": 3607,
+  "name": "Deonte Burton",
+  "college": "Iowa State",
+  "country": "USA"
+ },
+ {
+  "id": 3610,
+  "name": "Derrick Favors",
+  "college": "Georgia Tech",
+  "country": "USA"
+ },
+ {
+  "id": 3614,
+  "name": "Derrick Jones Jr.",
+  "college": "UNLV",
+  "country": "USA"
+ },
+ {
+  "id": 3617,
+  "name": "Derrick Rose",
+  "college": "Memphis",
+  "country": "USA"
+ },
+ {
+  "id": 3620,
+  "name": "Derrick Walton Jr.",
+  "college": "Michigan",
+  "country": "USA"
+ },
+ {
+  "id": 3623,
+  "name": "Derrick White",
+  "college": "Colorado",
+  "country": "USA"
+ },
+ {
+  "id": 3630,
+  "name": "Devin Booker",
+  "college": "Kentucky",
+  "country": "USA"
+ },
+ {
+  "id": 3643,
+  "name": "Devon Hall",
+  "college": "Virginia",
+  "country": "USA"
+ },
+ {
+  "id": 3646,
+  "name": "Devontae Cacok",
+  "college": "North Carolina-Wilmington",
+  "country": "USA"
+ },
+ {
+  "id": 3650,
+  "name": "Devonte' Graham",
+  "college": "Kansas",
+  "country": "USA"
+ },
+ {
+  "id": 3529,
+  "name": "Dario Saric",
+  "college": null,
+  "country": "Croatia"
+ },
+ {
+  "id": 3526,
+  "name": "Danuel House Jr.",
+  "college": "Texas A&M",
+  "country": "USA"
+ },
+ {
+  "id": 3522,
+  "name": "Dante Exum",
+  "college": null,
+  "country": "Australia"
+ },
+ {
+  "id": 3519,
+  "name": "Danny Green",
+  "college": "North Carolina",
+  "country": "USA"
+ },
+ {
+  "id": 3408,
+  "name": "Charlie Brown Jr.",
+  "college": "St. Joseph's (PA)",
+  "country": "USA"
+ },
+ {
+  "id": 3411,
+  "name": "Chasson Randle",
+  "college": "Stanford",
+  "country": "USA"
+ },
+ {
+  "id": 3414,
+  "name": "Cheick Diallo",
+  "college": "Kansas",
+  "country": "Mali"
+ },
+ {
+  "id": 3418,
+  "name": "Chimezie Metu",
+  "college": "Southern California",
+  "country": "USA"
+ },
+ {
+  "id": 3421,
+  "name": "Chris Boucher",
+  "college": "Oregon",
+  "country": "Saint Lucia"
+ },
+ {
+  "id": 3424,
+  "name": "Chris Chiozza",
+  "college": "Florida",
+  "country": "USA"
+ },
+ {
+  "id": 3428,
+  "name": "Chris Clemons",
+  "college": "Campbell University",
+  "country": "USA"
+ },
+ {
+  "id": 3431,
+  "name": "Chris Paul",
+  "college": "Wake Forest",
+  "country": "USA"
+ },
+ {
+  "id": 3434,
+  "name": "Chris Silva",
+  "college": "South Carolina",
+  "country": "Gabon"
+ },
+ {
+  "id": 3437,
+  "name": "Christian Wood",
+  "college": "UNLV",
+  "country": "USA"
+ },
+ {
+  "id": 3444,
+  "name": "Clint Capela",
+  "college": null,
+  "country": "Switzerland"
+ },
+ {
+  "id": 3447,
+  "name": "Coby White",
+  "college": "North Carolina",
+  "country": "USA"
+ },
+ {
+  "id": 3450,
+  "name": "Cody Martin",
+  "college": "Nevada-Reno",
+  "country": "USA"
+ },
+ {
+  "id": 3454,
+  "name": "Cody Zeller",
+  "college": "Indiana",
+  "country": "USA"
+ },
+ {
+  "id": 4166,
+  "name": "Jordan McRae",
+  "college": "Tennessee",
+  "country": "USA"
+ },
+ {
+  "id": 3460,
+  "name": "Collin Sexton",
+  "college": "Alabama",
+  "country": "USA"
+ },
+ {
+  "id": 3467,
+  "name": "Cory Joseph",
+  "college": "University of Texas at Austin",
+  "country": "Canada"
+ },
+ {
+  "id": 3470,
+  "name": "Courtney Lee",
+  "college": "Western Kentucky",
+  "country": "USA"
+ },
+ {
+  "id": 3473,
+  "name": "Cristiano Felicio",
+  "college": null,
+  "country": "Brazil"
+ },
+ {
+  "id": 3477,
+  "name": "D'Angelo Russell",
+  "college": "Ohio State",
+  "country": "USA"
+ },
+ {
+  "id": 3480,
+  "name": "D.J. Augustin",
+  "college": "Texas-Austin",
+  "country": "USA"
+ },
+ {
+  "id": 3483,
+  "name": "D.J. Wilson",
+  "college": "Michigan",
+  "country": "USA"
+ },
+ {
+  "id": 3486,
+  "name": "DaQuan Jeffries",
+  "college": "Tulsa",
+  "country": "USA"
+ },
+ {
+  "id": 3493,
+  "name": "Damian Jones",
+  "college": "Vanderbilt",
+  "country": "USA"
+ },
+ {
+  "id": 3496,
+  "name": "Damian Lillard",
+  "college": "Weber State",
+  "country": "USA"
+ },
+ {
+  "id": 3499,
+  "name": "Damion Lee",
+  "college": "Drexel",
+  "country": "USA"
+ },
+ {
+  "id": 3503,
+  "name": "Damyean Dotson",
+  "college": "Houston",
+  "country": "USA"
+ },
+ {
+  "id": 3506,
+  "name": "Daniel Gafford",
+  "college": "Arkansas",
+  "country": "USA"
+ },
+ {
+  "id": 3512,
+  "name": "Daniel Theis",
+  "college": null,
+  "country": "Germany"
+ },
+ {
+  "id": 3516,
+  "name": "Danilo Gallinari",
+  "college": null,
+  "country": "Italy"
+ },
+ {
+  "id": 3463,
+  "name": "Corey Brewer",
+  "college": "Florida",
+  "country": "USA"
+ },
+ {
+  "id": 4172,
+  "name": "Jordan Poole",
+  "college": "Michigan",
+  "country": "USA"
+ },
+ {
+  "id": 3137,
+  "name": "Aaron Gordon",
+  "college": "Arizona",
+  "country": "USA"
+ },
+ {
+  "id": 4185,
+  "name": "Josh Hart",
+  "college": "Villanova",
+  "country": "USA"
+ },
+ {
+  "id": 4835,
+  "name": "Rondae Hollis-Jefferson",
+  "college": "Arizona",
+  "country": "USA"
+ },
+ {
+  "id": 4838,
+  "name": "Royce O'Neale",
+  "college": "Baylor",
+  "country": "USA"
+ },
+ {
+  "id": 4842,
+  "name": "Rudy Gay",
+  "college": "Connecticut",
+  "country": "USA"
+ },
+ {
+  "id": 4845,
+  "name": "Rudy Gobert",
+  "college": null,
+  "country": "France"
+ },
+ {
+  "id": 4848,
+  "name": "Rui Hachimura",
+  "college": "Gonzaga",
+  "country": "Japan"
+ },
+ {
+  "id": 4851,
+  "name": "Russell Westbrook",
+  "college": "UCLA",
+  "country": "USA"
+ },
+ {
+  "id": 4855,
+  "name": "Ryan Anderson",
+  "college": "California",
+  "country": "USA"
+ },
+ {
+  "id": 4858,
+  "name": "Ryan Arcidiacono",
+  "college": "Villanova",
+  "country": "USA"
+ },
+ {
+  "id": 4861,
+  "name": "Ryan Broekhoff",
+  "college": "Valparaiso",
+  "country": "Australia"
+ },
+ {
+  "id": 4877,
+  "name": "Sekou Doumbouya",
+  "college": null,
+  "country": "France"
+ },
+ {
+  "id": 4881,
+  "name": "Semi Ojeleye",
+  "college": "Southern Methodist",
+  "country": "USA"
+ },
+ {
+  "id": 4884,
+  "name": "Serge Ibaka",
+  "college": null,
+  "country": "Republic of the Congo"
+ },
+ {
+  "id": 4887,
+  "name": "Seth Curry",
+  "college": "Duke",
+  "country": "USA"
+ },
+ {
+  "id": 4891,
+  "name": "Shabazz Napier",
+  "college": "Connecticut",
+  "country": "USA"
+ },
+ {
+  "id": 4894,
+  "name": "Shai Gilgeous-Alexander",
+  "college": "Kentucky",
+  "country": "Canada"
+ },
+ {
+  "id": 4897,
+  "name": "Shake Milton",
+  "college": "Southern Methodist",
+  "country": "USA"
+ },
+ {
+  "id": 4900,
+  "name": "Shamorie Ponds",
+  "college": "St. John's, N.Y.",
+  "country": "USA"
+ },
+ {
+  "id": 4904,
+  "name": "Shaquille Harrison",
+  "college": "Tulsa",
+  "country": "USA"
+ },
+ {
+  "id": 4907,
+  "name": "Sindarius Thornwell",
+  "college": "South Carolina",
+  "country": "USA"
+ },
+ {
+  "id": 4910,
+  "name": "Skal Labissiere",
+  "college": "Kentucky",
+  "country": "Haiti"
+ },
+ {
+  "id": 4917,
+  "name": "Solomon Hill",
+  "college": "Arizona",
+  "country": "USA"
+ },
+ {
+  "id": 4920,
+  "name": "Spencer Dinwiddie",
+  "college": "Colorado",
+  "country": "USA"
+ },
+ {
+  "id": 4923,
+  "name": "Stanley Johnson",
+  "college": "Arizona",
+  "country": "USA"
+ },
+ {
+  "id": 4926,
+  "name": "Stanton Kidd",
+  "college": "Colorado State",
+  "country": "USA"
+ },
+ {
+  "id": 4930,
+  "name": "Stephen Curry",
+  "college": "Davidson",
+  "country": "USA"
+ },
+ {
+  "id": 4933,
+  "name": "Sterling Brown",
+  "college": "Southern Methodist",
+  "country": "USA"
+ },
+ {
+  "id": 4936,
+  "name": "Steven Adams",
+  "college": "Pittsburgh",
+  "country": "New Zealand"
+ },
+ {
+  "id": 4940,
+  "name": "Svi Mykhailiuk",
+  "college": "Kansas",
+  "country": "Ukraine"
+ },
+ {
+  "id": 4943,
+  "name": "T.J. Leaf",
+  "college": "UCLA",
+  "country": "USA"
+ },
+ {
+  "id": 4832,
+  "name": "Romeo Langford",
+  "college": "Indiana",
+  "country": "USA"
+ },
+ {
+  "id": 4946,
+  "name": "T.J. McConnell",
+  "college": "Arizona",
+  "country": "USA"
+ },
+ {
+  "id": 4828,
+  "name": "Rodney McGruder",
+  "college": "Kansas State",
+  "country": "USA"
+ },
+ {
+  "id": 4822,
+  "name": "Rodions Kurucs",
+  "college": null,
+  "country": "Latvia"
+ },
+ {
+  "id": 4691,
+  "name": "OG Anunoby",
+  "college": "Indiana",
+  "country": "United Kingdom"
+ },
+ {
+  "id": 4698,
+  "name": "Omari Spellman",
+  "college": "Villanova",
+  "country": "USA"
+ },
+ {
+  "id": 4704,
+  "name": "Oshae Brissett",
+  "college": "Syracuse",
+  "country": "Canada"
+ },
+ {
+  "id": 4708,
+  "name": "Otto Porter Jr.",
+  "college": "Georgetown",
+  "country": "USA"
+ },
+ {
+  "id": 4711,
+  "name": "P.J. Tucker",
+  "college": "Texas-Austin",
+  "country": "USA"
+ },
+ {
+  "id": 4714,
+  "name": "P.J. Washington",
+  "college": "Kentucky",
+  "country": "USA"
+ },
+ {
+  "id": 4717,
+  "name": "PJ Dozier",
+  "college": "South Carolina",
+  "country": "USA"
+ },
+ {
+  "id": 4721,
+  "name": "Pascal Siakam",
+  "college": "New Mexico State",
+  "country": "Cameroon"
+ },
+ {
+  "id": 4724,
+  "name": "Pat Connaughton",
+  "college": "Notre Dame",
+  "country": "USA"
+ },
+ {
+  "id": 4727,
+  "name": "Patrick Beverley",
+  "college": "Arkansas",
+  "country": "USA"
+ },
+ {
+  "id": 4731,
+  "name": "Patrick McCaw",
+  "college": "UNLV",
+  "country": "USA"
+ },
+ {
+  "id": 4734,
+  "name": "Patrick Patterson",
+  "college": "Kentucky",
+  "country": "USA"
+ },
+ {
+  "id": 4740,
+  "name": "Patty Mills",
+  "college": "St.Mary's College of California",
+  "country": "Australia"
+ },
+ {
+  "id": 4744,
+  "name": "Paul George",
+  "college": "Fresno State",
+  "country": "USA"
+ },
+ {
+  "id": 4747,
+  "name": "Paul Millsap",
+  "college": "Louisiana Tech",
+  "country": "USA"
+ },
+ {
+  "id": 4753,
+  "name": "Paul Watson",
+  "college": "Fresno State",
+  "country": "USA"
+ },
+ {
+  "id": 4763,
+  "name": "Quinn Cook",
+  "college": "Duke",
+  "country": "USA"
+ },
+ {
+  "id": 4766,
+  "name": "Quinndary Weatherspoon",
+  "college": "Mississippi State",
+  "country": "USA"
+ },
+ {
+  "id": 4773,
+  "name": "RJ Barrett",
+  "college": "Duke",
+  "country": "Canada"
+ },
+ {
+  "id": 4776,
+  "name": "Rajon Rondo",
+  "college": "Kentucky",
+  "country": "USA"
+ },
+ {
+  "id": 4780,
+  "name": "Raul Neto",
+  "college": null,
+  "country": "Brazil"
+ },
+ {
+  "id": 4786,
+  "name": "Rayjon Tucker",
+  "college": "Arkansas-Little Rock",
+  "country": "USA"
+ },
+ {
+  "id": 4789,
+  "name": "Reggie Bullock",
+  "college": "North Carolina",
+  "country": "USA"
+ },
+ {
+  "id": 4793,
+  "name": "Reggie Jackson",
+  "college": "Boston College",
+  "country": "USA"
+ },
+ {
+  "id": 4799,
+  "name": "Richaun Holmes",
+  "college": "Bowling Green",
+  "country": "USA"
+ },
+ {
+  "id": 4802,
+  "name": "Ricky Rubio",
+  "college": null,
+  "country": "Spain"
+ },
+ {
+  "id": 4806,
+  "name": "Robert Covington",
+  "college": "Tennessee State",
+  "country": "USA"
+ },
+ {
+  "id": 4812,
+  "name": "Robert Williams III",
+  "college": "Texas A&M",
+  "country": "USA"
+ },
+ {
+  "id": 4819,
+  "name": "Robin Lopez",
+  "college": "Stanford",
+  "country": "USA"
+ },
+ {
+  "id": 4825,
+  "name": "Rodney Hood",
+  "college": "Duke",
+  "country": "USA"
+ },
+ {
+  "id": 4949,
+  "name": "T.J. Warren",
+  "college": "North Carolina State",
+  "country": "USA"
+ },
+ {
+  "id": 4953,
+  "name": "Tacko Fall",
+  "college": "Central Florida",
+  "country": "Senegal"
+ },
+ {
+  "id": 4956,
+  "name": "Taj Gibson",
+  "college": "Southern California",
+  "country": "USA"
+ },
+ {
+  "id": 5086,
+  "name": "Tyler Johnson",
+  "college": "Fresno State",
+  "country": "USA"
+ },
+ {
+  "id": 5090,
+  "name": "Tyler Zeller",
+  "college": "North Carolina",
+  "country": "USA"
+ },
+ {
+  "id": 5103,
+  "name": "Tyrone Wallace",
+  "college": "California",
+  "country": "USA"
+ },
+ {
+  "id": 5106,
+  "name": "Tyson Chandler",
+  "college": null,
+  "country": "USA"
+ },
+ {
+  "id": 5109,
+  "name": "Tyus Jones",
+  "college": "Duke",
+  "country": "USA"
+ },
+ {
+  "id": 5116,
+  "name": "Udonis Haslem",
+  "college": "Florida",
+  "country": "USA"
+ },
+ {
+  "id": 5122,
+  "name": "Vic Law",
+  "college": "Northwestern",
+  "country": "USA"
+ },
+ {
+  "id": 5126,
+  "name": "Victor Oladipo",
+  "college": "Indiana",
+  "country": "USA"
+ },
+ {
+  "id": 5129,
+  "name": "Vince Carter",
+  "college": "North Carolina",
+  "country": "USA"
+ },
+ {
+  "id": 5132,
+  "name": "Vincent Poirier",
+  "college": null,
+  "country": "France"
+ },
+ {
+  "id": 5135,
+  "name": "Vlatko Cancar",
+  "college": null,
+  "country": "Slovenia"
+ },
+ {
+  "id": 5139,
+  "name": "Wayne Ellington",
+  "college": "North Carolina",
+  "country": "USA"
+ },
+ {
+  "id": 5142,
+  "name": "Wendell Carter Jr.",
+  "college": "Duke",
+  "country": "USA"
+ },
+ {
+  "id": 5145,
+  "name": "Wenyen Gabriel",
+  "college": "Kentucky",
+  "country": "South Sudan"
+ },
+ {
+  "id": 5149,
+  "name": "Wes Iwundu",
+  "college": "Kansas State",
+  "country": "USA"
+ },
+ {
+  "id": 5152,
+  "name": "Wesley Matthews",
+  "college": "Marquette",
+  "country": "USA"
+ },
+ {
+  "id": 5155,
+  "name": "Will Barton",
+  "college": "Memphis",
+  "country": "USA"
+ },
+ {
+  "id": 5162,
+  "name": "William Howard",
+  "college": null,
+  "country": "France"
+ },
+ {
+  "id": 5165,
+  "name": "Willie Cauley-Stein",
+  "college": "Kentucky",
+  "country": "USA"
+ },
+ {
+  "id": 5168,
+  "name": "Willy Hernangomez",
+  "college": null,
+  "country": "Spain"
+ },
+ {
+  "id": 5171,
+  "name": "Wilson Chandler",
+  "college": "DePaul",
+  "country": "USA"
+ },
+ {
+  "id": 5178,
+  "name": "Yogi Ferrell",
+  "college": "Indiana",
+  "country": "USA"
+ },
+ {
+  "id": 5181,
+  "name": "Yuta Watanabe",
+  "college": "George Washington",
+  "country": "Japan"
+ },
+ {
+  "id": 5184,
+  "name": "Zach Collins",
+  "college": "Gonzaga",
+  "country": "USA"
+ },
+ {
+  "id": 5188,
+  "name": "Zach LaVine",
+  "college": "UCLA",
+  "country": "USA"
+ },
+ {
+  "id": 5191,
+  "name": "Zach Norvell Jr.",
+  "college": "Gonzaga",
+  "country": "USA"
+ },
+ {
+  "id": 5198,
+  "name": "Zhaire Smith",
+  "college": "Texas Tech",
+  "country": "USA"
+ },
+ {
+  "id": 5201,
+  "name": "Zion Williamson",
+  "college": "Duke",
+  "country": "USA"
+ },
+ {
+  "id": 5204,
+  "name": "Zylan Cheatham",
+  "college": "Arizona State",
+  "country": "USA"
+ },
+ {
+  "id": 5083,
+  "name": "Tyler Herro",
+  "college": "Kentucky",
+  "country": "USA"
+ },
+ {
+  "id": 5080,
+  "name": "Tyler Cook",
+  "college": "Iowa",
+  "country": "USA"
+ },
+ {
+  "id": 5070,
+  "name": "Ty Jerome",
+  "college": "Virginia",
+  "country": "USA"
+ },
+ {
+  "id": 5067,
+  "name": "Troy Daniels",
+  "college": "Virginia Commonwealth",
+  "country": "USA"
+ },
+ {
+  "id": 4959,
+  "name": "Talen Horton-Tucker",
+  "college": "Iowa State",
+  "country": "USA"
+ },
+ {
+  "id": 4962,
+  "name": "Tariq Owens",
+  "college": "Texas Tech",
+  "country": "USA"
+ },
+ {
+  "id": 4966,
+  "name": "Taurean Prince",
+  "college": "Baylor",
+  "country": "USA"
+ },
+ {
+  "id": 4969,
+  "name": "Terance Mann",
+  "college": "Florida State",
+  "country": "USA"
+ },
+ {
+  "id": 4972,
+  "name": "Terence Davis",
+  "college": "Mississippi",
+  "country": "USA"
+ },
+ {
+  "id": 4975,
+  "name": "Terrance Ferguson",
+  "college": null,
+  "country": "USA"
+ },
+ {
+  "id": 4979,
+  "name": "Terrence Ross",
+  "college": "Washington",
+  "country": "USA"
+ },
+ {
+  "id": 4982,
+  "name": "Terry Rozier",
+  "college": "Louisville",
+  "country": "USA"
+ },
+ {
+  "id": 4985,
+  "name": "Thabo Sefolosha",
+  "college": null,
+  "country": "Switzerland"
+ },
+ {
+  "id": 4989,
+  "name": "Thaddeus Young",
+  "college": "Georgia Tech",
+  "country": "USA"
+ },
+ {
+  "id": 4992,
+  "name": "Thanasis Antetokounmpo",
+  "college": null,
+  "country": "Greece"
+ },
+ {
+  "id": 4998,
+  "name": "Theo Pinson",
+  "college": "North Carolina",
+  "country": "USA"
+ },
+ {
+  "id": 5002,
+  "name": "Thomas Bryant",
+  "college": "Indiana",
+  "country": "USA"
+ },
+ {
+  "id": 5005,
+  "name": "Thon Maker",
+  "college": null,
+  "country": "South Sudan"
+ },
+ {
+  "id": 4175,
+  "name": "Josh Gray",
+  "college": "Louisiana State",
+  "country": "USA"
+ },
+ {
+  "id": 5008,
+  "name": "Tim Frazier",
+  "college": "Penn State",
+  "country": "USA"
+ },
+ {
+  "id": 5015,
+  "name": "Timothe Luwawu-Cabarrot",
+  "college": null,
+  "country": "France"
+ },
+ {
+  "id": 5018,
+  "name": "Tobias Harris",
+  "college": "Tennessee",
+  "country": "USA"
+ },
+ {
+  "id": 5021,
+  "name": "Tomas Satoransky",
+  "college": null,
+  "country": "Czech Republic"
+ },
+ {
+  "id": 5024,
+  "name": "Tony Bradley",
+  "college": "North Carolina",
+  "country": "USA"
+ },
+ {
+  "id": 5028,
+  "name": "Tony Snell",
+  "college": "New Mexico",
+  "country": "USA"
+ },
+ {
+  "id": 5031,
+  "name": "Torrey Craig",
+  "college": "South Carolina Upstate",
+  "country": "USA"
+ },
+ {
+  "id": 5034,
+  "name": "Trae Young",
+  "college": "Oklahoma",
+  "country": "USA"
+ },
+ {
+  "id": 5041,
+  "name": "Tremont Waters",
+  "college": "Louisiana State",
+  "country": "USA"
+ },
+ {
+  "id": 5047,
+  "name": "Treveon Graham",
+  "college": "Va Commonwealth",
+  "country": "USA"
+ },
+ {
+  "id": 5051,
+  "name": "Trevor Ariza",
+  "college": "UCLA",
+  "country": "USA"
+ },
+ {
+  "id": 5054,
+  "name": "Trey Burke",
+  "college": "Michigan",
+  "country": "USA"
+ },
+ {
+  "id": 5057,
+  "name": "Trey Lyles",
+  "college": "Kentucky",
+  "country": "Canada"
+ },
+ {
+  "id": 5060,
+  "name": "Tristan Thompson",
+  "college": "Texas-Austin",
+  "country": "Canada"
+ },
+ {
+  "id": 5064,
+  "name": "Troy Brown Jr.",
+  "college": "Oregon",
+  "country": "USA"
+ },
+ {
+  "id": 5011,
+  "name": "Tim Hardaway Jr.",
+  "college": "Michigan",
+  "country": "USA"
+ },
+ {
+  "id": 4685,
+  "name": "Norman Powell",
+  "college": "UCLA",
+  "country": "USA"
+ },
+ {
+  "id": 4688,
+  "name": "Norvel Pelle",
+  "college": "Iona",
+  "country": "USA"
+ },
+ {
+  "id": 4678,
+  "name": "Nikola Vucevic",
+  "college": "Southern California",
+  "country": "Montenegro"
+ },
+ {
+  "id": 4309,
+  "name": "Kevin Hervey",
+  "college": "Texas-Arlington",
+  "country": "USA"
+ },
+ {
+  "id": 4313,
+  "name": "Kevin Huerter",
+  "college": "Maryland",
+  "country": "USA"
+ },
+ {
+  "id": 4316,
+  "name": "Kevin Knox II",
+  "college": "Kentucky",
+  "country": "USA"
+ },
+ {
+  "id": 4319,
+  "name": "Kevin Love",
+  "college": "UCLA",
+  "country": "USA"
+ },
+ {
+  "id": 4322,
+  "name": "Kevin Porter Jr.",
+  "college": "Southern California",
+  "country": "USA"
+ },
+ {
+  "id": 4326,
+  "name": "Kevon Looney",
+  "college": "UCLA",
+  "country": "USA"
+ },
+ {
+  "id": 4329,
+  "name": "Khem Birch",
+  "college": "UNLV",
+  "country": "Canada"
+ },
+ {
+  "id": 4332,
+  "name": "Khris Middleton",
+  "college": "Texas A&M",
+  "country": "USA"
+ },
+ {
+  "id": 4335,
+  "name": "Khyri Thomas",
+  "college": "Creighton",
+  "country": "USA"
+ },
+ {
+  "id": 4348,
+  "name": "Kostas Antetokounmpo",
+  "college": "Dayton",
+  "country": "Greece"
+ },
+ {
+  "id": 4352,
+  "name": "Kris Dunn",
+  "college": "Providence",
+  "country": "USA"
+ },
+ {
+  "id": 4355,
+  "name": "Kristaps Porzingis",
+  "college": null,
+  "country": "Latvia"
+ },
+ {
+  "id": 4358,
+  "name": "Ky Bowman",
+  "college": "Boston College",
+  "country": "USA"
+ },
+ {
+  "id": 4362,
+  "name": "Kyle Alexander",
+  "college": "Tennessee",
+  "country": "Canada"
+ },
+ {
+  "id": 4365,
+  "name": "Kyle Anderson",
+  "college": "UCLA",
+  "country": "USA"
+ },
+ {
+  "id": 4368,
+  "name": "Kyle Guy",
+  "college": "Virginia",
+  "country": "USA"
+ },
+ {
+  "id": 4371,
+  "name": "Kyle Korver",
+  "college": "Creighton",
+  "country": "USA"
+ },
+ {
+  "id": 4375,
+  "name": "Kyle Kuzma",
+  "college": "Utah",
+  "country": "USA"
+ },
+ {
+  "id": 4378,
+  "name": "Kyle Lowry",
+  "college": "Villanova",
+  "country": "USA"
+ },
+ {
+  "id": 4381,
+  "name": "Kyle O'Quinn",
+  "college": "Norfolk State",
+  "country": "USA"
+ },
+ {
+  "id": 4384,
+  "name": "Kyrie Irving",
+  "college": "Duke",
+  "country": "Australia"
+ },
+ {
+  "id": 4388,
+  "name": "LaMarcus Aldridge",
+  "college": "University of Texas at Austin",
+  "country": "USA"
+ },
+ {
+  "id": 4397,
+  "name": "Lance Thomas",
+  "college": "Duke",
+  "country": "USA"
+ },
+ {
+  "id": 4401,
+  "name": "Landry Shamet",
+  "college": "Wichita State",
+  "country": "USA"
+ },
+ {
+  "id": 4404,
+  "name": "Langston Galloway",
+  "college": "St. Joseph's (PA)",
+  "country": "USA"
+ },
+ {
+  "id": 4407,
+  "name": "Larry Nance Jr.",
+  "college": "Wyoming",
+  "country": "USA"
+ },
+ {
+  "id": 4410,
+  "name": "Lauri Markkanen",
+  "college": "Arizona",
+  "country": "Finland"
+ },
+ {
+  "id": 4414,
+  "name": "LeBron James",
+  "college": null,
+  "country": "USA"
+ },
+ {
+  "id": 4682,
+  "name": "Noah Vonleh",
+  "college": "Indiana",
+  "country": "USA"
+ },
+ {
+  "id": 4299,
+  "name": "Kentavious Caldwell-Pope",
+  "college": "Georgia",
+  "country": "USA"
+ },
+ {
+  "id": 4420,
+  "name": "Lonzo Ball",
+  "college": "UCLA",
+  "country": "USA"
+ },
+ {
+  "id": 4296,
+  "name": "Kent Bazemore",
+  "college": "Old Dominion",
+  "country": "USA"
+ },
+ {
+  "id": 4290,
+  "name": "Kendrick Nunn",
+  "college": "Oakland",
+  "country": "USA"
+ },
+ {
+  "id": 4188,
+  "name": "Josh Jackson",
+  "college": "Kansas",
+  "country": "USA"
+ },
+ {
+  "id": 4192,
+  "name": "Josh Magette",
+  "college": "Alabama Huntsville",
+  "country": "USA"
+ },
+ {
+  "id": 4195,
+  "name": "Josh Okogie",
+  "college": "Georgia Tech",
+  "country": "Nigeria"
+ },
+ {
+  "id": 4198,
+  "name": "Josh Reaves",
+  "college": "Penn State",
+  "country": "USA"
+ },
+ {
+  "id": 4202,
+  "name": "Josh Richardson",
+  "college": "Tennessee",
+  "country": "USA"
+ },
+ {
+  "id": 4205,
+  "name": "Jrue Holiday",
+  "college": "UCLA",
+  "country": "USA"
+ },
+ {
+  "id": 4208,
+  "name": "Juan Toscano-Anderson",
+  "college": "Marquette",
+  "country": "USA"
+ },
+ {
+  "id": 4211,
+  "name": "Juancho Hernangomez",
+  "college": null,
+  "country": "Spain"
+ },
+ {
+  "id": 4215,
+  "name": "Julius Randle",
+  "college": "Kentucky",
+  "country": "USA"
+ },
+ {
+  "id": 4218,
+  "name": "Justin Anderson",
+  "college": "Virginia",
+  "country": "USA"
+ },
+ {
+  "id": 4221,
+  "name": "Justin Holiday",
+  "college": "Washington",
+  "country": "USA"
+ },
+ {
+  "id": 4224,
+  "name": "Justin Jackson",
+  "college": "North Carolina",
+  "country": "USA"
+ },
+ {
+  "id": 4228,
+  "name": "Justin James",
+  "college": "Wyoming",
+  "country": "USA"
+ },
+ {
+  "id": 4231,
+  "name": "Justin Patton",
+  "college": "Creighton",
+  "country": "USA"
+ },
+ {
+  "id": 4234,
+  "name": "Justin Robinson",
+  "college": "Virginia Tech ",
+  "country": "USA"
+ },
+ {
+  "id": 4237,
+  "name": "Justin Wright-Foreman",
+  "college": "Hofstra",
+  "country": "USA"
+ },
+ {
+  "id": 4241,
+  "name": "Justise Winslow",
+  "college": "Duke",
+  "country": "USA"
+ },
+ {
+  "id": 4244,
+  "name": "Jusuf Nurkic",
+  "college": null,
+  "country": "Bosnia and Herzegovina"
+ },
+ {
+  "id": 4247,
+  "name": "Juwan Morgan",
+  "college": "Indiana",
+  "country": "USA"
+ },
+ {
+  "id": 4250,
+  "name": "KZ Okpala",
+  "college": "Stanford",
+  "country": "USA"
+ },
+ {
+  "id": 4254,
+  "name": "Kadeem Allen",
+  "college": "Arizona",
+  "country": "USA"
+ },
+ {
+  "id": 4260,
+  "name": "Karl-Anthony Towns",
+  "college": "Kentucky",
+  "country": "USA"
+ },
+ {
+  "id": 4264,
+  "name": "Kawhi Leonard",
+  "college": "San Diego State",
+  "country": "USA"
+ },
+ {
+  "id": 4267,
+  "name": "Keita Bates-Diop",
+  "college": "Ohio State",
+  "country": "USA"
+ },
+ {
+  "id": 4270,
+  "name": "Kelan Martin",
+  "college": "Butler",
+  "country": "USA"
+ },
+ {
+  "id": 4273,
+  "name": "Keldon Johnson",
+  "college": "Kentucky",
+  "country": "USA"
+ },
+ {
+  "id": 4280,
+  "name": "Kelly Olynyk",
+  "college": "Gonzaga",
+  "country": "Canada"
+ },
+ {
+  "id": 4283,
+  "name": "Kelly Oubre Jr.",
+  "college": "Kansas",
+  "country": "USA"
+ },
+ {
+  "id": 4286,
+  "name": "Kemba Walker",
+  "college": "Connecticut",
+  "country": "USA"
+ },
+ {
+  "id": 4293,
+  "name": "Kenrich Williams",
+  "college": "TCU",
+  "country": "USA"
+ },
+ {
+  "id": 4424,
+  "name": "Lou Williams",
+  "college": null,
+  "country": "USA"
+ },
+ {
+  "id": 4417,
+  "name": "Lonnie Walker IV",
+  "college": "Miami",
+  "country": "USA"
+ },
+ {
+  "id": 4430,
+  "name": "Luc Mbah a Moute",
+  "college": "UCLA",
+  "country": "Cameroon"
+ },
+ {
+  "id": 4427,
+  "name": "Louis King",
+  "college": "Oregon",
+  "country": "USA"
+ },
+ {
+  "id": 4564,
+  "name": "Michael Frazier II",
+  "college": "Florida",
+  "country": "USA"
+ },
+ {
+  "id": 4567,
+  "name": "Michael Kidd-Gilchrist",
+  "college": "Kentucky",
+  "country": "USA"
+ },
+ {
+  "id": 4571,
+  "name": "Michael Porter Jr.",
+  "college": "Missouri",
+  "country": "USA"
+ },
+ {
+  "id": 4574,
+  "name": "Mikal Bridges",
+  "college": "Villanova",
+  "country": "USA"
+ },
+ {
+  "id": 4577,
+  "name": "Mike Conley",
+  "college": "Ohio State",
+  "country": "USA"
+ },
+ {
+  "id": 4584,
+  "name": "Mike Muscala",
+  "college": "Bucknell",
+  "country": "USA"
+ },
+ {
+  "id": 4587,
+  "name": "Mike Scott",
+  "college": "Virginia",
+  "country": "USA"
+ },
+ {
+  "id": 4590,
+  "name": "Miles Bridges",
+  "college": "Michigan State",
+  "country": "USA"
+ },
+ {
+  "id": 4593,
+  "name": "Mitchell Robinson",
+  "college": "Western Kentucky",
+  "country": "USA"
+ },
+ {
+  "id": 4597,
+  "name": "Miye Oni",
+  "college": "Yale",
+  "country": "USA"
+ },
+ {
+  "id": 4600,
+  "name": "Mo Bamba",
+  "college": "Texas-Austin",
+  "country": "USA"
+ },
+ {
+  "id": 4603,
+  "name": "Monte Morris",
+  "college": "Iowa State",
+  "country": "USA"
+ },
+ {
+  "id": 4606,
+  "name": "Montrezl Harrell",
+  "college": "Louisville",
+  "country": "USA"
+ },
+ {
+  "id": 4610,
+  "name": "Moritz Wagner",
+  "college": "Michigan",
+  "country": "Germany"
+ },
+ {
+  "id": 4613,
+  "name": "Moses Brown",
+  "college": "UCLA",
+  "country": "USA"
+ },
+ {
+  "id": 4616,
+  "name": "Mychal Mulder",
+  "college": "Kentucky",
+  "country": "Canada"
+ },
+ {
+  "id": 4619,
+  "name": "Myles Turner",
+  "college": "Texas-Austin",
+  "country": "USA"
+ },
+ {
+  "id": 4626,
+  "name": "Nassir Little",
+  "college": "North Carolina",
+  "country": "USA"
+ },
+ {
+  "id": 4639,
+  "name": "Naz Mitrou-Long",
+  "college": "Iowa State",
+  "country": "Canada"
+ },
+ {
+  "id": 4642,
+  "name": "Naz Reid",
+  "college": "Louisiana State",
+  "country": "USA"
+ },
+ {
+  "id": 4646,
+  "name": "Nemanja Bjelica",
+  "college": null,
+  "country": "Serbia"
+ },
+ {
+  "id": 4649,
+  "name": "Nerlens Noel",
+  "college": "Kentucky",
+  "country": "USA"
+ },
+ {
+  "id": 4655,
+  "name": "Nickeil Alexander-Walker",
+  "college": "Virginia Tech",
+  "country": "Canada"
+ },
+ {
+  "id": 4662,
+  "name": "Nicolas Batum",
+  "college": null,
+  "country": "France"
+ },
+ {
+  "id": 4665,
+  "name": "Nicolas Claxton",
+  "college": "Georgia",
+  "country": "USA"
+ },
+ {
+  "id": 4668,
+  "name": "Nicolo Melli",
+  "college": null,
+  "country": "Italy"
+ },
+ {
+  "id": 4672,
+  "name": "Nigel Williams-Goss",
+  "college": "Gonzaga",
+  "country": "USA"
+ },
+ {
+  "id": 4675,
+  "name": "Nikola Jokic",
+  "college": null,
+  "country": "Serbia"
+ },
+ {
+  "id": 4557,
+  "name": "Mfiondu Kabengele",
+  "college": "Florida State",
+  "country": "Canada"
+ },
+ {
+  "id": 4554,
+  "name": "Meyers Leonard",
+  "college": "Illinois",
+  "country": "USA"
+ },
+ {
+  "id": 4561,
+  "name": "Michael Carter-Williams",
+  "college": "Syracuse",
+  "country": "USA"
+ },
+ {
+  "id": 4548,
+  "name": "Maxi Kleber",
+  "college": null,
+  "country": "Germany"
+ },
+ {
+  "id": 4433,
+  "name": "Luguentz Dort",
+  "college": "Arizona State",
+  "country": "Canada"
+ },
+ {
+  "id": 4437,
+  "name": "Luka Doncic",
+  "college": null,
+  "country": "Slovenia"
+ },
+ {
+  "id": 4440,
+  "name": "Luka Samanic",
+  "college": null,
+  "country": "Croatia"
+ },
+ {
+  "id": 4443,
+  "name": "Luke Kennard",
+  "college": "Duke",
+  "country": "USA"
+ },
+ {
+  "id": 4446,
+  "name": "Luke Kornet",
+  "college": "Vanderbilt",
+  "country": "USA"
+ },
+ {
+  "id": 4453,
+  "name": "Malcolm Brogdon",
+  "college": "Virginia",
+  "country": "USA"
+ },
+ {
+  "id": 4456,
+  "name": "Malcolm Miller",
+  "college": "Holy Cross",
+  "country": "USA"
+ },
+ {
+  "id": 4459,
+  "name": "Malik Beasley",
+  "college": "Florida State",
+  "country": "USA"
+ },
+ {
+  "id": 4466,
+  "name": "Malik Monk",
+  "college": "Kentucky",
+  "country": "USA"
+ },
+ {
+  "id": 4469,
+  "name": "Malik Newman",
+  "college": "Kansas",
+  "country": "USA"
+ },
+ {
+  "id": 4476,
+  "name": "Marc Gasol",
+  "college": null,
+  "country": "Spain"
+ },
+ {
+  "id": 4479,
+  "name": "Marco Belinelli",
+  "college": null,
+  "country": "Italy"
+ },
+ {
+  "id": 4551,
+  "name": "Melvin Frazier Jr.",
+  "college": "Tulane",
+  "country": "USA"
+ },
+ {
+  "id": 4486,
+  "name": "Marcus Smart",
+  "college": "Oklahoma State",
+  "country": "USA"
+ },
+ {
+  "id": 4489,
+  "name": "Marial Shayok",
+  "college": "Iowa State",
+  "country": "Canada"
+ },
+ {
+  "id": 4482,
+  "name": "Marcus Morris Sr.",
+  "college": "Kansas",
+  "country": "USA"
+ },
+ {
+  "id": 4495,
+  "name": "Markelle Fultz",
+  "college": "Washington",
+  "country": "USA"
+ },
+ {
+  "id": 4544,
+  "name": "Max Strus",
+  "college": "DePaul",
+  "country": "USA"
+ },
+ {
+  "id": 4541,
+  "name": "Maurice Harkless",
+  "college": "St. John's",
+  "country": "USA"
+ },
+ {
+  "id": 4538,
+  "name": "Matthew Dellavedova",
+  "college": "St.Mary's College of California",
+  "country": "Australia"
+ },
+ {
+  "id": 4492,
+  "name": "Mario Hezonja",
+  "college": null,
+  "country": "Croatia"
+ },
+ {
+  "id": 4531,
+  "name": "Matt Mooney",
+  "college": "Texas Tech",
+  "country": "USA"
+ },
+ {
+  "id": 4528,
+  "name": "Matisse Thybulle",
+  "college": "Washington",
+  "country": "USA"
+ },
+ {
+  "id": 4535,
+  "name": "Matt Thomas",
+  "college": "Iowa State",
+  "country": "USA"
+ },
+ {
+  "id": 4518,
+  "name": "Marvin Williams",
+  "college": "North Carolina",
+  "country": "USA"
+ },
+ {
+  "id": 4515,
+  "name": "Marvin Bagley III",
+  "college": "Duke",
+  "country": "USA"
+ },
+ {
+  "id": 4512,
+  "name": "Marquese Chriss",
+  "college": "Washington",
+  "country": "USA"
+ },
+ {
+  "id": 4508,
+  "name": "Marques Bolden",
+  "college": "Duke",
+  "country": "USA"
+ },
+ {
+  "id": 4502,
+  "name": "Marko Guduric",
+  "college": null,
+  "country": "Serbia"
+ },
+ {
+  "id": 4499,
+  "name": "Markieff Morris",
+  "college": "Kansas",
+  "country": "USA"
+ },
+ {
+  "id": 4525,
+  "name": "Mason Plumlee",
+  "college": "Duke",
+  "country": "USA"
+ },
+ {
+  "id": 4162,
+  "name": "Jordan McLaughlin",
+  "college": "Southern California",
+  "country": "USA"
+ },
+ {
+  "id": 5194,
+  "name": "Zeke Nnaji",
+  "college": "Arizona",
+  "country": "USA"
+ },
+ {
+  "id": 5175,
+  "name": "Xavier Tillman",
+  "college": "Michigan State",
+  "country": "USA"
+ },
+ {
+  "id": 3793,
+  "name": "Freddie Gillespie",
+  "college": "Baylor",
+  "country": "USA"
+ },
+ {
+  "id": 3803,
+  "name": "Gabriel Deck",
+  "college": null,
+  "country": "Argentina"
+ },
+ {
+  "id": 3852,
+  "name": "Grant Riller",
+  "college": "College of Charleston",
+  "country": "USA"
+ },
+ {
+  "id": 3862,
+  "name": "Greg Whittington",
+  "college": "Georgetown",
+  "country": "USA"
+ },
+ {
+  "id": 3774,
+  "name": "Facundo Campazzo",
+  "college": null,
+  "country": "Argentina"
+ },
+ {
+  "id": 3640,
+  "name": "Devon Dotson",
+  "college": "Kansas",
+  "country": "USA"
+ },
+ {
+  "id": 3659,
+  "name": "Didi Louzada",
+  "college": null,
+  "country": "Brazil"
+ },
+ {
+  "id": 3715,
+  "name": "Dylan Windler",
+  "college": "Belmont",
+  "country": "USA"
+ },
+ {
+  "id": 3738,
+  "name": "Elijah Bryant",
+  "college": "Brigham Young",
+  "country": "USA"
+ },
+ {
+  "id": 3741,
+  "name": "Elijah Hughes",
+  "college": "Syracuse",
+  "country": "USA"
+ },
+ {
+  "id": 4051,
+  "name": "Jay Scrubb",
+  "college": "                                   ",
+  "country": "USA"
+ },
+ {
+  "id": 4055,
+  "name": "Jaylen Adams",
+  "college": "St. Bonaventure",
+  "country": "USA"
+ },
+ {
+  "id": 4130,
+  "name": "John Wall",
+  "college": "Kentucky",
+  "country": "USA"
+ },
+ {
+  "id": 4015,
+  "name": "James Wiseman",
+  "college": "Memphis",
+  "country": "USA"
+ },
+ {
+  "id": 4012,
+  "name": "James Nunnally",
+  "college": "California-Santa Barbara",
+  "country": "USA"
+ },
+ {
+  "id": 3891,
+  "name": "Immanuel Quickley",
+  "college": "Kentucky",
+  "country": "USA"
+ },
+ {
+  "id": 3898,
+  "name": "Isaac Okoro",
+  "college": "Auburn",
+  "country": "USA"
+ },
+ {
+  "id": 3904,
+  "name": "Isaiah Joe",
+  "college": "Arkansas",
+  "country": "USA"
+ },
+ {
+  "id": 3911,
+  "name": "Isaiah Stewart",
+  "college": "Washington",
+  "country": "USA"
+ },
+ {
+  "id": 3637,
+  "name": "Devin Vassell",
+  "college": "Florida State",
+  "country": "USA"
+ },
+ {
+  "id": 3957,
+  "name": "Jaden McDaniels",
+  "college": "Washington",
+  "country": "USA"
+ },
+ {
+  "id": 3963,
+  "name": "Jae'Sean Tate",
+  "college": "Ohio State",
+  "country": "USA"
+ },
+ {
+  "id": 3970,
+  "name": "Jahmi'us Ramsey",
+  "college": "Texas Tech",
+  "country": "USA"
+ },
+ {
+  "id": 3983,
+  "name": "Jalen Harris",
+  "college": "Nevada",
+  "country": "USA"
+ },
+ {
+  "id": 3993,
+  "name": "Jalen Smith",
+  "college": "Maryland",
+  "country": "USA"
+ },
+ {
+  "id": 3633,
+  "name": "Devin Cannady",
+  "college": "Princeton",
+  "country": "USA"
+ },
+ {
+  "id": 3627,
+  "name": "Desmond Bane",
+  "college": "TCU",
+  "country": "USA"
+ },
+ {
+  "id": 3326,
+  "name": "Brodric Thomas",
+  "college": "Truman State",
+  "country": "USA"
+ },
+ {
+  "id": 3349,
+  "name": "CJ Elleby",
+  "college": "Washington State",
+  "country": "USA"
+ },
+ {
+  "id": 3372,
+  "name": "Cameron Oliver",
+  "college": "Nevada",
+  "country": "USA"
+ },
+ {
+  "id": 3264,
+  "name": "Axel Toupane",
+  "college": null,
+  "country": "France"
+ },
+ {
+  "id": 3143,
+  "name": "Aaron Nesmith",
+  "college": "Vanderbilt",
+  "country": "USA"
+ },
+ {
+  "id": 3166,
+  "name": "Aleksej Pokusevski",
+  "college": null,
+  "country": "Serbia"
+ },
+ {
+  "id": 3192,
+  "name": "Amida Brimah",
+  "college": "Connecticut",
+  "country": "USA"
+ },
+ {
+  "id": 3379,
+  "name": "Cameron Reynolds",
+  "college": "Tulane",
+  "country": "USA"
+ },
+ {
+  "id": 3228,
+  "name": "Anthony Edwards",
+  "college": "Georgia",
+  "country": "USA"
+ },
+ {
+  "id": 3232,
+  "name": "Anthony Gill",
+  "college": "Virginia",
+  "country": "USA"
+ },
+ {
+  "id": 3235,
+  "name": "Anthony Lamb",
+  "college": "Vermont",
+  "country": "USA"
+ },
+ {
+  "id": 3248,
+  "name": "Armoni Brooks",
+  "college": "Houston",
+  "country": "USA"
+ },
+ {
+  "id": 3254,
+  "name": "Ashton Hagans",
+  "college": "Kentucky",
+  "country": "USA"
+ },
+ {
+  "id": 3202,
+  "name": "Anderson Varejao",
+  "college": null,
+  "country": "Brazil"
+ },
+ {
+  "id": 3539,
+  "name": "Darius Miller",
+  "college": "Kentucky",
+  "country": "USA"
+ },
+ {
+  "id": 3571,
+  "name": "DeMarcus Cousins",
+  "college": "Kentucky",
+  "country": "USA"
+ },
+ {
+  "id": 3584,
+  "name": "Deividas Sirvydis",
+  "college": null,
+  "country": "Lithuania"
+ },
+ {
+  "id": 3594,
+  "name": "Deni Avdija",
+  "college": null,
+  "country": "Israel"
+ },
+ {
+  "id": 3509,
+  "name": "Daniel Oturu",
+  "college": "Minnesota",
+  "country": "USA"
+ },
+ {
+  "id": 3392,
+  "name": "Cassius Stanley",
+  "college": "Duke",
+  "country": "USA"
+ },
+ {
+  "id": 3395,
+  "name": "Cassius Winston",
+  "college": "Michigan State",
+  "country": "USA"
+ },
+ {
+  "id": 3441,
+  "name": "Chuma Okeke",
+  "college": "Auburn",
+  "country": "USA"
+ },
+ {
+  "id": 3457,
+  "name": "Cole Anthony",
+  "college": "North Carolina",
+  "country": "USA"
+ },
+ {
+  "id": 3490,
+  "name": "Dakota Mathias",
+  "college": "Purdue",
+  "country": "USA"
+ },
+ {
+  "id": 4149,
+  "name": "Jontay Porter",
+  "college": "Missouri",
+  "country": "USA"
+ },
+ {
+  "id": 4809,
+  "name": "Robert Franks",
+  "college": "Washington State",
+  "country": "USA"
+ },
+ {
+  "id": 4815,
+  "name": "Robert Woodard II",
+  "college": "Mississippi State",
+  "country": "USA"
+ },
+ {
+  "id": 4864,
+  "name": "Saben Lee",
+  "college": "Vanderbilt",
+  "country": "USA"
+ },
+ {
+  "id": 4868,
+  "name": "Saddiq Bey",
+  "college": "Villanova",
+  "country": "USA"
+ },
+ {
+  "id": 4871,
+  "name": "Sam Merrill",
+  "college": "Utah State",
+  "country": "USA"
+ },
+ {
+  "id": 4874,
+  "name": "Sean McDermott",
+  "college": "Butler",
+  "country": "USA"
+ },
+ {
+  "id": 4796,
+  "name": "Reggie Perry",
+  "college": "Mississippi State",
+  "country": "USA"
+ },
+ {
+  "id": 4695,
+  "name": "Obi Toppin",
+  "college": "Dayton",
+  "country": "USA"
+ },
+ {
+  "id": 4701,
+  "name": "Onyeka Okongwu",
+  "college": "Southern California",
+  "country": "USA"
+ },
+ {
+  "id": 4750,
+  "name": "Paul Reed",
+  "college": "DePaul",
+  "country": "USA"
+ },
+ {
+  "id": 4757,
+  "name": "Payton Pritchard",
+  "college": "Oregon",
+  "country": "USA"
+ },
+ {
+  "id": 4760,
+  "name": "Precious Achiuwa",
+  "college": "Memphis",
+  "country": "Nigeria"
+ },
+ {
+  "id": 4770,
+  "name": "R.J. Hampton",
+  "college": null,
+  "country": "USA"
+ },
+ {
+  "id": 4783,
+  "name": "Ray Spalding",
+  "college": "Louisville",
+  "country": "USA"
+ },
+ {
+  "id": 4737,
+  "name": "Patrick Williams",
+  "college": "Florida State",
+  "country": "USA"
+ },
+ {
+  "id": 4913,
+  "name": "Skylar Mays",
+  "college": "Louisiana State",
+  "country": "USA"
+ },
+ {
+  "id": 5044,
+  "name": "Trent Forrest",
+  "college": "Florida State",
+  "country": "USA"
+ },
+ {
+  "id": 5073,
+  "name": "Ty-Shon Alexander",
+  "college": "Creighton",
+  "country": "USA"
+ },
+ {
+  "id": 5077,
+  "name": "Tyler Bey",
+  "college": "Colorado",
+  "country": "USA"
+ },
+ {
+  "id": 5093,
+  "name": "Tyrell Terry",
+  "college": "Stanford",
+  "country": "USA"
+ },
+ {
+  "id": 5096,
+  "name": "Tyrese Haliburton",
+  "college": "Iowa State",
+  "country": "USA"
+ },
+ {
+  "id": 5100,
+  "name": "Tyrese Maxey",
+  "college": "Kentucky",
+  "country": "USA"
+ },
+ {
+  "id": 5113,
+  "name": "Udoka Azubuike",
+  "college": "Kansas",
+  "country": "Nigeria"
+ },
+ {
+  "id": 5119,
+  "name": "Vernon Carey Jr.",
+  "college": "Duke",
+  "country": "USA"
+ },
+ {
+  "id": 5158,
+  "name": "Will Magnay",
+  "college": null,
+  "country": "Australia"
+ },
+ {
+  "id": 5037,
+  "name": "Tre Jones",
+  "college": "Duke",
+  "country": "USA"
+ },
+ {
+  "id": 4995,
+  "name": "Theo Maledon",
+  "college": null,
+  "country": "France"
+ },
+ {
+  "id": 4303,
+  "name": "Kenyon Martin Jr.",
+  "college": null,
+  "country": "USA"
+ },
+ {
+  "id": 4306,
+  "name": "Kevin Durant",
+  "college": "Texas-Austin",
+  "country": "USA"
+ },
+ {
+  "id": 4339,
+  "name": "Killian Hayes",
+  "college": null,
+  "country": "France"
+ },
+ {
+  "id": 4342,
+  "name": "Killian Tillie",
+  "college": "Gonzaga",
+  "country": "France"
+ },
+ {
+  "id": 4345,
+  "name": "Kira Lewis Jr.",
+  "college": "Alabama",
+  "country": "USA"
+ },
+ {
+  "id": 4391,
+  "name": "LaMelo Ball",
+  "college": null,
+  "country": "USA"
+ },
+ {
+  "id": 4394,
+  "name": "Lamar Stevens",
+  "college": "Penn State",
+  "country": "USA"
+ },
+ {
+  "id": 4169,
+  "name": "Jordan Nwora",
+  "college": "Louisville",
+  "country": "USA"
+ },
+ {
+  "id": 4179,
+  "name": "Josh Green",
+  "college": "Arizona",
+  "country": "Australia"
+ },
+ {
+  "id": 4182,
+  "name": "Josh Hall",
+  "college": null,
+  "country": "USA"
+ },
+ {
+  "id": 4257,
+  "name": "Karim Mane",
+  "college": null,
+  "country": "Senegal"
+ },
+ {
+  "id": 4277,
+  "name": "Keljin Blevins",
+  "college": "Montana State",
+  "country": "USA"
+ },
+ {
+  "id": 4580,
+  "name": "Mike James",
+  "college": "Lamar",
+  "country": "USA"
+ },
+ {
+  "id": 4623,
+  "name": "Naji Marshall",
+  "college": "Xavier",
+  "country": "USA"
+ },
+ {
+  "id": 4629,
+  "name": "Nate Darling",
+  "college": "Delaware",
+  "country": "Canada"
+ },
+ {
+  "id": 4633,
+  "name": "Nate Hinton",
+  "college": "Houston",
+  "country": "USA"
+ },
+ {
+  "id": 4636,
+  "name": "Nathan Knight",
+  "college": "William & Mary",
+  "country": "USA"
+ },
+ {
+  "id": 4652,
+  "name": "Nick Richards",
+  "college": "Kentucky",
+  "country": "Jamaica"
+ },
+ {
+  "id": 4659,
+  "name": "Nico Mannion",
+  "college": "Arizona",
+  "country": "Italy"
+ },
+ {
+  "id": 4450,
+  "name": "Malachi Flynn",
+  "college": "San Diego State",
+  "country": "USA"
+ },
+ {
+  "id": 4463,
+  "name": "Malik Fitts",
+  "college": null,
+  "country": "USA"
+ },
+ {
+  "id": 4473,
+  "name": "Mamadi Diakite",
+  "college": "Virginia",
+  "country": "Guinea"
+ },
+ {
+  "id": 4505,
+  "name": "Markus Howard",
+  "college": "Marquette",
+  "country": "USA"
+ },
+ {
+  "id": 4522,
+  "name": "Mason Jones",
+  "college": "Arkansas",
+  "country": "USA"
+ }
+]

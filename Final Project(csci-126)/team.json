@@ -1,0 +1,152 @@
+[
+ {
+  "tid": 5282,
+  "team_name": "Phoenix Suns",
+  "team_city": "PHX"
+ },
+ {
+  "tid": 5237,
+  "team_name": "Golden State Warriors",
+  "team_city": "GSW"
+ },
+ {
+  "tid": 5253,
+  "team_name": "Memphis Grizzlies",
+  "team_city": "MEM"
+ },
+ {
+  "tid": 5256,
+  "team_name": "Miami Heat",
+  "team_city": "MIA"
+ },
+ {
+  "tid": 5220,
+  "team_name": "Chicago Bulls",
+  "team_city": "CHI"
+ },
+ {
+  "tid": 5260,
+  "team_name": "Milwaukee Bucks",
+  "team_city": "MIL"
+ },
+ {
+  "tid": 5224,
+  "team_name": "Cleveland Cavaliers",
+  "team_city": "CLE"
+ },
+ {
+  "tid": 5279,
+  "team_name": "Philadelphia 76ers",
+  "team_city": "PHI"
+ },
+ {
+  "tid": 5299,
+  "team_name": "Utah Jazz",
+  "team_city": "UTA"
+ },
+ {
+  "tid": 5227,
+  "team_name": "Dallas Mavericks",
+  "team_city": "DAL"
+ },
+ {
+  "tid": 5295,
+  "team_name": "Toronto Raptors",
+  "team_city": "TOR"
+ },
+ {
+  "tid": 5211,
+  "team_name": "Brooklyn Nets",
+  "team_city": "BKN"
+ },
+ {
+  "tid": 5230,
+  "team_name": "Denver Nuggets",
+  "team_city": "DEN"
+ },
+ {
+  "tid": 5214,
+  "team_name": "Boston Celtics",
+  "team_city": "BOS"
+ },
+ {
+  "tid": 5263,
+  "team_name": "Minnesota Timberwolves",
+  "team_city": "MIN"
+ },
+ {
+  "tid": 5217,
+  "team_name": "Charlotte Hornets",
+  "team_city": "CHA"
+ },
+ {
+  "tid": 5246,
+  "team_name": "LA Clippers",
+  "team_city": "LAC"
+ },
+ {
+  "tid": 5250,
+  "team_name": "Los Angeles Lakers",
+  "team_city": "LAL"
+ },
+ {
+  "tid": 5207,
+  "team_name": "Atlanta Hawks",
+  "team_city": "ATL"
+ },
+ {
+  "tid": 5302,
+  "team_name": "Washington Wizards",
+  "team_city": "WAS"
+ },
+ {
+  "tid": 5269,
+  "team_name": "New York Knicks",
+  "team_city": "NYK"
+ },
+ {
+  "tid": 5266,
+  "team_name": "New Orleans Pelicans",
+  "team_city": "NOP"
+ },
+ {
+  "tid": 5286,
+  "team_name": "Portland Trail Blazers",
+  "team_city": "POR"
+ },
+ {
+  "tid": 5292,
+  "team_name": "San Antonio Spurs",
+  "team_city": "SAS"
+ },
+ {
+  "tid": 5289,
+  "team_name": "Sacramento Kings",
+  "team_city": "SAC"
+ },
+ {
+  "tid": 5243,
+  "team_name": "Indiana Pacers",
+  "team_city": "IND"
+ },
+ {
+  "tid": 5273,
+  "team_name": "Oklahoma City Thunder",
+  "team_city": "OKC"
+ },
+ {
+  "tid": 5240,
+  "team_name": "Houston Rockets",
+  "team_city": "HOU"
+ },
+ {
+  "tid": 5233,
+  "team_name": "Detroit Pistons",
+  "team_city": "DET"
+ },
+ {
+  "tid": 5276,
+  "team_name": "Orlando Magic",
+  "team_city": "ORL"
+ }
+]

@@ -1,0 +1,635 @@
+﻿id,name,college,country
+3790,Fred VanVleet,Wichita State,USA
+3797,Furkan Korkmaz,,Turkey
+3800,Gabe Vincent,California-Santa Barbara,USA
+3806,Garrett Temple,Louisiana State,USA
+3810,Garrison Mathews,Lipscomb,USA
+3813,Gary Clark,Cincinnati,USA
+3816,Gary Harris,Michigan State,USA
+3819,Gary Payton II,Oregon State,USA
+3823,Gary Trent Jr.,Duke,USA
+3826,George Hill,Indiana-Purdue Indianapolis,USA
+3829,Georges Niang,Iowa State,USA
+3832,Giannis Antetokounmpo,,Greece
+3836,Glenn Robinson III,Michigan,USA
+3839,Goga Bitadze,,Georgia
+3842,Goran Dragic,,Slovenia
+3846,Gordon Hayward,Butler,USA
+3849,Gorgui Dieng,Louisville,Senegal
+3855,Grant Williams,Tennessee,USA
+3859,Grayson Allen,Duke,USA
+3865,Hamidou Diallo,Kentucky,USA
+3868,Harrison Barnes,North Carolina,USA
+3872,Harry Giles III,Duke,USA
+3875,Hassan Whiteside,Marshall,USA
+3878,Henry Ellenson,Marquette,USA
+3881,Ian Mahinmi,,France
+3885,Ignas Brazdeikis,Michigan,Canada
+3888,Iman Shumpert,Georgia Tech,USA
+3895,Isaac Bonga,,Germany
+3901,Isaiah Hartenstein,,Germany
+3787,Frank Ntilikina,,France
+3908,Isaiah Roby,Nebraska-Lincoln,USA
+3784,Frank Mason,Kansas,USA
+3777,Frank Jackson,Duke,USA
+3669,Domantas Sabonis,Gonzaga,Lithuania
+3672,Donovan Mitchell,Louisville,USA
+3676,Donta Hall,Alabama,USA
+3679,Donte DiVincenzo,Villanova,USA
+3682,Dorian Finney-Smith,Florida,USA
+3686,Doug McDermott,Creighton,USA
+3689,Dragan Bender,,Croatia
+3692,Draymond Green,Michigan State,USA
+3695,Drew Eubanks,Oregon State,USA
+3699,Duncan Robinson,Michigan,USA
+3702,Dusty Hannahs,Arkansas,USA
+3705,Dwayne Bacon,Florida State,USA
+3708,Dwight Howard,,USA
+3712,Dwight Powell,Stanford,Canada
+3718,Dzanan Musa,,Bosnia and Herzegovina
+3721,E'Twaun Moore,Purdue,USA
+3725,Ed Davis,North Carolina,USA
+3728,Edmond Sumner,Xavier,USA
+3731,Elfrid Payton,Louisana-Lafayette,USA
+3735,Elie Okobo,,France
+3744,Emmanuel Mudiay,,DRC
+3748,Enes Kanter,,Turkey
+3751,Eric Bledsoe,Kentucky,USA
+3754,Eric Gordon,Indiana,USA
+3757,Eric Mika,Brigham Young,USA
+3761,Eric Paschall,Villanova,USA
+3764,Ersan Ilyasova,,Turkey
+3767,Evan Fournier,,France
+3770,Evan Turner,Ohio State,USA
+3780,Frank Kaminsky,Wisconsin,USA
+3666,Dion Waiters,Syracuse,USA
+3914,Isaiah Thomas,Washington,USA
+3921,Ivica Zubac,,Croatia
+4061,Jaylen Hoard,Wake Forest,France
+4064,Jaylen Nowell,Washington,USA
+4068,Jayson Tatum,Duke,USA
+4071,Jeff Green,Georgetown,USA
+4074,Jeff Teague,Wake Forest,USA
+4077,Jerami Grant,Syracuse,USA
+4081,Jeremiah Martin,Memphis,USA
+4084,Jeremy Lamb,Connecticut,USA
+4087,Jeremy Pargo,Gonzaga,USA
+4090,Jerian Grant,Notre Dame,USA
+4094,Jerome Robinson,Boston College,USA
+4097,Jevon Carter,West Virginia,USA
+4100,Jimmy Butler,Marquette,USA
+4104,Joakim Noah,Florida,USA
+4107,Joe Chealey,College of Charleston,USA
+4110,Joe Harris,Virginia,USA
+4113,Joe Ingles,,Australia
+4117,Joel Embiid,Kansas,Cameroon
+4120,John Collins,Wake Forest,USA
+4123,John Henson,North Carolina,USA
+4126,John Konchar,Indiana-Purdue Fort Wayne,USA
+4133,Johnathan Motley,Baylor,USA
+4136,Johnathan Williams,Gonzaga,USA
+4139,Jonah Bolden,UCLA,Australia
+4143,Jonas Valanciunas,,Lithuania
+4146,Jonathan Isaac,Florida State,USA
+4153,Jordan Bell,Oregon,USA
+4156,Jordan Bone,Tennessee,USA
+4159,Jordan Clarkson,Missouri,USA
+4058,Jaylen Brown,California,USA
+3917,Ish Smith,Wake Forest,USA
+4048,Jaxson Hayes,Texas-Austin,USA
+4041,Jarrod Uthoff,Iowa,USA
+3924,J.J. Barea,Northeastern,Puerto Rico
+3927,J.P. Macura,Xavier,USA
+3930,JJ Redick,Duke,USA
+3934,JR Smith,No College,USA
+3937,Ja Morant,Murray State,USA
+3940,JaKarr Sampson,St. John's,USA
+3944,JaMychal Green,Alabama,USA
+3947,JaVale McGee,Nevada-Reno,USA
+3950,Jabari Parker,Duke,USA
+3953,Jacob Evans,Cincinnati,USA
+3960,Jae Crowder,Marquette,USA
+3966,Jahlil Okafor,Duke,USA
+3973,Jake Layman,Maryland,USA
+3976,Jakob Poeltl,Utah,Austria
+3979,Jalen Brunson,Villanova,USA
+3986,Jalen Lecque,,USA
+3989,Jalen McDaniels,San Diego State,USA
+3996,Jamal Crawford,Michigan,USA
+3999,Jamal Murray,Kentucky,Canada
+4002,James Ennis III,California State-Long Beach,USA
+4006,James Harden,Arizona State,USA
+4009,James Johnson,Wake Forest,USA
+4019,Jared Dudley,Boston College,USA
+4022,Jared Harper,Auburn,USA
+4025,Jaren Jackson Jr.,Michigan State,USA
+4028,Jarred Vanderbilt,Kentucky,USA
+4032,Jarrell Brantley,College of Charleston,USA
+4035,Jarrett Allen,Texas-Austin,USA
+4038,Jarrett Culver,Texas Tech,USA
+4045,Javonte Green,Radford,USA
+3663,Dillon Brooks,Oregon,Canada
+3656,Dewayne Dedmon,Southern California,USA
+3653,Dewan Hernandez,Miami,USA
+3281,Bismack Biyombo,,DRC
+3284,Blake Griffin,Oklahoma,USA
+3287,Boban Marjanovic,,Serbia
+3290,Bobby Portis,Arkansas,USA
+3294,Bogdan Bogdanovic,,Serbia
+3297,Bojan Bogdanovic,,Croatia
+3300,Bol Bol,Oregon,Sudan
+3303,Brad Wanamaker,Pittsburgh,USA
+3307,Bradley Beal,Florida,USA
+3310,Brandon Clarke,Gonzaga,Canada
+3313,Brandon Goodwin,Florida Gulf Coast,USA
+3317,Brandon Ingram,Duke,USA
+3320,Brandon Knight,Kentucky,USA
+3323,Brian Bowen II,,USA
+3330,Brook Lopez,Stanford,USA
+3333,Bruce Brown,Miami,USA
+3336,Bruno Caboclo,,Brazil
+3339,Bruno Fernando,Maryland,Angola
+3343,Bryn Forbes,Michigan State,USA
+3346,Buddy Hield,Oklahoma,Bahamas
+3352,CJ McCollum,Lehigh,USA
+3356,CJ Miles,,USA
+3359,Caleb Martin,Nevada-Reno,USA
+3362,Caleb Swanigan,Purdue,USA
+3366,Cam Reddish,Duke,USA
+3369,Cameron Johnson,North Carolina,USA
+3375,Cameron Payne,Murray State,USA
+3382,Caris LeVert,Michigan,USA
+3385,Carmelo Anthony,Syracuse,USA
+3277,Ben Simmons,Louisiana State,Australia
+3388,Carsen Edwards,Purdue,USA
+3274,Ben McLemore,Kansas,USA
+3268,BJ Johnson,La Salle,USA
+3140,Aaron Holiday,UCLA,USA
+3147,Abdel Nader,Iowa State,Egypt
+3150,Adam Mokoka,,France
+3153,Admiral Schofield,Tennessee,United Kingdom
+3157,Al Horford,Florida,Dominican Republic
+3160,Al-Farouq Aminu,Wake Forest,USA
+3163,Alec Burks,Colorado,USA
+3170,Alen Smailagic,,Serbia
+3173,Alex Caruso,Texas A&M,USA
+3176,Alex Len,Maryland,Ukraine
+3179,Alfonzo McKinnie,Wisconsin-Green Bay,USA
+3183,Alize Johnson,Missouri State,USA
+3186,Allen Crabbe,California,USA
+3189,Allonzo Trier,Arizona,USA
+3196,Amile Jefferson,Duke,USA
+3199,Amir Coffey,Minnesota,USA
+3206,Andre Drummond,Connecticut,USA
+3209,Andre Iguodala,Arizona,USA
+3212,Andre Roberson,Colorado,USA
+3215,Andrew Wiggins,Kansas,Canada
+3219,Anfernee Simons,,USA
+3222,Ante Zizic,,Croatia
+3225,Anthony Davis,Kentucky,USA
+3238,Anthony Tolliver,Creighton,USA
+3241,Antonius Cleveland,S.E. Missouri,USA
+3245,Anzejs Pasecniks,,Latvia
+3251,Aron Baynes,Washington State,Australia
+3258,Austin Rivers,Duke,USA
+3261,Avery Bradley,Texas-Austin,USA
+3271,Bam Adebayo,Kentucky,USA
+3398,Cedi Osman,,Turkey
+3401,Chandler Hutchison,Boise State,USA
+3405,Chandler Parsons,Florida,USA
+3532,Darius Bazley,,USA
+3535,Darius Garland,Vanderbilt,USA
+3542,Daryl Macon,Arkansas,USA
+3545,David Nwaba,Cal Poly,USA
+3548,Davis Bertans,,Latvia
+3552,De'Aaron Fox,Kentucky,USA
+3555,De'Andre Hunter,Virginia,USA
+3558,De'Anthony Melton,Southern California,USA
+3561,DeAndre Jordan,Texas A&M,USA
+3565,DeAndre' Bembry,St. Joseph's (PA),USA
+3568,DeMar DeRozan,Southern California,USA
+3575,DeMarre Carroll,Missouri,USA
+3578,Dean Wade,Kansas State,USA
+3581,Deandre Ayton,Arizona,Bahamas
+3588,Dejounte Murray,Washington,USA
+3591,Delon Wright,Utah,USA
+3597,Dennis Schroder,,Germany
+3601,Dennis Smith Jr.,North Carolina State,USA
+3604,Denzel Valentine,Michigan State,USA
+3607,Deonte Burton,Iowa State,USA
+3610,Derrick Favors,Georgia Tech,USA
+3614,Derrick Jones Jr.,UNLV,USA
+3617,Derrick Rose,Memphis,USA
+3620,Derrick Walton Jr.,Michigan,USA
+3623,Derrick White,Colorado,USA
+3630,Devin Booker,Kentucky,USA
+3643,Devon Hall,Virginia,USA
+3646,Devontae Cacok,North Carolina-Wilmington,USA
+3650,Devonte' Graham,Kansas,USA
+3529,Dario Saric,,Croatia
+3526,Danuel House Jr.,Texas A&M,USA
+3522,Dante Exum,,Australia
+3519,Danny Green,North Carolina,USA
+3408,Charlie Brown Jr.,St. Joseph's (PA),USA
+3411,Chasson Randle,Stanford,USA
+3414,Cheick Diallo,Kansas,Mali
+3418,Chimezie Metu,Southern California,USA
+3421,Chris Boucher,Oregon,Saint Lucia
+3424,Chris Chiozza,Florida,USA
+3428,Chris Clemons,Campbell University,USA
+3431,Chris Paul,Wake Forest,USA
+3434,Chris Silva,South Carolina,Gabon
+3437,Christian Wood,UNLV,USA
+3444,Clint Capela,,Switzerland
+3447,Coby White,North Carolina,USA
+3450,Cody Martin,Nevada-Reno,USA
+3454,Cody Zeller,Indiana,USA
+4166,Jordan McRae,Tennessee,USA
+3460,Collin Sexton,Alabama,USA
+3467,Cory Joseph,University of Texas at Austin,Canada
+3470,Courtney Lee,Western Kentucky,USA
+3473,Cristiano Felicio,,Brazil
+3477,D'Angelo Russell,Ohio State,USA
+3480,D.J. Augustin,Texas-Austin,USA
+3483,D.J. Wilson,Michigan,USA
+3486,DaQuan Jeffries,Tulsa,USA
+3493,Damian Jones,Vanderbilt,USA
+3496,Damian Lillard,Weber State,USA
+3499,Damion Lee,Drexel,USA
+3503,Damyean Dotson,Houston,USA
+3506,Daniel Gafford,Arkansas,USA
+3512,Daniel Theis,,Germany
+3516,Danilo Gallinari,,Italy
+3463,Corey Brewer,Florida,USA
+4172,Jordan Poole,Michigan,USA
+3137,Aaron Gordon,Arizona,USA
+4185,Josh Hart,Villanova,USA
+4835,Rondae Hollis-Jefferson,Arizona,USA
+4838,Royce O'Neale,Baylor,USA
+4842,Rudy Gay,Connecticut,USA
+4845,Rudy Gobert,,France
+4848,Rui Hachimura,Gonzaga,Japan
+4851,Russell Westbrook,UCLA,USA
+4855,Ryan Anderson,California,USA
+4858,Ryan Arcidiacono,Villanova,USA
+4861,Ryan Broekhoff,Valparaiso,Australia
+4877,Sekou Doumbouya,,France
+4881,Semi Ojeleye,Southern Methodist,USA
+4884,Serge Ibaka,,Republic of the Congo
+4887,Seth Curry,Duke,USA
+4891,Shabazz Napier,Connecticut,USA
+4894,Shai Gilgeous-Alexander,Kentucky,Canada
+4897,Shake Milton,Southern Methodist,USA
+4900,Shamorie Ponds,"St. John's, N.Y.",USA
+4904,Shaquille Harrison,Tulsa,USA
+4907,Sindarius Thornwell,South Carolina,USA
+4910,Skal Labissiere,Kentucky,Haiti
+4917,Solomon Hill,Arizona,USA
+4920,Spencer Dinwiddie,Colorado,USA
+4923,Stanley Johnson,Arizona,USA
+4926,Stanton Kidd,Colorado State,USA
+4930,Stephen Curry,Davidson,USA
+4933,Sterling Brown,Southern Methodist,USA
+4936,Steven Adams,Pittsburgh,New Zealand
+4940,Svi Mykhailiuk,Kansas,Ukraine
+4943,T.J. Leaf,UCLA,USA
+4832,Romeo Langford,Indiana,USA
+4946,T.J. McConnell,Arizona,USA
+4828,Rodney McGruder,Kansas State,USA
+4822,Rodions Kurucs,,Latvia
+4691,OG Anunoby,Indiana,United Kingdom
+4698,Omari Spellman,Villanova,USA
+4704,Oshae Brissett,Syracuse,Canada
+4708,Otto Porter Jr.,Georgetown,USA
+4711,P.J. Tucker,Texas-Austin,USA
+4714,P.J. Washington,Kentucky,USA
+4717,PJ Dozier,South Carolina,USA
+4721,Pascal Siakam,New Mexico State,Cameroon
+4724,Pat Connaughton,Notre Dame,USA
+4727,Patrick Beverley,Arkansas,USA
+4731,Patrick McCaw,UNLV,USA
+4734,Patrick Patterson,Kentucky,USA
+4740,Patty Mills,St.Mary's College of California,Australia
+4744,Paul George,Fresno State,USA
+4747,Paul Millsap,Louisiana Tech,USA
+4753,Paul Watson,Fresno State,USA
+4763,Quinn Cook,Duke,USA
+4766,Quinndary Weatherspoon,Mississippi State,USA
+4773,RJ Barrett,Duke,Canada
+4776,Rajon Rondo,Kentucky,USA
+4780,Raul Neto,,Brazil
+4786,Rayjon Tucker,Arkansas-Little Rock,USA
+4789,Reggie Bullock,North Carolina,USA
+4793,Reggie Jackson,Boston College,USA
+4799,Richaun Holmes,Bowling Green,USA
+4802,Ricky Rubio,,Spain
+4806,Robert Covington,Tennessee State,USA
+4812,Robert Williams III,Texas A&M,USA
+4819,Robin Lopez,Stanford,USA
+4825,Rodney Hood,Duke,USA
+4949,T.J. Warren,North Carolina State,USA
+4953,Tacko Fall,Central Florida,Senegal
+4956,Taj Gibson,Southern California,USA
+5086,Tyler Johnson,Fresno State,USA
+5090,Tyler Zeller,North Carolina,USA
+5103,Tyrone Wallace,California,USA
+5106,Tyson Chandler,,USA
+5109,Tyus Jones,Duke,USA
+5116,Udonis Haslem,Florida,USA
+5122,Vic Law,Northwestern,USA
+5126,Victor Oladipo,Indiana,USA
+5129,Vince Carter,North Carolina,USA
+5132,Vincent Poirier,,France
+5135,Vlatko Cancar,,Slovenia
+5139,Wayne Ellington,North Carolina,USA
+5142,Wendell Carter Jr.,Duke,USA
+5145,Wenyen Gabriel,Kentucky,South Sudan
+5149,Wes Iwundu,Kansas State,USA
+5152,Wesley Matthews,Marquette,USA
+5155,Will Barton,Memphis,USA
+5162,William Howard,,France
+5165,Willie Cauley-Stein,Kentucky,USA
+5168,Willy Hernangomez,,Spain
+5171,Wilson Chandler,DePaul,USA
+5178,Yogi Ferrell,Indiana,USA
+5181,Yuta Watanabe,George Washington,Japan
+5184,Zach Collins,Gonzaga,USA
+5188,Zach LaVine,UCLA,USA
+5191,Zach Norvell Jr.,Gonzaga,USA
+5198,Zhaire Smith,Texas Tech,USA
+5201,Zion Williamson,Duke,USA
+5204,Zylan Cheatham,Arizona State,USA
+5083,Tyler Herro,Kentucky,USA
+5080,Tyler Cook,Iowa,USA
+5070,Ty Jerome,Virginia,USA
+5067,Troy Daniels,Virginia Commonwealth,USA
+4959,Talen Horton-Tucker,Iowa State,USA
+4962,Tariq Owens,Texas Tech,USA
+4966,Taurean Prince,Baylor,USA
+4969,Terance Mann,Florida State,USA
+4972,Terence Davis,Mississippi,USA
+4975,Terrance Ferguson,,USA
+4979,Terrence Ross,Washington,USA
+4982,Terry Rozier,Louisville,USA
+4985,Thabo Sefolosha,,Switzerland
+4989,Thaddeus Young,Georgia Tech,USA
+4992,Thanasis Antetokounmpo,,Greece
+4998,Theo Pinson,North Carolina,USA
+5002,Thomas Bryant,Indiana,USA
+5005,Thon Maker,,South Sudan
+4175,Josh Gray,Louisiana State,USA
+5008,Tim Frazier,Penn State,USA
+5015,Timothe Luwawu-Cabarrot,,France
+5018,Tobias Harris,Tennessee,USA
+5021,Tomas Satoransky,,Czech Republic
+5024,Tony Bradley,North Carolina,USA
+5028,Tony Snell,New Mexico,USA
+5031,Torrey Craig,South Carolina Upstate,USA
+5034,Trae Young,Oklahoma,USA
+5041,Tremont Waters,Louisiana State,USA
+5047,Treveon Graham,Va Commonwealth,USA
+5051,Trevor Ariza,UCLA,USA
+5054,Trey Burke,Michigan,USA
+5057,Trey Lyles,Kentucky,Canada
+5060,Tristan Thompson,Texas-Austin,Canada
+5064,Troy Brown Jr.,Oregon,USA
+5011,Tim Hardaway Jr.,Michigan,USA
+4685,Norman Powell,UCLA,USA
+4688,Norvel Pelle,Iona,USA
+4678,Nikola Vucevic,Southern California,Montenegro
+4309,Kevin Hervey,Texas-Arlington,USA
+4313,Kevin Huerter,Maryland,USA
+4316,Kevin Knox II,Kentucky,USA
+4319,Kevin Love,UCLA,USA
+4322,Kevin Porter Jr.,Southern California,USA
+4326,Kevon Looney,UCLA,USA
+4329,Khem Birch,UNLV,Canada
+4332,Khris Middleton,Texas A&M,USA
+4335,Khyri Thomas,Creighton,USA
+4348,Kostas Antetokounmpo,Dayton,Greece
+4352,Kris Dunn,Providence,USA
+4355,Kristaps Porzingis,,Latvia
+4358,Ky Bowman,Boston College,USA
+4362,Kyle Alexander,Tennessee,Canada
+4365,Kyle Anderson,UCLA,USA
+4368,Kyle Guy,Virginia,USA
+4371,Kyle Korver,Creighton,USA
+4375,Kyle Kuzma,Utah,USA
+4378,Kyle Lowry,Villanova,USA
+4381,Kyle O'Quinn,Norfolk State,USA
+4384,Kyrie Irving,Duke,Australia
+4388,LaMarcus Aldridge,University of Texas at Austin,USA
+4397,Lance Thomas,Duke,USA
+4401,Landry Shamet,Wichita State,USA
+4404,Langston Galloway,St. Joseph's (PA),USA
+4407,Larry Nance Jr.,Wyoming,USA
+4410,Lauri Markkanen,Arizona,Finland
+4414,LeBron James,,USA
+4682,Noah Vonleh,Indiana,USA
+4299,Kentavious Caldwell-Pope,Georgia,USA
+4420,Lonzo Ball,UCLA,USA
+4296,Kent Bazemore,Old Dominion,USA
+4290,Kendrick Nunn,Oakland,USA
+4188,Josh Jackson,Kansas,USA
+4192,Josh Magette,Alabama Huntsville,USA
+4195,Josh Okogie,Georgia Tech,Nigeria
+4198,Josh Reaves,Penn State,USA
+4202,Josh Richardson,Tennessee,USA
+4205,Jrue Holiday,UCLA,USA
+4208,Juan Toscano-Anderson,Marquette,USA
+4211,Juancho Hernangomez,,Spain
+4215,Julius Randle,Kentucky,USA
+4218,Justin Anderson,Virginia,USA
+4221,Justin Holiday,Washington,USA
+4224,Justin Jackson,North Carolina,USA
+4228,Justin James,Wyoming,USA
+4231,Justin Patton,Creighton,USA
+4234,Justin Robinson,Virginia Tech ,USA
+4237,Justin Wright-Foreman,Hofstra,USA
+4241,Justise Winslow,Duke,USA
+4244,Jusuf Nurkic,,Bosnia and Herzegovina
+4247,Juwan Morgan,Indiana,USA
+4250,KZ Okpala,Stanford,USA
+4254,Kadeem Allen,Arizona,USA
+4260,Karl-Anthony Towns,Kentucky,USA
+4264,Kawhi Leonard,San Diego State,USA
+4267,Keita Bates-Diop,Ohio State,USA
+4270,Kelan Martin,Butler,USA
+4273,Keldon Johnson,Kentucky,USA
+4280,Kelly Olynyk,Gonzaga,Canada
+4283,Kelly Oubre Jr.,Kansas,USA
+4286,Kemba Walker,Connecticut,USA
+4293,Kenrich Williams,TCU,USA
+4424,Lou Williams,,USA
+4417,Lonnie Walker IV,Miami,USA
+4430,Luc Mbah a Moute,UCLA,Cameroon
+4427,Louis King,Oregon,USA
+4564,Michael Frazier II,Florida,USA
+4567,Michael Kidd-Gilchrist,Kentucky,USA
+4571,Michael Porter Jr.,Missouri,USA
+4574,Mikal Bridges,Villanova,USA
+4577,Mike Conley,Ohio State,USA
+4584,Mike Muscala,Bucknell,USA
+4587,Mike Scott,Virginia,USA
+4590,Miles Bridges,Michigan State,USA
+4593,Mitchell Robinson,Western Kentucky,USA
+4597,Miye Oni,Yale,USA
+4600,Mo Bamba,Texas-Austin,USA
+4603,Monte Morris,Iowa State,USA
+4606,Montrezl Harrell,Louisville,USA
+4610,Moritz Wagner,Michigan,Germany
+4613,Moses Brown,UCLA,USA
+4616,Mychal Mulder,Kentucky,Canada
+4619,Myles Turner,Texas-Austin,USA
+4626,Nassir Little,North Carolina,USA
+4639,Naz Mitrou-Long,Iowa State,Canada
+4642,Naz Reid,Louisiana State,USA
+4646,Nemanja Bjelica,,Serbia
+4649,Nerlens Noel,Kentucky,USA
+4655,Nickeil Alexander-Walker,Virginia Tech,Canada
+4662,Nicolas Batum,,France
+4665,Nicolas Claxton,Georgia,USA
+4668,Nicolo Melli,,Italy
+4672,Nigel Williams-Goss,Gonzaga,USA
+4675,Nikola Jokic,,Serbia
+4557,Mfiondu Kabengele,Florida State,Canada
+4554,Meyers Leonard,Illinois,USA
+4561,Michael Carter-Williams,Syracuse,USA
+4548,Maxi Kleber,,Germany
+4433,Luguentz Dort,Arizona State,Canada
+4437,Luka Doncic,,Slovenia
+4440,Luka Samanic,,Croatia
+4443,Luke Kennard,Duke,USA
+4446,Luke Kornet,Vanderbilt,USA
+4453,Malcolm Brogdon,Virginia,USA
+4456,Malcolm Miller,Holy Cross,USA
+4459,Malik Beasley,Florida State,USA
+4466,Malik Monk,Kentucky,USA
+4469,Malik Newman,Kansas,USA
+4476,Marc Gasol,,Spain
+4479,Marco Belinelli,,Italy
+4551,Melvin Frazier Jr.,Tulane,USA
+4486,Marcus Smart,Oklahoma State,USA
+4489,Marial Shayok,Iowa State,Canada
+4482,Marcus Morris Sr.,Kansas,USA
+4495,Markelle Fultz,Washington,USA
+4544,Max Strus,DePaul,USA
+4541,Maurice Harkless,St. John's,USA
+4538,Matthew Dellavedova,St.Mary's College of California,Australia
+4492,Mario Hezonja,,Croatia
+4531,Matt Mooney,Texas Tech,USA
+4528,Matisse Thybulle,Washington,USA
+4535,Matt Thomas,Iowa State,USA
+4518,Marvin Williams,North Carolina,USA
+4515,Marvin Bagley III,Duke,USA
+4512,Marquese Chriss,Washington,USA
+4508,Marques Bolden,Duke,USA
+4502,Marko Guduric,,Serbia
+4499,Markieff Morris,Kansas,USA
+4525,Mason Plumlee,Duke,USA
+4162,Jordan McLaughlin,Southern California,USA
+5194,Zeke Nnaji,Arizona,USA
+5175,Xavier Tillman,Michigan State,USA
+3793,Freddie Gillespie,Baylor,USA
+3803,Gabriel Deck,,Argentina
+3852,Grant Riller,College of Charleston,USA
+3862,Greg Whittington,Georgetown,USA
+3774,Facundo Campazzo,,Argentina
+3640,Devon Dotson,Kansas,USA
+3659,Didi Louzada,,Brazil
+3715,Dylan Windler,Belmont,USA
+3738,Elijah Bryant,Brigham Young,USA
+3741,Elijah Hughes,Syracuse,USA
+4051,Jay Scrubb,                                   ,USA
+4055,Jaylen Adams,St. Bonaventure,USA
+4130,John Wall,Kentucky,USA
+4015,James Wiseman,Memphis,USA
+4012,James Nunnally,California-Santa Barbara,USA
+3891,Immanuel Quickley,Kentucky,USA
+3898,Isaac Okoro,Auburn,USA
+3904,Isaiah Joe,Arkansas,USA
+3911,Isaiah Stewart,Washington,USA
+3637,Devin Vassell,Florida State,USA
+3957,Jaden McDaniels,Washington,USA
+3963,Jae'Sean Tate,Ohio State,USA
+3970,Jahmi'us Ramsey,Texas Tech,USA
+3983,Jalen Harris,Nevada,USA
+3993,Jalen Smith,Maryland,USA
+3633,Devin Cannady,Princeton,USA
+3627,Desmond Bane,TCU,USA
+3326,Brodric Thomas,Truman State,USA
+3349,CJ Elleby,Washington State,USA
+3372,Cameron Oliver,Nevada,USA
+3264,Axel Toupane,,France
+3143,Aaron Nesmith,Vanderbilt,USA
+3166,Aleksej Pokusevski,,Serbia
+3192,Amida Brimah,Connecticut,USA
+3379,Cameron Reynolds,Tulane,USA
+3228,Anthony Edwards,Georgia,USA
+3232,Anthony Gill,Virginia,USA
+3235,Anthony Lamb,Vermont,USA
+3248,Armoni Brooks,Houston,USA
+3254,Ashton Hagans,Kentucky,USA
+3202,Anderson Varejao,,Brazil
+3539,Darius Miller,Kentucky,USA
+3571,DeMarcus Cousins,Kentucky,USA
+3584,Deividas Sirvydis,,Lithuania
+3594,Deni Avdija,,Israel
+3509,Daniel Oturu,Minnesota,USA
+3392,Cassius Stanley,Duke,USA
+3395,Cassius Winston,Michigan State,USA
+3441,Chuma Okeke,Auburn,USA
+3457,Cole Anthony,North Carolina,USA
+3490,Dakota Mathias,Purdue,USA
+4149,Jontay Porter,Missouri,USA
+4809,Robert Franks,Washington State,USA
+4815,Robert Woodard II,Mississippi State,USA
+4864,Saben Lee,Vanderbilt,USA
+4868,Saddiq Bey,Villanova,USA
+4871,Sam Merrill,Utah State,USA
+4874,Sean McDermott,Butler,USA
+4796,Reggie Perry,Mississippi State,USA
+4695,Obi Toppin,Dayton,USA
+4701,Onyeka Okongwu,Southern California,USA
+4750,Paul Reed,DePaul,USA
+4757,Payton Pritchard,Oregon,USA
+4760,Precious Achiuwa,Memphis,Nigeria
+4770,R.J. Hampton,,USA
+4783,Ray Spalding,Louisville,USA
+4737,Patrick Williams,Florida State,USA
+4913,Skylar Mays,Louisiana State,USA
+5044,Trent Forrest,Florida State,USA
+5073,Ty-Shon Alexander,Creighton,USA
+5077,Tyler Bey,Colorado,USA
+5093,Tyrell Terry,Stanford,USA
+5096,Tyrese Haliburton,Iowa State,USA
+5100,Tyrese Maxey,Kentucky,USA
+5113,Udoka Azubuike,Kansas,Nigeria
+5119,Vernon Carey Jr.,Duke,USA
+5158,Will Magnay,,Australia
+5037,Tre Jones,Duke,USA
+4995,Theo Maledon,,France
+4303,Kenyon Martin Jr.,,USA
+4306,Kevin Durant,Texas-Austin,USA
+4339,Killian Hayes,,France
+4342,Killian Tillie,Gonzaga,France
+4345,Kira Lewis Jr.,Alabama,USA
+4391,LaMelo Ball,,USA
+4394,Lamar Stevens,Penn State,USA
+4169,Jordan Nwora,Louisville,USA
+4179,Josh Green,Arizona,Australia
+4182,Josh Hall,,USA
+4257,Karim Mane,,Senegal
+4277,Keljin Blevins,Montana State,USA
+4580,Mike James,Lamar,USA
+4623,Naji Marshall,Xavier,USA
+4629,Nate Darling,Delaware,Canada
+4633,Nate Hinton,Houston,USA
+4636,Nathan Knight,William & Mary,USA
+4652,Nick Richards,Kentucky,Jamaica
+4659,Nico Mannion,Arizona,Italy
+4450,Malachi Flynn,San Diego State,USA
+4463,Malik Fitts,,USA
+4473,Mamadi Diakite,Virginia,Guinea
+4505,Markus Howard,Marquette,USA
+4522,Mason Jones,Arkansas,USA
