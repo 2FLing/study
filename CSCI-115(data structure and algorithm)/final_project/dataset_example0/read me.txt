@@ -1,0 +1,1 @@
+This folder is for data set examples for testing Insertion Sort, Selection Sort, and Bubble Sort in the project of CSCI-115

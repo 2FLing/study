@@ -1,0 +1,1 @@
+This folder is for data set examples for testing Merge Sort, Quick Sort, Heap Sort, Counting Sort, and Radix Sort in the project of CSCI-115
