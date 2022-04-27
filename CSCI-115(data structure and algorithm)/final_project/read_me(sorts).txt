@@ -24,7 +24,7 @@ Those functions that testing the algorithm are named in this format:
 
     algorithm name + order of data set + size
 
-For example, the function for testing the quick sort with large size of data set in reversed order is:
+For example, the function for testing the quick sort with large size (90000) of data set in reversed order is:
 
     quick_reversed_large_size();
 
