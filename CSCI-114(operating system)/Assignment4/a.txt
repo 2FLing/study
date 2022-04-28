@@ -13,10 +13,10 @@ condition_variable go;
 int number_of_threads, resources, available;
 void read_arguments(char**);
 void request(vector<int>&, vector<int>&, int&, int);
-void release(vector<int>&, vector<int>, int&, int);
+void release(vector<int>&, vector<int>, vector<bool>&,int&, int);
 void print_alloc(vector<int>);
 void read_from_file(vector<int>&);
-void banker(vector<int>&, vector<int>&, int&,vector<bool>&,vector<int>,int);
+void banker(vector<int>&, vector<int>&, int&, vector<bool>&, vector<int>, int);
 
 void read_arguments(char** args)
 {
@@ -35,9 +35,15 @@ void request(vector<int>& allocation, vector<int>& need, int& available, int ind
     allocation[index]++;
     print_alloc(allocation);
 }
-void release(vector<int>& allocation, vector<int> max, int& available, int index)
+void release(vector<int>& allocation, vector<int> max,vector<bool>&ready, int& available, int index)
 {
-    available += max[index];
+    unique_lock<std::mutex> mlock(mtx);
+    for (int i = 0; i < ready.size(); i++)
+    {
+        ready[i] = true;
+    }
+    go.notify_one();
+    available--;
     allocation[index] = 0;
     print_alloc(allocation);
 }
@@ -66,7 +72,7 @@ void read_from_file(vector<int>& request)
     }
 }
 
-void banker(vector<int>& allocation,vector<int>& need, int& available,vector<bool>&ready,vector<int>max, int index)
+void banker(vector<int>& allocation, vector<int>& need, int& available, vector<bool>& ready, vector<int>max, int index)
 {
     if (need[index] != 0)
     {
@@ -76,24 +82,16 @@ void banker(vector<int>& allocation,vector<int>& need, int& available,vector<boo
         else
             ready[index] = true;
 
-        while (!ready[index])
+       while (!ready[index])
             go.wait(mlock);
         request(allocation, need, available, index);
-        ready[index] = false;
         if (need[index] == 0)
-            release(allocation, max, available, index);
+            release(allocation, max, ready,available, index);
         else
             banker(allocation, need, available, ready, max, index);
-        for (int i = 0; i < ready.size(); i++)
-        {
-            ready[index] = true;
-        }
-        for (int i = 0; i < ready.size(); i++)
-        {
-            go.notify_one();
-        }
+        
     }
-    
+
 
 }
 int main(int argv, char** args)
@@ -114,11 +112,13 @@ int main(int argv, char** args)
     }
     for (int i = 0; i < number_of_threads; i++)
     {
-        thrds.push_back(thread(ref(banker), ref(allocation), ref(need), ref(available), ref(ready), ref(max), ref(i)));
+        thrds.push_back(thread(ref(banker), ref(allocation), ref(need), ref(available), ref(ready), ref(max), i));
+        //banker(allocation, need, available, ready, max, i);
     }
     for (int i = 0; i < thrds.size(); i++)
     {
         thrds[i].join();
+        //banker(allocation, need, available, ready, max, i);
     }
     return 0;
 }

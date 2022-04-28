@@ -1,3 +1,5 @@
+//MingkuanPang
+//group 3
 #include <iostream>
 #include <time.h>
 #include <random>

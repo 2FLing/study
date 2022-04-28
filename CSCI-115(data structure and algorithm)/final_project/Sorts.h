@@ -1,3 +1,5 @@
+//Mingkuan Pang
+//group 3
 #include <vector>
 #include "Heap.h"
 using namespace std;
