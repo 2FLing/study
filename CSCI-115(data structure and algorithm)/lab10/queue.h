@@ -31,7 +31,8 @@ int Queue::pop()
 {
     if (is_empty())
     {
-        return NULL;
+        cout<<"Nothing pop out because the queue is empty."<<endl;
+        return -1;
     }
     else
     {
