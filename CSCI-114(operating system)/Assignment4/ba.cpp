@@ -78,9 +78,11 @@ bool notify_next(vector<bool> finish, vector<bool>& ready, int index)
     }
     if (!successfully)
         return successfully;
-    while (finish[temp % number_of_threads])//if the thread is finished already then skip it
+    //if the thread is finished already then skip it
+    while (finish[temp % number_of_threads])
         temp++;
-    ready[temp % number_of_threads] = true; // make next thread to be ready to run
+    // make next thread to be ready to run
+    ready[temp % number_of_threads] = true;
     return successfully;
 }
 void read_from_file(vector<vector<int>>& request)
@@ -191,4 +193,3 @@ int main(int argv, char** args)
     }
     return 0;
 }
-//thrds.push_back(thread(ref(banker), ref(allocation), ref(available), ref(ready), ref(finish), j));
