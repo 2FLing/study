@@ -18,6 +18,18 @@ void print_alloc(vector<int>);
 void read_from_file(vector<int>&);
 void banker(vector<int>&, vector<int>&, int&, vector<bool>&, vector<bool>&, vector<int>, int);
 bool notify_next(vector<bool>, vector<bool>&, int);
+void write_file(vector<int>);
+void write_file(vector<int>v)
+{
+    fstream file;
+    file.open("result.txt", ios::app);
+    for (int i = 0; i < v.size(); i++)
+    {
+        file << to_string(v[i]) << " ";
+    }
+    file << endl;
+    file.close();
+}
 void read_arguments(char** args)
 {
     args++;
@@ -44,6 +56,7 @@ void release(vector<int>& allocation, vector<bool>& finish, vector<int> max, int
 }
 void print_alloc(vector<int> allocation)
 {
+    write_file(allocation);
     for (auto ele : allocation)
         cout << ele << " ";
     cout << endl;
@@ -66,7 +79,7 @@ bool notify_next(vector<bool> finish, vector<bool>& ready, int index)
 }
 void read_from_file(vector<int>& request)
 {
-    fstream file;
+    fstream file,result;
     file.open("requests.txt", ios::in);
     if (file.is_open())
     {
@@ -117,7 +130,10 @@ int main(int argv, char** args)
 {
     vector<int> requests;
     vector<thread> thrds;
+    fstream file;
     int count = 0;
+    file.open("result.txt",ios::out);
+    file.close();
     read_arguments(args);
     read_from_file(requests);
     for (auto ele : requests)
