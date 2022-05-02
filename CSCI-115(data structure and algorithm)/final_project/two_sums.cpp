@@ -1,124 +1,97 @@
+//MingkuanPang
+//group 3
 #include <iostream>
-#include <fstream>
-#include <string>
-#include <thread>
 #include <vector>
-#include <mutex>
-#include <condition_variable>
-#include <chrono>
 using namespace std;
-mutex mtx;
-condition_variable go;
-
-int number_of_threads, resources, available;
-void read_arguments(char**);
-void request(vector<int>&, vector<int>&, int&, int);
-void release(vector<int>&, vector<int>, int&, int);
-void print_alloc(vector<int>);
-void read_from_file(vector<int>&);
-void banker(vector<int>&, vector<int>&, int&,vector<bool>&,vector<int>,int);
-
-void read_arguments(char** args)
+bool two_sum(vector<int>, int);
+bool two_sum_evolve(vector<int>, int);
+// two sum, brute force version, try go through all the
+// pairs in the given array, if found those two numbers
+// then return true, otherwise return false.
+bool two_sum(vector<int> v, int sum)
 {
-    args++;
-    string temp = *args;
-    number_of_threads = stoi(temp);
-    args++;
-    temp = *args;
-    resources = stoi(temp);
-    available = resources;
-}
-void request(vector<int>& allocation, vector<int>& need, int& available, int index)
-{
-    available--;
-    need[index]--;
-    allocation[index]++;
-    print_alloc(allocation);
-}
-void release(vector<int>& allocation, vector<int> max, int& available, int index)
-{
-    available += max[index];
-    allocation[index] = 0;
-    print_alloc(allocation);
-}
-void print_alloc(vector<int> allocation)
-{
-    for (auto ele : allocation)
-        cout << ele << " ";
-    cout << endl;
-}
-void read_from_file(vector<int>& request)
-{
-    fstream file;
-    file.open("requests.txt", ios::in);
-    if (file.is_open())
+    for (int i = 0; i < v.size(); i++)
     {
-        string temp;
-        while (getline(file, temp))
+        for (int j = i + 1; j < v.size(); j++)
         {
-            request.push_back(temp[2] - '0');
+            if (v[i] + v[j] == sum)
+            {
+                return true;
+            }
         }
-        file.close();
+    }
+    return false;
+}
+// we are using a new array to store each number that we went through.
+// the worst case will be we went through the whole given array, still could not find those two numbers
+// therefore, for storing the whole given array, we need the range of the given array
+// which will be [min,max].
+// if the min > 0, then the range will be [0,max]
+// if the max < 0, then the range will be [min,0]
+// if min < 0 and max > 0 then the range will be [min,max]
+bool two_sum_evolve(vector<int> v, int target)
+{
+    int size = 0, min = v[0], max = v[0];
+    //find the max and min in the given array
+    for (int i = 0; i < v.size() - 1; i++) 
+    {
+        if (v[i] > v[i + 1])
+        {
+            if (v[i] > max)
+                max = v[i];
+            if (v[i + 1] < min)
+                min = v[i + 1];
+        }
+        else
+        {
+            if (v[i + 1] > max)
+                max = v[i + 1];
+            if (v[i] < min)
+                min = v[i];
+        }
+    }
+    if (max < 0)        
+    {
+        // because min < 0, size = -min + 1, 1 for the 0.                   
+        size = 1 - min; 
+    }
+    else if (min > 0)
+    {
+        // 1 for the 0.
+        size = max + 1; 
     }
     else
-    {
-        cout << "file does not exist!" << endl;
-    }
-}
+        // because min < 0, size = -min + max + 1, 1 for the 0.
+        size = max - min + 1; 
 
-void banker(vector<int>& allocation,vector<int>& need, int& available,vector<bool>&ready,vector<int>max, int index)
-{
-    if (need[index] != 0)
-    {
-        unique_lock<std::mutex> mlock(mtx);
-        if (need[index] > available)
-            ready[index] = false;
-        else
-            ready[index] = true;
+    // temp is the array used for storing number that went through
+    vector<int> temp(size); 
 
-        while (!ready[index])
-            go.wait(mlock);
-        request(allocation, need, available, index);
-        ready[index] = false;
-        if (need[index] == 0)
-            release(allocation, max, available, index);
-        else
-            banker(allocation, need, available, ready, max, index);
-        for (int i = 0; i < ready.size(); i++)
+    for (int i = 0; i < v.size(); i++)
+    {
+        // what number we still need to make number + v[i] = target
+        int still_need = target - v[i];
+        // if number > max or number < min, it is absolutely not in the given array.
+        if (still_need > max || still_need < min)
         {
-            ready[index] = true;
+            continue;
         }
-        for (int i = 0; i < ready.size(); i++)
-        {
-            go.notify_one();
-        }
+        //otherwise check if it exists in those numbers already went through.
+        //temp[still_need - min] == 0 means have not gone through yet
+        //then mark the temp[v[i] - min] = 1 to record we went through v[i].
+        //temp[still_need - min] == 1 means we went through the number we need
+        //in other words, in the given array, it exists a number that number + v[i] = target.
+        // therefore, return true.
+        else if (temp[still_need - min] == 0)
+            temp[v[i] - min]++;
+        else
+            return true;
     }
-    
-
+    return false;
 }
-int main(int argv, char** args)
+int main()
 {
-    vector<int> requests;
-    vector<thread>thrds;
-    int count = 0;
-    read_arguments(args);
-    read_from_file(requests);
-    vector<int>allocation(number_of_threads, 0);
-    vector<bool>ready(number_of_threads, false);
-    vector<int>max, need, markers;
-    for (int i = 0; i < number_of_threads; i++)
-    {
-        max.push_back(requests[i]);
-        need.push_back(requests[i]);
-        markers.push_back(i);
-    }
-    for (int i = 0; i < number_of_threads; i++)
-    {
-        thrds.push_back(thread(ref(banker), ref(allocation), ref(need), ref(available), ref(ready), ref(max), ref(i)));
-    }
-    for (int i = 0; i < thrds.size(); i++)
-    {
-        thrds[i].join();
-    }
+    vector<int> v = {1, 2, 3, 3, 6};
+    cout << two_sum_evolve(v, 6);
     return 0;
 }

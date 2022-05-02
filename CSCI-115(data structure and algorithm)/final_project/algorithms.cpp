@@ -1361,6 +1361,6 @@ void radix_random_large_size()
 }
 int main()
 {
-    quick_reversed_large_size();
+    merge_reversed_small_size();
     return 0;
 }
