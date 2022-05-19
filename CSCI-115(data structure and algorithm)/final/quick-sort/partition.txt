@@ -1,0 +1,10 @@
+partition(arr,l,r)
+	p = arr[r]
+	i = l-1
+      for j = l to p-1
+		if arr[j]<p
+			i = i+1
+       		exchange arr[j], arr[i]
+	exchange arr[i+1],arr[r]
+	return i + 1
+        

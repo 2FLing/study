@@ -1,0 +1,10 @@
+parent (i)
+	return i/2
+
+left (i)
+	return 2i
+
+right(i)
+	return 2i+1
+
+arr[n/2+1...len] are leaves

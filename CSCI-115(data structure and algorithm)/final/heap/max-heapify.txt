@@ -1,0 +1,12 @@
+max-heapify (A,i):
+	l = left(i)
+	r = right(i)
+	if l<= A.heap-size and A[l]>A[i]
+		largest = l
+	else
+		largest = i
+	if r<= A.heap-size and A[r] > A[i]
+		largest = r
+	if largest != i
+		exchange A[i] with A[largest]
+		max-heapify(A,largest)

@@ -1,0 +1,23 @@
+delete(T,z):
+	y = z
+	original-color = y.color
+	if z.left == T.nil
+		z = z.right
+		transplant(T,z,z.right)
+	else z.right == T.nil
+		z = z.left
+		transplant(T,z,z.left)
+	else y = tree-minimum(z.right)
+		y-orignal.color = y.color
+		x = y.right
+		if y.p == z
+			x.p = y
+		else transplant(T,y,y.right)
+			y.right = z.right
+			y.right.p = y
+		transplant(T,z,y)
+		y.left = z.left
+		y.left.p = y
+		y.color = z.color
+	if original-color == BLACK
+		delete-fix-up(T,x)		

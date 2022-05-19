@@ -1,0 +1,12 @@
+bfs(G,s):
+	Q(s)
+	while !Q.empty():
+		s = Q.removeTop()
+		for each v in u->adj
+			if v->color == white then
+				v->color = Grey
+				v->p = u
+				v->d = u->d + 1
+				Enqueue(Q,v)
+		s->color = black
+					

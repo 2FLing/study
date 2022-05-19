@@ -1,0 +1,22 @@
+dfs_Visit(u)
+{
+	u->color = Grey
+	time = time+1
+	u->d = time
+	for each v in u->adj
+		if v->color = white
+			dfs_Visit(v)
+	u->color = black
+	time = time + 1
+	u->f = time
+}
+
+dfs(G)
+{
+	for each u in G->v
+		u->color = white
+	time = 0
+	for each u in G->v
+		if u->color == white
+			dfs_visit(u)
+}

@@ -1,0 +1,9 @@
+Dijkstra(G,w,s)
+	s<-empty
+	Q<-V[G] min-heap
+	while Q is not empty
+		u <- extract-min
+		s <- s union u
+		for each v in u->adj
+			relax(u,v,w)
+			update Q(decrease_key)

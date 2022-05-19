@@ -1,0 +1,5 @@
+tree-minimum(x):
+	while x.left! = NIL
+		x = x.left
+	return x
+O(h)

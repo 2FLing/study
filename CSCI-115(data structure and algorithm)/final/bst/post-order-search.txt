@@ -1,0 +1,5 @@
+post-order-search(x):
+	if x!=NIL
+		post-order-search(x.left)
+		post-order-search(x.right)
+		print x

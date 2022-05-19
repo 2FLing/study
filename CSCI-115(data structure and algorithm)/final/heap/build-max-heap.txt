@@ -1,0 +1,5 @@
+buid-max-heap(arr):
+	a.heap.size = a.length
+	for i = arr.len/2 to 1:
+		max-heapify(arr,i)
+	

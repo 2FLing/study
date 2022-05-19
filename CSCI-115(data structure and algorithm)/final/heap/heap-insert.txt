@@ -1,0 +1,4 @@
+heap-insert(A,key)
+	A.heap.size = A.heap.size+1
+	A[A.heap.size] = -infinity
+	heap-increase-key(A,A.heap.size,key)

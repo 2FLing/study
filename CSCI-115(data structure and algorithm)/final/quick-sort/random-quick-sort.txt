@@ -1,0 +1,5 @@
+quick-sort(A,l,r):
+	if l < r then
+		p = random-partition(A,l,r)
+		quick-sort(A,l,p-1)
+		quick-sort(A,p+1,r)

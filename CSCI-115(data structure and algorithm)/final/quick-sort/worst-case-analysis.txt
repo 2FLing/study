@@ -1,0 +1,7 @@
+T(n) = max(T(q) + T(n-q)) + O(n)
+1 <= q <= n-1
+
+Guess T(n) = O(n^2)
+subsitution
+T(n) = 1^2 + (n-1)^2 + O(n) = 1 + n^2 - 2n + 1 + O(n) = O(n^2)
+either endpoint of q will make the quick sort achieves a maximum time complexity

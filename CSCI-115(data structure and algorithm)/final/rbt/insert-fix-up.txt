@@ -1,0 +1,21 @@
+insert-fix-up(T,z):
+	while z.p.color = red
+		if z.p = z.p.p.left
+			y = z.p.p.right
+			if y.color = red
+				z.p.color = black
+				y.color = black
+				z.p.p.color = red
+				z = z.p.p
+			else 
+				if z = z.p.right
+					z = z.p
+					left-rotate(T,z)
+				z.p.color = black
+				z.p.p.color = red
+				right-rotate(T,z.p.p)
+		else
+			exchange left,right		
+	T.root = black	
+				
+			

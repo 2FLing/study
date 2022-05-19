@@ -1,0 +1,9 @@
+tree-precessor(x)
+	 if x!=NIL
+		if x.left != NIL
+			return tree-maximum(x.left)
+	 y = x.p
+	 while y!=NIL and x != y.right
+		x = y
+		y = y.p
+	 return y	

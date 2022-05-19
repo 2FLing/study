@@ -1,0 +1,16 @@
+merge(arr,p,q,r)
+n1 = q-p+1
+n2 = r-q
+L = [1...n1]
+R = [1...n2]
+i = 1
+j = 1
+L[n1+1] = INIFINITY
+R[n2+1] = INIFINITY
+for k = p to r
+ if L[i] >= R[j]
+    arr[k] = R[j]
+    j = j + 1
+  else
+    arr[k] = L[i]
+    i = i + 1

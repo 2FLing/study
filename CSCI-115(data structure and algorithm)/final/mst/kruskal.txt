@@ -1,0 +1,10 @@
+Kruskal(V,E,w)
+	A <- empty
+	for each v in V
+		make-set(v)
+	srot E into non-decreasing order by w
+	for each (u,v) taken from the sorted list
+		if find-set(u) != find-set(v)
+			A = A+(u,v)
+			union(u,v)
+	return A

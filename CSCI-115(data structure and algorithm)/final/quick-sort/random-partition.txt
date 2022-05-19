@@ -1,0 +1,4 @@
+random-partition(A,l,r)
+	i = random(l,r)
+	exchange A[i],A[p]
+	return partition(A,l,r)

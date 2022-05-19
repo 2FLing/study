@@ -1,0 +1,14 @@
+Prim(V,E,w,r)
+	Let Q to be a empty queue
+	for each u in V
+		key[u] = infinity
+		u -> p = nil
+		insert(Q,u)
+	decrease-key(Q,r,0)
+	while Q is not empty
+		u = extract-min(Q)
+		for each v in u->adj
+			if v is in the Q and w(u,v)<key[v]
+				v->p = u
+			 	decrease-key(Q,v,w(u,v))
+	

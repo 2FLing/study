@@ -1,0 +1,9 @@
+partition(A,l,r)
+	x = A[r]
+	i = l - 1
+	for j = l to r-1
+		if A[j] <= x
+			i = i + 1	
+			exchange A[j], A[i]
+	exchange A[r], A[i+1]
+	return i+1 

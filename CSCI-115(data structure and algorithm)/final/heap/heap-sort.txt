@@ -1,0 +1,6 @@
+heap-sort A
+	build-max-heap(A)
+	for i = A.len to 2:
+		exchange A[1] with A[i]
+		A.heap.size = A.heap.size-1
+		max-heapify(A,1)

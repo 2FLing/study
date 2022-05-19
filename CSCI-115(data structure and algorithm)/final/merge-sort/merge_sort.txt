@@ -1,0 +1,6 @@
+merge-sort(arr,l,r):
+  if l <= r:
+  	p = (l+r)/2
+      merge-sort(arr,0,l,p)
+      merge-sort(arr,p+1,r)
+      merge(arr,l,p,r)

@@ -1,0 +1,18 @@
+tree-deletion(t,z):
+	if z.right == NIL then
+		transplant(t,z,z.left)
+	else if a.left == NIL then
+		transplant(t,z,z.right)
+	else y = tree-minimum(z.right)
+		if y.p != z
+			transplant(t,y,y.right)
+			y.right = z.right
+			y.right.p = y
+		transplant(t,z,y)//只是对z,y的parent进行操作，但是z,y的孩子部分还没有完成
+		y.left = z.left
+		y.left.p = z
+			
+
+O(h)
+			
+		

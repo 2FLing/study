@@ -1,0 +1,7 @@
+minimum leaves n!
+maximum leaves 2^h
+proof:
+h = 0, size = 2^0 = 1
+h - 1, size = 2 * 2^h-1 = 2^h
+n! <= 2^h
+h >= lg(n!) = omu(nlgn)

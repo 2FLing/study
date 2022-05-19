@@ -1,0 +1,7 @@
+heap-increase-key A,i,key
+	if key < A[i]
+		error "new key is smaller than the current key."
+	A[i] = key
+	while i>1 and A[i/2] < A[i]:
+		exchange A[i] with A[i/2]
+		i = i/2

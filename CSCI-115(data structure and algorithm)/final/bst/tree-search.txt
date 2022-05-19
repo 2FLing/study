@@ -1,0 +1,10 @@
+tree-search(x,k)
+	if x == NIL or if x.key == k
+		return x
+	else if x.key < k
+		tree-search(x.right,key)
+	else
+		tree-search(x.left,key)
+
+O(h)
+	

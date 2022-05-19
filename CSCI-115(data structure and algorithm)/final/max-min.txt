@@ -1,0 +1,10 @@
+max-min(A,n):
+	max = A[n]
+	min = A[n]
+	for i = 1 to n/2 do
+		if A[2i-1]>= A[2i]
+			if A[2i-1] > max then max = A[2i-1]
+			if A[2i] < min then min  = A[2i]
+		else if A[2i] > max then max = A[2i]
+			if A[2i-1] < min then min = A[2i-1]
+	return max and min

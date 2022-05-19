@@ -1,0 +1,8 @@
+heap-extract-max(A):
+	if A.heap.size<1
+		error "heap underflow"
+	max = A[1]
+	A[1] = A[A.heap.size]
+	A.heap.size = A.heap.size-1
+	max-heapify(A,1)
+	return max

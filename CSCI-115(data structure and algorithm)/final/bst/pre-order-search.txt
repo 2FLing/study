@@ -1,0 +1,5 @@
+pre-order-search(x)
+	if x != NIL
+		print x
+		pre-order-search(x.left)
+		pre-order-search(x.right)

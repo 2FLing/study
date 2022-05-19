@@ -1,0 +1,7 @@
+heap-maximum O(1)
+max-heapify O(lgn)
+max-heap-insert O(lgn)
+heap-extract-max O(lgn)
+heap-increase-key O(lgn)
+build-max-heap O(n)
+heap-sort O(nlogn)

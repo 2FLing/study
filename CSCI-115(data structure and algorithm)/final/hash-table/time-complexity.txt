@@ -1,0 +1,6 @@
+                        Insert     Search
+direct addressing		  O(1)	O(1)
+ordered array		  O(N)      O(lgN)
+ordered list		  O(N)      O(N)
+unordered array 		  O(1)      O(N)
+unordered list            O(1)      O(N)

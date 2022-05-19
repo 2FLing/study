@@ -1,0 +1,5 @@
+1.every node is either black or red
+2.the root node is black
+3.every leaf(NIL) is black
+4.if a node is red then both of its children are black
+5.for every node in the tree, all path from that node to descendant leaves contain the same number of black nodes
