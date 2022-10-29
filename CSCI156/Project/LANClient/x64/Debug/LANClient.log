@@ -1,0 +1,4 @@
+﻿  LANClientDlg.cpp
+C:\study\CSCI156\Project\LANClient\LANClientDlg.cpp(140,36): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\study\CSCI156\Project\LANClient\LANClientDlg.cpp(161,46): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  LANClient.vcxproj -> C:\study\CSCI156\Project\x64\Debug\LANClient.exe

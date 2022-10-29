@@ -1,0 +1,6 @@
+﻿  server.cpp
+C:\study\CSCI156\Project\LANServer\server.cpp(61,37): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\study\CSCI156\Project\LANServer\server.cpp(69,32): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\study\CSCI156\Project\LANServer\server.cpp(78,39): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\study\CSCI156\Project\LANServer\server.cpp(86,48): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  LANServer.vcxproj -> C:\study\CSCI156\Project\x64\Debug\LANServer.exe
